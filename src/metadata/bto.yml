@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/bto
+
+idspace: BTO
+base_url: /obo/bto
+
+products:
+- bto.owl: https://raw.githubusercontent.com/BRENDA-Enzymes/BTO/master/bto.owl
+- bto.obo: https://raw.githubusercontent.com/BRENDA-Enzymes/BTO/master/bto.obo
+
+term_browser: ontobee
+example_terms:
+- bto_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/BRENDA-Enzymes/BTO/v
+
+- prefix: /tracker/
+  replacement: https://github.com/BRENDA-Enzymes/BTO/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/BTO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/BRENDA-Enzymes/BTO/master/

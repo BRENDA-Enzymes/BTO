@@ -13,7 +13,7 @@
 URIBASE=                    http://purl.obolibrary.org/obo
 ONT=                        bto
 ONTBASE=                    $(URIBASE)/$(ONT)
-EDIT_FORMAT=                owl
+EDIT_FORMAT=                obo
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 CATALOG=                    catalog-v001.xml
 ROBOT=                      robot --catalog $(CATALOG)

@@ -9,3 +9,10 @@ Development of BTO started in 2003, aimed to connect the biochemical and molecul
 Website: https://www.brenda-enzymes.org/ontology.php?ontology_id=3
 
 cited as: The BRENDA Tissue Ontology (BTO): the first all-integrating ontology of all organisms for enzyme sources. Gremse M., Chang A., Schomburg I., Grote A., Scheer M., Ebeling C., Schomburg D., Nucleic Acids Res., 39:D507-13 (2011)
+
+# License
+
+
+BTO is available under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+<img src="https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png" width="100" alt ="CC-BY 4.0">

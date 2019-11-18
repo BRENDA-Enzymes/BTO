@@ -1,0 +1,92 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
+      "type" : "PROPERTY",
+      "lbl" : "synonym_type_property"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#SCI",
+      "type" : "PROPERTY",
+      "lbl" : "SCIENTIFIC NAME"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#MS",
+      "type" : "PROPERTY",
+      "lbl" : "MISSPELLING"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#related_to",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "BrendaTissueOBO"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "related to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#part_of",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "BrendaTissueOBO"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#GE",
+      "type" : "PROPERTY",
+      "lbl" : "LANGUAGE GERMAN"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#is_a",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "BrendaTissueOBO"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is a"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#FR",
+      "type" : "PROPERTY",
+      "lbl" : "LANGUAGE FRENCH"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/TEMP#develops_from",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "BrendaTissueOBO"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "derives from/develops from"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/bto/bto-simple.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "OBO-Edit 2.3.1"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "10:10:2019 10:14"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+        "val" : "file:Z:/Daten/Marion_Arbeit/3_TU_BS_enzymeta/tissue ontology DAG Editor/BrendaTissueOBO1367"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+        "val" : "Marion"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/bto/releases/2019-11-14/bto-simple.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

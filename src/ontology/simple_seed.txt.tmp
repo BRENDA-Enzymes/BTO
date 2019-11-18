@@ -1,0 +1,9 @@
+cls
+http://purl.obolibrary.org/obo/TEMP#part_of
+http://purl.obolibrary.org/obo/TEMP#develops_from
+http://purl.obolibrary.org/obo/TEMP#related_to
+http://purl.obolibrary.org/obo/TEMP#is_a
+http://purl.obolibrary.org/obo/TEMP#FR
+http://purl.obolibrary.org/obo/TEMP#SCI
+http://purl.obolibrary.org/obo/TEMP#GE
+http://purl.obolibrary.org/obo/TEMP#MS

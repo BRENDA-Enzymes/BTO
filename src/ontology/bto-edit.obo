@@ -6,7 +6,7 @@ synonymtypedef: FR "LANGUAGE FRENCH"
 synonymtypedef: GE "LANGUAGE GERMAN"
 synonymtypedef: MS "MISSPELLING"
 synonymtypedef: SCI "SCIENTIFIC NAME"
-default-namespace: file:Z:/Daten/Marion_Arbeit/3_TU_BS_enzymeta/tissue ontology DAG Editor/BrendaTissueOBO1367
+default-namespace: BrendaTissueOBO
 
 [Term]
 id: BTO:0000000
@@ -54022,17 +54022,12 @@ creation_date: 2019-10-10T10:08:05Z
 [Typedef]
 id: develops_from
 name: derives from/develops from
-namespace: BrendaTissueOBO
-
-[Typedef]
-id: is_a
-name: is a
-namespace: BrendaTissueOBO
+xref: RO:0002202
 
 [Typedef]
 id: part_of
 name: part of
-namespace: BrendaTissueOBO
+xref: BFO:0000050
 
 [Typedef]
 id: related_to

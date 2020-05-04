@@ -6440,7 +6440,6 @@ http://purl.obolibrary.org/obo/bto#FR
 http://purl.obolibrary.org/obo/bto#GE
 http://purl.obolibrary.org/obo/bto#MS
 http://purl.obolibrary.org/obo/bto#SCI
-http://purl.obolibrary.org/obo/bto#related_to
 term
 http://www.geneontology.org/formats/oboInOwl#SubsetProperty
 http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty

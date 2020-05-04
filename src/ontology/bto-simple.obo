@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: bto/releases/2020-04-22/bto-simple.owl
-date: 22:04:2020 16:32
+data-version: bto/releases/2020-05-02/bto-simple.owl
+date: 23:04:2020 14:55
 saved-by: Marion
 auto-generated-by: OBO-Edit 2.3.1
 synonymtypedef: FR "LANGUAGE FRENCH"
@@ -3801,7 +3801,7 @@ def: "Any one of three large skeletal muscles that form the buttock and move the
 synonym: "gluteus" RELATED []
 is_a: BTO:0000722 ! leg muscle
 is_a: BTO:0001261 ! abdominal muscle
-relationship: related_to BTO:0001376 ! thigh
+relationship: causually_influences BTO:0001376 ! thigh
 
 [Term]
 id: BTO:0000532
@@ -41657,7 +41657,7 @@ creation_date: 2014-04-05T19:45:22Z
 id: BTO:0005641
 name: awn
 def: "Any of the bristles growing from the spikelets of certain grasses, including cereals." [Dictionary:http\://www.thefreedictionary.com/]
-relationship: related_to BTO:0002119 ! spikelet
+relationship: part_of BTO:0002119 ! spikelet
 created_by: Marion
 creation_date: 2014-04-05T19:54:40Z
 
@@ -47564,7 +47564,7 @@ id: BTO:0006306
 name: stichosome
 def: "A column of glandular cells associated with the esophagus of various nematodes." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.merriam-webster.com/dictionary/stichosome]
 is_a: BTO:0000522 ! gland
-relationship: related_to BTO:0000959 ! esophagus
+relationship: part_of BTO:0000959 ! esophagus
 created_by: Marion
 creation_date: 2019-09-29T13:12:56Z
 
@@ -48721,8 +48721,4 @@ xref: RO:0003001
 id: realized_in
 name: realized in
 xref: BFO:0000054
-
-[Typedef]
-id: related_to
-name: related to
 

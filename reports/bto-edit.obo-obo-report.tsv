@@ -2035,7 +2035,6 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/bto#FR	IAO:0000115
 WARN	missing_definition	http://purl.obolibrary.org/obo/bto#GE	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/bto#MS	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/bto#SCI	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/bto#related_to	IAO:0000115		
 WARN	missing_definition	oboInOwl:SynonymTypeProperty	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		

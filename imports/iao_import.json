@@ -733,10 +733,10 @@
           "val" : "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
+          "val" : "PERSON: Bjoern Peters"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
+          "val" : "PERSON: Melanie Courtot"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "Original proposal from Bjoern, discussions at IAO calls"
@@ -1273,13 +1273,13 @@
       "lbl" : "data set"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000078",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000578",
       "pred" : "is_a",
@@ -1458,7 +1458,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/bto/releases/2020-04-22/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/bto/releases/2020-05-02/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -399,7 +399,6 @@ ERROR	duplicate_definition	BTO:0004924	IAO:0000115	Human ovarian carcinoma cell 
 ERROR	duplicate_definition	BTO:0004925	IAO:0000115	Human ovarian carcinoma cell line; derived from serous cystadenocarcinoma.	
 ERROR	duplicate_definition	BTO:0002549	IAO:0000115	Human ovarian carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0002550	IAO:0000115	Human ovarian carcinoma cell line.	
-ERROR	duplicate_definition	BTO:0002590	IAO:0000115	Human ovarian carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0004246	IAO:0000115	Human ovarian carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0004247	IAO:0000115	Human ovarian carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006361	IAO:0000115	Human ovarian carcinoma cell line.	
@@ -429,6 +428,8 @@ ERROR	duplicate_definition	BTO:0005968	IAO:0000115	Human oral cancer cell line.
 ERROR	duplicate_definition	BTO:0005969	IAO:0000115	Human oral cancer cell line.	
 ERROR	duplicate_definition	BTO:0004434	IAO:0000115	Human normal mammary epithelial cell line.	
 ERROR	duplicate_definition	BTO:0006202	IAO:0000115	Human normal mammary epithelial cell line.	
+ERROR	duplicate_definition	BTO:0006448	IAO:0000115	Human normal fibroblast cell line.	
+ERROR	duplicate_definition	BTO:0006449	IAO:0000115	Human normal fibroblast cell line.	
 ERROR	duplicate_definition	BTO:0004182	IAO:0000115	Human non-small cell lung cancer cell line.	
 ERROR	duplicate_definition	BTO:0004426	IAO:0000115	Human non-small cell lung cancer cell line.	
 ERROR	duplicate_definition	BTO:0004824	IAO:0000115	Human non-small cell lung cancer cell line.	
@@ -467,9 +468,7 @@ ERROR	duplicate_definition	BTO:0002715	IAO:0000115	Human neck squamous cell carc
 ERROR	duplicate_definition	BTO:0002716	IAO:0000115	Human neck squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0002717	IAO:0000115	Human neck squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0002718	IAO:0000115	Human neck squamous cell carcinoma cell line.	
-ERROR	duplicate_definition	BTO:0003961	IAO:0000115	Human nasopharyngeal carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0003962	IAO:0000115	Human nasopharyngeal carcinoma cell line.	
-ERROR	duplicate_definition	BTO:0004895	IAO:0000115	Human nasopharyngeal carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0005250	IAO:0000115	Human nasopharyngeal carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006009	IAO:0000115	Human nasopharyngeal carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006135	IAO:0000115	Human nasopharyngeal carcinoma cell line.	
@@ -585,6 +584,7 @@ ERROR	duplicate_definition	BTO:0005015	IAO:0000115	Human lung adenocarcinoma cel
 ERROR	duplicate_definition	BTO:0005440	IAO:0000115	Human lung adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006028	IAO:0000115	Human lung adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006285	IAO:0000115	Human lung adenocarcinoma cell line.	
+ERROR	duplicate_definition	BTO:0006442	IAO:0000115	Human lung adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0002221	IAO:0000115	Human lens epithelial cell line.	
 ERROR	duplicate_definition	BTO:0003071	IAO:0000115	Human lens epithelial cell line.	
 ERROR	duplicate_definition	BTO:0003072	IAO:0000115	Human lens epithelial cell line.	
@@ -614,6 +614,8 @@ ERROR	duplicate_definition	BTO:0004469	IAO:0000115	Human hepatocellular carcinom
 ERROR	duplicate_definition	BTO:0004471	IAO:0000115	Human hepatocellular carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0005721	IAO:0000115	Human hepatocellular carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006281	IAO:0000115	Human hepatocellular carcinoma cell line.	
+ERROR	duplicate_definition	BTO:0006450	IAO:0000115	Human hepatocellular carcinoma cell line.	
+ERROR	duplicate_definition	BTO:0006452	IAO:0000115	Human hepatocellular carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0005056	IAO:0000115	Human hepatocellular carcinoma (HCC) cell line.	
 ERROR	duplicate_definition	BTO:0005057	IAO:0000115	Human hepatocellular carcinoma (HCC) cell line.	
 ERROR	duplicate_definition	BTO:0003887	IAO:0000115	Human head and neck squamous cell carcinoma (HNSCC) cell line.	
@@ -674,6 +676,8 @@ ERROR	duplicate_definition	BTO:0005466	IAO:0000115	Human gastric cancer cell lin
 ERROR	duplicate_definition	BTO:0005917	IAO:0000115	Human gastric cancer cell line.	
 ERROR	duplicate_definition	BTO:0003763	IAO:0000115	Human fibrosarcoma cell line.	
 ERROR	duplicate_definition	BTO:0003764	IAO:0000115	Human fibrosarcoma cell line.	
+ERROR	duplicate_definition	BTO:0006260	IAO:0000115	Human fibroblast cell line.	
+ERROR	duplicate_definition	BTO:0006472	IAO:0000115	Human fibroblast cell line.	
 ERROR	duplicate_definition	BTO:0002866	IAO:0000115	Human esophageal squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0002867	IAO:0000115	Human esophageal squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0004598	IAO:0000115	Human esophageal squamous cell carcinoma cell line.	
@@ -755,7 +759,6 @@ ERROR	duplicate_definition	BTO:0004893	IAO:0000115	Human bladder cancer cell lin
 ERROR	duplicate_definition	BTO:0001936	IAO:0000115	Human B-lymphoblastoid cell line.	
 ERROR	duplicate_definition	BTO:0004497	IAO:0000115	Human B-lymphoblastoid cell line.	
 ERROR	duplicate_definition	BTO:0004551	IAO:0000115	Human B-lymphoblastoid cell line.	
-ERROR	duplicate_definition	BTO:0006353	IAO:0000115	Human B-lymphoblastoid cell line.	
 ERROR	duplicate_definition	BTO:0004858	IAO:0000115	Human anaplastic thyroid carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0005146	IAO:0000115	Human anaplastic thyroid carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0005147	IAO:0000115	Human anaplastic thyroid carcinoma cell line.	
@@ -957,11 +960,14 @@ ERROR	duplicate_definition	BTO:0004008	IAO:0000115	A component of the mammillary
 ERROR	duplicate_definition	BTO:0004009	IAO:0000115	A component of the mammillary body.	
 ERROR	duplicate_definition	BTO:0005959	IAO:0000115	A cell lining a follicle such as that of the thyroid gland.	
 ERROR	duplicate_definition	BTO:0005960	IAO:0000115	A cell lining a follicle such as that of the thyroid gland.	
+ERROR	duplicate_label	BTO:0003961	rdfs:label	NPC-TW02 cell	
+ERROR	duplicate_label	BTO:0006372	rdfs:label	NPC-TW02 cell	
+ERROR	duplicate_label	BTO:0004895	rdfs:label	NPC-TW01 cell	
+ERROR	duplicate_label	BTO:0006373	rdfs:label	NPC-TW01 cell	
 WARN	annotation_whitespace	BTO:0000155	oboInOwl:hasRelatedSynonym	bronchioalveolar lavage 	
 WARN	annotation_whitespace	BTO:0000203	oboInOwl:hasRelatedSynonym	apparatus respiratorius 	
 WARN	annotation_whitespace	BTO:0000538	oboInOwl:hasRelatedSynonym	alveolar type 2 cell 	
 WARN	annotation_whitespace	BTO:0002114	IAO:0000115	 The submucous layer of the wall of the rectum.	
-WARN	annotation_whitespace	BTO:0002263	IAO:0000115	 1. A hollow digestive organ, especially the stomach of certain insects or the gizzard of a bird. 2. The digestive cavity in the body of a sponge.	
 WARN	annotation_whitespace	BTO:0002506	oboInOwl:hasRelatedSynonym	 intrinsic nervous system	
 WARN	annotation_whitespace	BTO:0002537	oboInOwl:hasBroadSynonym	TIB-73 cell 	
 WARN	annotation_whitespace	BTO:0002993	oboInOwl:hasRelatedSynonym	 BETA-TC-3 cell	
@@ -2023,6 +2029,7 @@ WARN	missing_definition	BTO:0006387	IAO:0000115
 WARN	missing_definition	BTO:0006389	IAO:0000115		
 WARN	missing_definition	BTO:0006412	IAO:0000115		
 WARN	missing_definition	BTO:0006416	IAO:0000115		
+WARN	missing_definition	BTO:0006468	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	RO:0000053	IAO:0000115		
 WARN	missing_definition	RO:0001018	IAO:0000115		
@@ -2035,6 +2042,7 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/bto#FR	IAO:0000115
 WARN	missing_definition	http://purl.obolibrary.org/obo/bto#GE	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/bto#MS	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/bto#SCI	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/bto#related_to	IAO:0000115		
 WARN	missing_definition	oboInOwl:SynonymTypeProperty	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
@@ -2069,7 +2077,9 @@ WARN	missing_obsolete_label	BTO:0003543	rdfs:label	L-02 cell
 WARN	missing_obsolete_label	BTO:0003713	rdfs:label	WM-793 cell	
 WARN	missing_obsolete_label	BTO:0003901	rdfs:label	745A cell	
 WARN	missing_obsolete_label	BTO:0003921	rdfs:label	KHOS cell	
+WARN	missing_obsolete_label	BTO:0003961	rdfs:label	NPC-TW02 cell	
 WARN	missing_obsolete_label	BTO:0004004	rdfs:label	3-LL cell	
+WARN	missing_obsolete_label	BTO:0004076	rdfs:label	DHL-4 cell	
 WARN	missing_obsolete_label	BTO:0004116	rdfs:label	HEP-3B2 cell	
 WARN	missing_obsolete_label	BTO:0004187	rdfs:label	NRK-E52 cell	
 WARN	missing_obsolete_label	BTO:0004189	rdfs:label	NCI/ADR cell	
@@ -2077,9 +2087,11 @@ WARN	missing_obsolete_label	BTO:0004265	rdfs:label	EJ cell
 WARN	missing_obsolete_label	BTO:0004274	rdfs:label	PLC-8024 cell	
 WARN	missing_obsolete_label	BTO:0004394	rdfs:label	16-HBEo cell	
 WARN	missing_obsolete_label	BTO:0004475	rdfs:label	MEL cell	
+WARN	missing_obsolete_label	BTO:0004479	rdfs:label	MV4-11 cell	
 WARN	missing_obsolete_label	BTO:0004742	rdfs:label	HCT-115 cell	
 WARN	missing_obsolete_label	BTO:0004743	rdfs:label	HCT-166 cell	
 WARN	missing_obsolete_label	BTO:0004882	rdfs:label	ventral midbrain	
+WARN	missing_obsolete_label	BTO:0004895	rdfs:label	NPC-TW01 cell	
 WARN	missing_obsolete_label	BTO:0005006	rdfs:label	253J-P cell	
 WARN	missing_obsolete_label	BTO:0005192	rdfs:label	MCF-7/adr cell	
 WARN	missing_obsolete_label	BTO:0005288	rdfs:label	CL-48 cell	
@@ -2093,6 +2105,8 @@ WARN	missing_obsolete_label	BTO:0005749	rdfs:label	16-HBE cell
 WARN	missing_obsolete_label	BTO:0005766	rdfs:label	A2780/CP cell	
 WARN	missing_obsolete_label	BTO:0005936	rdfs:label	CWR22-R1 cell	
 WARN	missing_obsolete_label	BTO:0006143	rdfs:label	MHCC-LM3 cell	
+WARN	missing_obsolete_label	BTO:0006311	rdfs:label	WI38-VA13 cell	
+WARN	missing_obsolete_label	BTO:0006393	rdfs:label	FS-293F cell	
 INFO	lowercase_definition	BTO:0000020	IAO:0000115	1: The part of the body between the thorax and the pelvis; also: the cavity of this part of the trunk containing the chief viscera. 2: The posterior section of the body behind the thorax in an arthropod.	
 INFO	lowercase_definition	BTO:0000089	IAO:0000115	1: The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body. 2: A comparable fluid of an invertebrate.	
 INFO	lowercase_definition	BTO:0000142	IAO:0000115	1: The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination, includes all the higher nervous centers receiving stimuli from the sense organs and interpreting and correlating them to formulate the motor impulses, is made up of neurons and supporting and nutritive structures, is enclosed within the skull, and is continuous with the spinal cord through the foramen magnum. Also named encephalon. 2: A nervous center in invertebrates comparable in position and function to the vertebrate brain.	
@@ -2143,7 +2157,7 @@ INFO	lowercase_definition	BTO:0001768	IAO:0000115	1: A flexible rodlike structur
 INFO	lowercase_definition	BTO:0001954	IAO:0000115	1. A raised area in the floor of the third ventricle of the brain produced by the infundibulum of the hypothalamus. 2. The median eminence is sometimes classified as part of the neurohypophysis. It serves as a reservoir for the hypothalamic neurohormones vasopressin, oxytocin, and the neurophysins, releasing them as needed. It originates in the embryo as an evagination from the floor of the diencephalon.	
 INFO	lowercase_definition	BTO:0002114	IAO:0000115	 The submucous layer of the wall of the rectum.	
 INFO	lowercase_definition	BTO:0002262	IAO:0000115	1. A small stalk or stalklike part bearing a single flower in an inflorescence. 2. A support for a fern sporangium or moss capsule.	
-INFO	lowercase_definition	BTO:0002263	IAO:0000115	 1. A hollow digestive organ, especially the stomach of certain insects or the gizzard of a bird. 2. The digestive cavity in the body of a sponge.	
+INFO	lowercase_definition	BTO:0002263	IAO:0000115	1. A hollow digestive organ, especially the stomach of certain insects or the gizzard of a bird. 2. The digestive cavity in the body of a sponge.	
 INFO	lowercase_definition	BTO:0002307	IAO:0000115	1. Any of various unicellular fungi of the genus Saccharomyces, especially S. cerevisiae, reproducing by budding and from ascospores and capable of fermenting carbohydrates. 2. Any of various similar fungi.	
 INFO	lowercase_definition	BTO:0002314	IAO:0000115	1. Glial cells that cluster about a neuron. 2. Free nuclei that accumulate around cells in certain diseases. 3. Elongated cells that are closely associated with a muscle fiber; they either are flattened against the fiber or occupy shallow depressions in its surface.	
 INFO	lowercase_definition	BTO:0002348	IAO:0000115	1. Any of the five digits of the foot. 2. The anterior part of a horse's hoof.	

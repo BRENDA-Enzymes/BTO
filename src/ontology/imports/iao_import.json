@@ -1,6 +1,49 @@
 {
   "graphs" : [ {
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000409",
+      "meta" : {
+        "definition" : {
+          "val" : "A denotator type indicates how a term should be interpreted from an ontological perspective.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are \"natural kinds\" and the latter arbitrary collections of entities."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Barry Smith, Werner Ceusters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "denotator type"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "denotator type"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000428",
+      "meta" : {
+        "definition" : {
+          "val" : "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "requires discussion"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "group:OBI"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "requires discussion"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
       "meta" : {
         "definition" : {
@@ -47,23 +90,6 @@
       },
       "type" : "CLASS",
       "lbl" : "process"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000428",
-      "meta" : {
-        "definition" : {
-          "val" : "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "group:OBI"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "requires discussion"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000017",
       "meta" : {
@@ -117,6 +143,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term imported"
         } ]
       },
       "type" : "INDIVIDUAL",
@@ -127,26 +156,74 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term split"
         } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "term split"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000230",
+      "id" : "http://purl.obolibrary.org/obo/RO_0000052",
       "meta" : {
+        "definition" : {
+          "val" : "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "This is to be used if none of the existing instances cover the reason for obsolescence. An editor note should indicate this new reason."
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this red color inheres in this apple"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "We expect to be able to mine these new reasons and add instances as required."
+          "val" : "A dependent inheres in its bearer at all times for which the dependent exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
+          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this fragility inheres in this vase"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "inheres in"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "inheres_in"
         } ]
       },
-      "type" : "INDIVIDUAL",
-      "lbl" : "other"
+      "type" : "PROPERTY",
+      "lbl" : "inheres in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "bearer of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this vase is bearer of this fragility"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
+          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "bearer_of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this apple is bearer of this red color"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "is bearer of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "bearer of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "meta" : {
@@ -221,6 +298,50 @@
       "type" : "CLASS",
       "lbl" : "information content entity"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000578",
+      "meta" : {
+        "definition" : {
+          "val" : "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CRID"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The sentence \"The article has Pubmed ID 12345.\" contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records')."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bill Hogan"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Original proposal from Bjoern, discussions at IAO calls"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "centrally registered identifier"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000055",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -249,6 +370,84 @@
       "type" : "PROPERTY",
       "lbl" : "realizes"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0020000",
+      "meta" : {
+        "definition" : {
+          "val" : "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/iao/pno.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "identifier"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "identifier"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000579",
+      "meta" : {
+        "definition" : {
+          "val" : "A CRID registry is a dataset of CRID records, each consisting of a CRID symbol and additional information which was recorded in the dataset through a assigning a centrally registered identifier process.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CRID registry"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "PubMed is a CRID registry. It has a dataset of PubMed identifiers associated with journal articles. "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bill Hogan"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Original proposal from Bjoern, discussions at IAO calls"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bjoern Peters"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "centrally registered identifier registry"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000136",
+      "meta" : {
+        "definition" : {
+          "val" : "A (currently) primitive relation that relates an information artifact to an entity.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "This document is about information artifacts and their representations"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is about"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000235",
       "meta" : {
         "definition" : {
@@ -266,6 +465,41 @@
       "type" : "PROPERTY",
       "lbl" : "denoted by"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000577",
+      "meta" : {
+        "definition" : {
+          "val" : "A symbol that is part of a CRID and that is sufficient to look up a record from the CRID's registry.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The sentence \"The article has Pubmed ID 12345.\" contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bill Hogan"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CRID symbol"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Original proposal from Bjoern, discussions at IAO calls"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "centrally registered identifier symbol"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "meta" : {
         "definition" : {
@@ -276,9 +510,6 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/iao.owl"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "textual definition"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
         }, {
@@ -287,9 +518,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "definition"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
@@ -338,6 +566,57 @@
       },
       "type" : "PROPERTY",
       "lbl" : "has part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000410",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "universal"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "universal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000031",
+      "meta" : {
+        "definition" : {
+          "val" : "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "gdc"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "GenericallyDependentContinuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "generically dependent continuant"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000231",
       "meta" : {
@@ -422,15 +701,122 @@
       "type" : "PROPERTY",
       "lbl" : "realized in"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "meta" : {
+        "definition" : {
+          "val" : "Use on obsolete terms, relating the term to another term that can be used as a substitute",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Add as annotation triples in the granting ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term replaced by"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000219",
+      "meta" : {
+        "definition" : {
+          "val" : "A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : ""
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "A person's name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance \"Alan\" can denote different people. In each case of use, there is a case of the denotation relation obtaining, between \"Alan\" and the person that is being named."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have 'specifically denotes', which would have been primitive, so make this relation primitive.\ng denotes r =def \nr is a portion of reality\nthere is some c that is a concretization of g \nevery c that is a concretization of g specifically denotes r"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "denotes"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000120",
       "meta" : {
         "definition" : {
           "val" : "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "metadata complete"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "metadata complete"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000226",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "placeholder removed"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "placeholder removed"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000028",
+      "meta" : {
+        "definition" : {
+          "val" : "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Jonathan Rees"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "based on Oxford English Dictionary"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: James A. Overton"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a written proper name such as \"OBI\""
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2014-03-31: We would like to have a deeper analysis of 'mark' and 'sign' in the future (see https://github.com/information-artifact-ontology/IAO/issues/154)."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a serial number such as \"12324X\""
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "symbol"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a stop sign"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "20091104, MC: this needs work and will most probably change"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "symbol"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
       "meta" : {
@@ -468,6 +854,36 @@
       },
       "type" : "CLASS",
       "lbl" : "entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000227",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "terms merged"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "An editor note should explain what were the merged terms and the reason for the merge."
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "terms merged"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000103",
+      "meta" : {
+        "definition" : {
+          "val" : "The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "failed exploratory term"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "failed exploratory term"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
       "meta" : {
@@ -524,7 +940,11 @@
         "definition" : {
           "val" : "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "pending final vetting"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "pending final vetting"
@@ -576,467 +996,6 @@
       "type" : "CLASS",
       "lbl" : "occurrent"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
-      "meta" : {
-        "definition" : {
-          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "metadata incomplete"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
-      "type" : "INDIVIDUAL",
-      "lbl" : "example to be eventually removed"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000124",
-      "meta" : {
-        "definition" : {
-          "val" : "Nothing done yet beyond assigning a unique class ID and proposing a preferred term.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "uncurated"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000121",
-      "meta" : {
-        "definition" : {
-          "val" : "term created to ease viewing/sort terms for development purpose, and will not be included in a release",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "organizational term"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
-      "meta" : {
-        "definition" : {
-          "val" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\"",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "ready for release"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000409",
-      "meta" : {
-        "definition" : {
-          "val" : "A denotator type indicates how a term should be interpreted from an ontological perspective.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are \"natural kinds\" and the latter arbitrary collections of entities."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Barry Smith, Werner Ceusters"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "denotator type"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000052",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this red color inheres in this apple"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A dependent inheres in its bearer at all times for which the dependent exists."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this fragility inheres in this vase"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "inheres in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "inheres_in"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "inheres in"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000053",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "bearer of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this vase is bearer of this fragility"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "bearer_of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this apple is bearer of this red color"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "is bearer of"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "bearer of"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000578",
-      "meta" : {
-        "definition" : {
-          "val" : "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "CRID"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "The sentence \"The article has Pubmed ID 12345.\" contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records')."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation. \n"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bill Hogan"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Original proposal from Bjoern, discussions at IAO calls"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "centrally registered identifier"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000579",
-      "meta" : {
-        "definition" : {
-          "val" : "A CRID registry is a dataset of CRID records, each consisting of a CRID symbol and additional information which was recorded in the dataset through a assigning a centrally registered identifier process.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "CRID registry"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "PubMed is a CRID registry. It has a dataset of PubMed identifiers associated with journal articles. "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bill Hogan"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Original proposal from Bjoern, discussions at IAO calls"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "centrally registered identifier registry"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000136",
-      "meta" : {
-        "definition" : {
-          "val" : "is_about is a (currently) primitive relation that relates an information artifact to an entity.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "This document is about information artifacts and their representations"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "is about"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000577",
-      "meta" : {
-        "definition" : {
-          "val" : "A symbol that is part of a CRID and that is sufficient to look up a record from the CRID's registry.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "The sentence \"The article has Pubmed ID 12345.\" contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bill Hogan"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "CRID symbol"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Original proposal from Bjoern, discussions at IAO calls"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "centrally registered identifier symbol"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000410",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "universal"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000031",
-      "meta" : {
-        "definition" : {
-          "val" : "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "gdc"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "GenericallyDependentContinuant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule."
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "generically dependent continuant"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#Subset",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-      "meta" : {
-        "definition" : {
-          "val" : "Use on obsolete terms, relating the term to another term that can be used as a substitute",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "term replaced by"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "term replaced by"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000219",
-      "meta" : {
-        "definition" : {
-          "val" : "denotes is a primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : ""
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "A person's name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance \"Alan\" can denote different people. In each case of use, there is a case of the denotation relation obtaining, between \"Alan\" and the person that is being named."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have 'specifically denotes', which would have been primitive, so make this relation primitive.\ng denotes r =def \nr is a portion of reality\nthere is some c that is a concretization of g \nevery c that is a concretization of g specifically denotes r"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "denotes"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000226",
-      "type" : "INDIVIDUAL",
-      "lbl" : "placeholder removed"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000028",
-      "meta" : {
-        "definition" : {
-          "val" : "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Jonathan Rees"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "based on Oxford English Dictionary"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: James A. Overton"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a written proper name such as \"OBI\""
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2014-03-31: We would like to have a deeper analysis of 'mark' and 'sign' in the future (see https://github.com/information-artifact-ontology/IAO/issues/154)."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a serial number such as \"12324X\""
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "symbol"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a stop sign"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "20091104, MC: this needs work and will most probably change"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "symbol"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000227",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "An editor note should explain what were the merged terms and the reason for the merge."
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "terms merged"
-    }, {
-      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "label"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "label"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000103",
-      "meta" : {
-        "definition" : {
-          "val" : "The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Person:Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "failed exploratory term"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000224",
-      "meta" : {
-        "definition" : {
-          "val" : "Core is an instance of a grouping of terms from an ontology or ontologies. It is used by the ontology to identify main classes.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "core"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000225",
       "meta" : {
         "definition" : {
@@ -1066,7 +1025,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
       "meta" : {
         "definition" : {
-          "val" : "a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",
+          "val" : "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -1117,6 +1076,9 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "to be replaced with external ontology term"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
         }, {
@@ -1127,6 +1089,20 @@
       "type" : "INDIVIDUAL",
       "lbl" : "to be replaced with external ontology term"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
+      "meta" : {
+        "definition" : {
+          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "metadata incomplete"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "metadata incomplete"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000420",
       "meta" : {
         "definition" : {
@@ -1134,15 +1110,28 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "defined class"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."
         } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "defined class"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "example to be eventually removed"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "example to be eventually removed"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000421",
       "meta" : {
@@ -1151,25 +1140,45 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "named class expression"
         } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "named class expression"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000124",
+      "meta" : {
+        "definition" : {
+          "val" : "Nothing done yet beyond assigning a unique class ID and proposing a preferred term.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "uncurated"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "uncurated"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000102",
       "meta" : {
         "definition" : {
-          "val" : "data about an ontology part is a data item about a part of an ontology, for example a term",
+          "val" : "Data about an ontology part is a data item about a part of an ontology, for example a term",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "data about an ontology part"
         } ]
       },
       "type" : "CLASS",
@@ -1234,6 +1243,34 @@
       "type" : "CLASS",
       "lbl" : "specifically dependent continuant"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000121",
+      "meta" : {
+        "definition" : {
+          "val" : "Term created to ease viewing/sort terms for development purpose, and will not be included in a release",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "organizational term"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "organizational term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\"",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "ready for release"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "ready for release"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000100",
       "meta" : {
         "definition" : {
@@ -1281,10 +1318,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000578",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000421",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000409"
@@ -1304,10 +1337,6 @@
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000410",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000409"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000230",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000017",
       "pred" : "is_a",
@@ -1329,10 +1358,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
-      "sub" : "http://www.geneontology.org/formats/oboInOwl#Subset",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
@@ -1344,10 +1369,6 @@
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000579",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000100"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000224",
-      "pred" : "type",
-      "obj" : "http://www.geneontology.org/formats/oboInOwl#Subset"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000031",
       "pred" : "is_a",
@@ -1381,6 +1402,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000578",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0020000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000228",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
@@ -1392,6 +1417,10 @@
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000121",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0020000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000102",
       "pred" : "is_a",
@@ -1458,7 +1487,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/bto/releases/2020-05-02/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/bto/releases/2021-02-09/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -44,6 +44,8 @@ ERROR	duplicate_definition	BTO:0002311	IAO:0000115	The human breast epithelium i
 ERROR	duplicate_definition	BTO:0005437	IAO:0000115	The human breast epithelium is a branching ductal system composed of an inner layer of polarized luminal epithelial cells and an outer layer of myoepithelial cells that terminate in distally located terminal duct lobular units (TDLUs).	
 ERROR	duplicate_definition	BTO:0003509	IAO:0000115	The head-foot is the part you see most easily in slugs and snails. It is mostly a muscular organ covered in cilia and rich in mucous cells, which the mollusc uses to move around, it normally tapers to a tail at one end and has a head incorporated in the front. The head includes a mouth, eyes and tentacles, the last two may be much reduced or even absent. In those species with shells the head-foot can be drawn into the shell.	
 ERROR	duplicate_definition	BTO:0005705	IAO:0000115	The head-foot is the part you see most easily in slugs and snails. It is mostly a muscular organ covered in cilia and rich in mucous cells, which the mollusc uses to move around, it normally tapers to a tail at one end and has a head incorporated in the front. The head includes a mouth, eyes and tentacles, the last two may be much reduced or even absent. In those species with shells the head-foot can be drawn into the shell.	
+ERROR	duplicate_definition	BTO:0003642	IAO:0000115	The Hca-F and Hca-P cell lines are subclones derived from the same parent cells of mouse hepatocarcinoma ascitic cells. In tumor-bearing mice, Hca-F cells have an approximate 70% lymph node metastasis rate and Hca-P cells have an approximate 30% lymph node metastasis.	
+ERROR	duplicate_definition	BTO:0006509	IAO:0000115	The Hca-F and Hca-P cell lines are subclones derived from the same parent cells of mouse hepatocarcinoma ascitic cells. In tumor-bearing mice, Hca-F cells have an approximate 70% lymph node metastasis rate and Hca-P cells have an approximate 30% lymph node metastasis.	
 ERROR	duplicate_definition	BTO:0003662	IAO:0000115	The fish catecholamines originate in two large aggregations of neurons: the nucleus recessus lateralis (NRL) and the nucleus recessus posterioris (NRP). The nuclei were found in the hypothalamus of numerous species, e.g., the gold fish, eel, and roach.	
 ERROR	duplicate_definition	BTO:0003663	IAO:0000115	The fish catecholamines originate in two large aggregations of neurons: the nucleus recessus lateralis (NRL) and the nucleus recessus posterioris (NRP). The nuclei were found in the hypothalamus of numerous species, e.g., the gold fish, eel, and roach.	
 ERROR	duplicate_definition	BTO:0004345	IAO:0000115	The entorhinal cortex (EC) is an important memory center in the brain. In rodents, the EC is located at the caudal end of the temporal lobe. In primates it is located at the rostral end of the temporal lobe and stretches dorsolaterally. It is usually divided into medial and lateral regions with three bands with distinct properties and connectivity running perpendicular across the whole area.	
@@ -108,11 +110,11 @@ ERROR	duplicate_definition	BTO:0005954	IAO:0000115	Primary human pediatric GBM l
 ERROR	duplicate_definition	BTO:0005955	IAO:0000115	Primary human pediatric GBM line derived from previously irradiated diffuse intrinsic pontine glioma, DIPG at autopsy.	
 ERROR	duplicate_definition	BTO:0005951	IAO:0000115	Primary human adult GBM line derived from a tumor resected at initial diagnosis at Brigham and Women's Hospital.	
 ERROR	duplicate_definition	BTO:0005953	IAO:0000115	Primary human adult GBM line derived from a tumor resected at initial diagnosis at Brigham and Women's Hospital.	
-ERROR	duplicate_definition	BTO:0002720	IAO:0000115	PEL cell line carrying the Epstain-Barr virus (EBV) infection.	
-ERROR	duplicate_definition	BTO:0002721	IAO:0000115	PEL cell line carrying the Epstain-Barr virus (EBV) infection.	
-ERROR	duplicate_definition	BTO:0002723	IAO:0000115	PEL cell line carrying the Epstain-Barr virus (EBV) infection.	
-ERROR	duplicate_definition	BTO:0002724	IAO:0000115	PEL cell line carrying the Epstain-Barr virus (EBV) infection.	
-ERROR	duplicate_definition	BTO:0002726	IAO:0000115	PEL cell line carrying the Epstain-Barr virus (EBV) infection.	
+ERROR	duplicate_definition	BTO:0002720	IAO:0000115	PEL cell line carrying the Epstein-Barr virus (EBV) infection.	
+ERROR	duplicate_definition	BTO:0002721	IAO:0000115	PEL cell line carrying the Epstein-Barr virus (EBV) infection.	
+ERROR	duplicate_definition	BTO:0002723	IAO:0000115	PEL cell line carrying the Epstein-Barr virus (EBV) infection.	
+ERROR	duplicate_definition	BTO:0002724	IAO:0000115	PEL cell line carrying the Epstein-Barr virus (EBV) infection.	
+ERROR	duplicate_definition	BTO:0002726	IAO:0000115	PEL cell line carrying the Epstein-Barr virus (EBV) infection.	
 ERROR	duplicate_definition	BTO:0005469	IAO:0000115	Parental and gemcitabine resistant pancreatic cancer cell line.	
 ERROR	duplicate_definition	BTO:0005470	IAO:0000115	Parental and gemcitabine resistant pancreatic cancer cell line.	
 ERROR	duplicate_definition	BTO:0005471	IAO:0000115	Parental and gemcitabine resistant pancreatic cancer cell line.	
@@ -187,6 +189,8 @@ ERROR	duplicate_definition	BTO:0004091	IAO:0000115	Neural stem cells are the mul
 ERROR	duplicate_definition	BTO:0003454	IAO:0000115	Myelocytes are further distinguished according to the type of granules that develop, i.e., neutrophilic myelocyte (60%), eosinophilic myelocyte, basophilic myelocyte (3%).	
 ERROR	duplicate_definition	BTO:0003455	IAO:0000115	Myelocytes are further distinguished according to the type of granules that develop, i.e., neutrophilic myelocyte (60%), eosinophilic myelocyte, basophilic myelocyte (3%).	
 ERROR	duplicate_definition	BTO:0003456	IAO:0000115	Myelocytes are further distinguished according to the type of granules that develop, i.e., neutrophilic myelocyte (60%), eosinophilic myelocyte, basophilic myelocyte (3%).	
+ERROR	duplicate_definition	BTO:0006497	IAO:0000115	MYCN single copy neuroblastoma cell line.	
+ERROR	duplicate_definition	BTO:0006498	IAO:0000115	MYCN single copy neuroblastoma cell line.	
 ERROR	duplicate_definition	BTO:0001260	IAO:0000115	Muscle tissue that lacks cross striations, that is made up of elongated spindle-shaped cells having a central nucleus, and that is found in vertebrate visceral structures (as the stomach and bladder) as thin sheets performing functions not subject to conscious control by the mind and in all or most of the musculature of invertebrates other than arthropods.	
 ERROR	duplicate_definition	BTO:0004576	IAO:0000115	Muscle tissue that lacks cross striations, that is made up of elongated spindle-shaped cells having a central nucleus, and that is found in vertebrate visceral structures (as the stomach and bladder) as thin sheets performing functions not subject to conscious control by the mind and in all or most of the musculature of invertebrates other than arthropods.	
 ERROR	duplicate_definition	BTO:0004275	IAO:0000115	Murine thymic lymphoma cell line; established from p53 deleted knockout mice.	
@@ -228,8 +232,8 @@ ERROR	duplicate_definition	BTO:0001082	IAO:0000115	Mouse mammary carcinoma cell 
 ERROR	duplicate_definition	BTO:0002279	IAO:0000115	Mouse macrophage cell line.	
 ERROR	duplicate_definition	BTO:0005613	IAO:0000115	Mouse macrophage cell line.	
 ERROR	duplicate_definition	BTO:0005614	IAO:0000115	Mouse macrophage cell line.	
-ERROR	duplicate_definition	BTO:0006294	IAO:0000115	Mouse lymphoma cell line, derived by transfectlng alpha-beta-BW5147 cells with the NFAT-lacZ construct.	
-ERROR	duplicate_definition	BTO:0006295	IAO:0000115	Mouse lymphoma cell line, derived by transfectlng alpha-beta-BW5147 cells with the NFAT-lacZ construct.	
+ERROR	duplicate_definition	BTO:0006294	IAO:0000115	Mouse lymphoma cell line, derived by transfecting alpha-beta-BW5147 cells with the NFAT-lacZ construct.	
+ERROR	duplicate_definition	BTO:0006295	IAO:0000115	Mouse lymphoma cell line, derived by transfecting alpha-beta-BW5147 cells with the NFAT-lacZ construct.	
 ERROR	duplicate_definition	BTO:0003428	IAO:0000115	Mouse insulinoma cell line.	
 ERROR	duplicate_definition	BTO:0005320	IAO:0000115	Mouse insulinoma cell line.	
 ERROR	duplicate_definition	BTO:0005136	IAO:0000115	Mouse embryonic stem cell line.	
@@ -674,6 +678,7 @@ ERROR	duplicate_definition	BTO:0004953	IAO:0000115	Human gastric cancer cell lin
 ERROR	duplicate_definition	BTO:0005171	IAO:0000115	Human gastric cancer cell line.	
 ERROR	duplicate_definition	BTO:0005466	IAO:0000115	Human gastric cancer cell line.	
 ERROR	duplicate_definition	BTO:0005917	IAO:0000115	Human gastric cancer cell line.	
+ERROR	duplicate_definition	BTO:0006482	IAO:0000115	Human gastric cancer cell line.	
 ERROR	duplicate_definition	BTO:0003763	IAO:0000115	Human fibrosarcoma cell line.	
 ERROR	duplicate_definition	BTO:0003764	IAO:0000115	Human fibrosarcoma cell line.	
 ERROR	duplicate_definition	BTO:0006260	IAO:0000115	Human fibroblast cell line.	
@@ -696,12 +701,15 @@ ERROR	duplicate_definition	BTO:0006061	IAO:0000115	Human embryonic stem cell lin
 ERROR	duplicate_definition	BTO:0006062	IAO:0000115	Human embryonic stem cell line from a male; established from human blastocysts.	
 ERROR	duplicate_definition	BTO:0000891	IAO:0000115	Human embryonal carcinoma (teratocarcinoma). NTERA-2 was cloned from cell line TERA-2 which was derived from a metastatic teratocarcinoma of a 22-year-old Caucasian male.	
 ERROR	duplicate_definition	BTO:0002573	IAO:0000115	Human embryonal carcinoma (teratocarcinoma). NTERA-2 was cloned from cell line TERA-2 which was derived from a metastatic teratocarcinoma of a 22-year-old Caucasian male.	
+ERROR	duplicate_definition	BTO:0006490	IAO:0000115	Human EBV-associated gastric cancer cell line.	
+ERROR	duplicate_definition	BTO:0006491	IAO:0000115	Human EBV-associated gastric cancer cell line.	
 ERROR	duplicate_definition	BTO:0002825	IAO:0000115	Human colorectal tumor cell line.	
 ERROR	duplicate_definition	BTO:0002838	IAO:0000115	Human colorectal tumor cell line.	
 ERROR	duplicate_definition	BTO:0005674	IAO:0000115	Human colorectal tumor cell line.	
 ERROR	duplicate_definition	BTO:0002047	IAO:0000115	Human colorectal cancer cell line.	
 ERROR	duplicate_definition	BTO:0003316	IAO:0000115	Human colorectal cancer cell line.	
 ERROR	duplicate_definition	BTO:0003746	IAO:0000115	Human colorectal cancer cell line.	
+ERROR	duplicate_definition	BTO:0006511	IAO:0000115	Human colorectal cancer cell line.	
 ERROR	duplicate_definition	BTO:0002568	IAO:0000115	Human colonic adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0003258	IAO:0000115	Human colonic adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0003259	IAO:0000115	Human colonic adenocarcinoma cell line.	
@@ -2030,6 +2038,7 @@ WARN	missing_definition	BTO:0006389	IAO:0000115
 WARN	missing_definition	BTO:0006412	IAO:0000115		
 WARN	missing_definition	BTO:0006416	IAO:0000115		
 WARN	missing_definition	BTO:0006468	IAO:0000115		
+WARN	missing_definition	BTO:0006499	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	RO:0000053	IAO:0000115		
 WARN	missing_definition	RO:0001018	IAO:0000115		

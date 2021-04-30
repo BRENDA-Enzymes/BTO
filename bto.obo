@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2021-02-09
-date: 03:02:2021 12:01
+data-version: releases/2021-04-27
+date: 21:03:2021 18:30
 saved-by: Marion
 auto-generated-by: OBO-Edit 2.3.1
 synonymtypedef: FR "LANGUAGE FRENCH"
@@ -2063,6 +2063,7 @@ relationship: develops_from BTO:0001363 ! testis
 id: BTO:0000280
 name: cone
 def: "A mass of ovule-bearing or pollen-bearing scales or bracts in trees of the pine family or in cycads that are arranged usually on a somewhat elongated axis." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=cone]
+synonym: "strobilus" RELATED []
 is_a: BTO:0000469 ! flower
 
 [Term]
@@ -4806,7 +4807,7 @@ relationship: develops_from BTO:0000379 ! embryo
 [Term]
 id: BTO:0000670
 name: KG-1 cell
-def: "Human acute myeloid leukemia, established from the bone marrow of a 59-year-old man with erythroleukemia that developped into acute myeloid leukemia (AML) at relapse in 1977; cells were described to form colonies in soft-agar in response to colony-stimulating factor." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Human acute myeloid leukemia, established from the bone marrow of a 59-year-old man with erythroleukemia that developed into acute myeloid leukemia (AML) at relapse in 1977; cells were described to form colonies in soft-agar in response to colony-stimulating factor." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 synonym: "KG1 cell" RELATED []
 is_a: BTO:0001883 ! acute myeloid leukemia cell line
 
@@ -6088,6 +6089,7 @@ relationship: develops_from BTO:0000045 ! adrenal cortex
 id: BTO:0000852
 name: meristem
 def: "A formative plant tissue usually made up of small cells capable of dividing indefinitely and giving rise to similar cells or to cells that differentiate to produce the definitive tissues and organs." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=meristem]
+synonym: "plant meristem" RELATED []
 relationship: part_of BTO:0001461 ! whole plant
 
 [Term]
@@ -7797,7 +7799,7 @@ is_a: BTO:0000787 ! gastric cancer cell line
 id: BTO:0001093
 name: WEHI-231 cell
 def: "Mouse, BALB/cxNZB F1, lymphoblastic lymphoma cell line. Morphology: Lymphoblast Mouse B cell lymphoma." [HyperCLDB:http\://www.biotech.ist.unige.it/]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 
 [Term]
 id: BTO:0001094
@@ -8232,6 +8234,7 @@ is_a: BTO:0000999 ! plant parenchyma
 id: BTO:0001156
 name: node
 def: "The point on a stem at which leaves and buds are attached." [PAE_Virtual_Glossary:Plants\,_Animals_and_the_Environment_Glossary_derived_from_leading_WCB/McGraw-Hill_textbooks]
+synonym: "nodal stem" RELATED []
 synonym: "stem node" RELATED []
 relationship: part_of BTO:0001300 ! stem
 
@@ -9995,7 +9998,7 @@ relationship: part_of BTO:0003092 ! urinary system
 [Term]
 id: BTO:0001410
 name: GH3 cell
-def: "Rat pituitary tumor, derived in 1965 from a pituitary tumor induced in a female Wistar/Furth rat ollowing repeated transplantation with the MtT/W5 tumor (originally induced in a female F/Fu rat by cranial X-irradiation)." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Rat pituitary tumor, derived in 1965 from a pituitary tumor induced in a female Wistar/Furth rat following repeated transplantation with the MtT/W5 tumor (originally induced in a female F/Fu rat by cranial X-irradiation)." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 is_a: BTO:0000756 ! pituitary gland tumor cell line
 
 [Term]
@@ -10735,8 +10738,9 @@ is_a: BTO:0000578 ! hepatoma cell line
 
 [Term]
 id: BTO:0001518
-name: B-lymphoma cell line
-synonym: "B-cell lymphoma cell line" RELATED []
+name: B-cell lymphoma cell line
+synonym: "B cell lymphoma cell line" RELATED []
+synonym: "B-lymphoma cell line" RELATED []
 is_a: BTO:0000104 ! lymphoma cell line
 
 [Term]
@@ -10775,7 +10779,7 @@ is_a: BTO:0002062 ! B-lymphoblastoid cell line
 [Term]
 id: BTO:0001524
 name: WIL2-NS cell
-def: "Spleen; B lymphocyte; hereditary spherocytosis cell line, established from a caucasion 5 year old male. The line was derived from the WIL-2 B cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Spleen; B lymphocyte; hereditary spherocytosis cell line, established from a caucasian 5 year old male. The line was derived from the WIL-2 B cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "WI-L2-NS" RELATED []
 relationship: develops_from BTO:0001523 ! WIL-2 cell
 
@@ -11215,7 +11219,7 @@ is_a: BTO:0000849 ! melanoma cell line
 [Term]
 id: BTO:0001585
 name: JAR cell
-def: "Human choriocarcinomacell line; established from the trophoblastic tumor of the placenta of a 24-year-old Caucasian woman." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Human choriocarcinoma cell line; established from the trophoblastic tumor of the placenta of a 24-year-old caucasian woman." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 is_a: BTO:0001575 ! choriocarcinoma cell line
 
 [Term]
@@ -11852,6 +11856,8 @@ is_a: BTO:0000669 ! embryonic cell line
 id: BTO:0001678
 name: Th1 cell
 def: "Subset of helper-inducer T-lymphocytes which synthesize and secrete interleukin-2, gamma-interferon, and interleukin-12. Due to their ability to kill antigen-presenting cells and their lymphokine-mediated effector activity, Th1 cells are associated with vigorous delayed-type hypersensitivity reactions." [Medical_Dictionary_Online:http\://www.online-medical-dictionary.org/]
+synonym: "Th 1 cell" RELATED []
+synonym: "Th-1 cell" RELATED []
 synonym: "Th1-cell" RELATED []
 is_a: BTO:0002417 ! helper T-lymphocyte
 
@@ -12963,7 +12969,7 @@ relationship: part_of BTO:0002507 ! autonomic nervous system
 [Term]
 id: BTO:0001833
 name: parasympathetic nervous system
-def: "One of the two divisions of the vertebrate autonomic nervous sytem. Parasympathetic nerves emerge cranially as pre-ganglionic fibres from oculomotor, facial, glossopharyngeal and vagus, and from the sacral region of the spinal cord. Most neurons are cholinergic and responses are mediated by muscarinic acetylcholine receptors. The parasympathetic system innervates, for example, salivary glands, thoracic and abdominal viscera, bladder and genitalia." [The_Dictionary_of_Cell_and_Molecular_Biology:Third_Edition]
+def: "One of the two divisions of the vertebrate autonomic nervous system. Parasympathetic nerves emerge cranially as pre-ganglionic fibres from oculomotor, facial, glossopharyngeal and vagus, and from the sacral region of the spinal cord. Most neurons are cholinergic and responses are mediated by muscarinic acetylcholine receptors. The parasympathetic system innervates, for example, salivary glands, thoracic and abdominal viscera, bladder and genitalia." [The_Dictionary_of_Cell_and_Molecular_Biology:Third_Edition]
 synonym: "parasympathetic part of autonomic division of nervous system" RELATED []
 is_a: BTO:0001028 ! peripheral nervous system
 relationship: part_of BTO:0002507 ! autonomic nervous system
@@ -13239,7 +13245,7 @@ is_a: BTO:0000811 ! ovary cancer cell line
 [Term]
 id: BTO:0001871
 name: synganglion
-def: "The synganglion constitutes the entire central nervous of the tick. There is no separate brain or ventral nerve chord. The synganglion is located in the midventral region of the body immediately posterior to the genital pore in adults or the location where the genital pore will form in immature specimens. The synganglion is a small white organ approximately 0.5 mm wide by 0.4 - 0.5 mm long. The esophagus penetrates through the synganglion, entering more or less from the anterior ventral side and emerging near theposterior dorsal side of the organ." [Tick_gross_anatomy:http\://www.obofoundry.org/cgi-bin/detail.cgi?id=tick_anatomy]
+def: "The synganglion constitutes the entire central nervous of the tick. There is no separate brain or ventral nerve chord. The synganglion is located in the midventral region of the body immediately posterior to the genital pore in adults or the location where the genital pore will form in immature specimens. The synganglion is a small white organ approximately 0.5 mm wide by 0.4 - 0.5 mm long. The esophagus penetrates through the synganglion, entering more or less from the anterior ventral side and emerging near the posterior dorsal side of the organ." [Tick_gross_anatomy:http\://www.obofoundry.org/cgi-bin/detail.cgi?id=tick_anatomy]
 is_a: BTO:0000227 ! central nervous system
 is_a: BTO:0000497 ! ganglion
 
@@ -13457,7 +13463,7 @@ is_a: BTO:0001900 ! growth phase culture
 [Term]
 id: BTO:0001904
 name: SU.86.86 cell
-def: "Homo sapiens (human) pancreatic adenocarcinoma cell line. The line was developed from a wedge biosy of a liver metastasis of a pancreatic ductal carcinoma." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Homo sapiens (human) pancreatic adenocarcinoma cell line. The line was developed from a wedge biopsy of a liver metastasis of a pancreatic ductal carcinoma." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "SU 86.86 cell" RELATED []
 synonym: "SU86.86 cell" RELATED []
 is_a: BTO:0003883 ! pancreatic ductal adenocarcinoma cell line
@@ -13630,13 +13636,13 @@ is_a: BTO:0000669 ! embryonic cell line
 id: BTO:0001930
 name: A20 cell
 def: "Murine B-lymphoma cell line." [PMID:14738152]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 
 [Term]
 id: BTO:0001931
 name: BJAB cell
 def: "The malignant human B-cell-line BJAB is a EBV-negative Burkitt-like lymphoma cell line." [PMID:2102361]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 
 [Term]
 id: BTO:0001932
@@ -13826,7 +13832,7 @@ relationship: develops_from BTO:0004725 ! embryonic fibroblast
 [Term]
 id: BTO:0001959
 name: PEER cell
-def: "Human T cell leukemia; established from the peripheral blood of a 4-year-old girl with T cell acute lymphoblastic leukemia (T-ALL) in second relapse in 1977; cell lines BE-13 (DSM ACC 396) and PEER show identical DNA fingerprints and hence share common origin, presumably due to cross-ontamination; however, their diploid and tetraploid karyotypes indicative of earlier and later passage numbers, respectively, suggest that BE-13 is derived from PEER, rather than vice-versa." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Human T cell leukemia; established from the peripheral blood of a 4-year-old girl with T cell acute lymphoblastic leukemia (T-ALL) in second relapse in 1977; cell lines BE-13 (DSM ACC 396) and PEER show identical DNA fingerprints and hence share common origin, presumably due to cross-contamination; however, their diploid and tetraploid karyotypes indicative of earlier and later passage numbers, respectively, suggest that BE-13 is derived from PEER, rather than vice-versa." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 is_a: BTO:0002144 ! acute lymphoblastic leukemia cell line
 is_a: BTO:0002504 ! T-lymphoblastic leukemia cell line
 
@@ -14717,7 +14723,7 @@ is_a: BTO:0002085 ! chamber of the eye
 [Term]
 id: BTO:0002085
 name: chamber of the eye
-def: "One of he various spaces in the eyeball." [Dorlands_Medical_Dictionary:MerckSource]
+def: "One of the various spaces in the eyeball." [Dorlands_Medical_Dictionary:MerckSource]
 synonym: "chamber of eye" RELATED []
 relationship: part_of BTO:0000439 ! eye
 
@@ -15678,6 +15684,7 @@ is_a: BTO:0001874 ! lens epithelial cell line
 id: BTO:0002222
 name: bract
 def: "A small modified leaf in a flower cluster." [Dorlands_Medical_Dictionary:MerckSource]
+synonym: "flower bract" RELATED []
 is_a: BTO:0000713 ! leaf
 
 [Term]
@@ -16034,7 +16041,7 @@ relationship: part_of BTO:0000648 ! intestine
 [Term]
 id: BTO:0002274
 name: BHT-101 cell
-def: "Human thyroid carcinoma cell line; established from the lymph node metastasis of a 63-year-old woman with anaplastic papillary thyroid carinoma." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Human thyroid carcinoma cell line; established from the lymph node metastasis of a 63-year-old woman with anaplastic papillary thyroid carcinoma." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 is_a: BTO:0003209 ! anaplastic thyroid cancer cell line
 is_a: BTO:0003210 ! papillary thyroid cancer cell line
 created_by: mgr
@@ -16699,7 +16706,7 @@ relationship: develops_from BTO:0002362 ! pancreatic duct
 [Term]
 id: BTO:0002364
 name: gastric pit
-def: "Any of he numerous pits in the gastric mucosa marking the openings of the gastric glands." [Dorlands_Medical_Dictionary:MerckSource]
+def: "Any of the numerous pits in the gastric mucosa marking the openings of the gastric glands." [Dorlands_Medical_Dictionary:MerckSource]
 synonym: "foveola gastrica" RELATED []
 relationship: part_of BTO:0001308 ! gastric mucosa
 
@@ -17647,7 +17654,7 @@ relationship: part_of BTO:0001266 ! invertebrate muscular system
 id: BTO:0002493
 name: CH12.LX cell
 def: "The CH12.LX B cell line derived from the murine CH12 B cell lymphoma." [PMID:14718603]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 
 [Term]
 id: BTO:0002494
@@ -17804,7 +17811,7 @@ is_a: BTO:0004255 ! Ewing's family tumor cell
 [Term]
 id: BTO:0002514
 name: CN1.4 cell
-def: "Immortilized embryonic mouse neuronal brain cortex cell line." [PMID:14660557]
+def: "Immortalized embryonic mouse neuronal brain cortex cell line." [PMID:14660557]
 is_a: BTO:0000947 ! neuronal cell line
 is_a: BTO:0002515 ! brain cortex cell line
 
@@ -17827,7 +17834,7 @@ creation_date: 2010-01-28T08:44:03Z
 [Term]
 id: BTO:0002517
 name: follicular lymphoma cell line
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 
 [Term]
 id: BTO:0002518
@@ -18476,6 +18483,8 @@ creation_date: 2010-01-28T08:56:44Z
 id: BTO:0002610
 name: pseudopodium
 def: "A temporary cytoplasmic extrusion by means of which an ameba or other ameboid organism or cell moves about or engulfs food." [Dorlands_Medical_Dictionary:MerckMedicus]
+comment: Is a cellular component.
+synonym: "pseudopodial protrusion" RELATED []
 is_a: BTO:0001262 ! soft body part
 
 [Term]
@@ -18844,7 +18853,7 @@ creation_date: 2010-01-29T09:48:52Z
 [Term]
 id: BTO:0002664
 name: HTAU cell
-def: "Immortilized embryonic brain cortex cell line overexpressing the human tau protein." [PMID:15048935]
+def: "Immortalized embryonic brain cortex cell line overexpressing the human tau protein." [PMID:15048935]
 is_a: BTO:0002659 ! embryonic brain cortex cell line
 
 [Term]
@@ -19261,18 +19270,18 @@ synonym: "BCBL cell" RELATED []
 synonym: "body cavity based lymphoma cell line" RELATED []
 synonym: "body cavity-based lymphoma cell" RELATED []
 synonym: "PEL cell line" RELATED []
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 
 [Term]
 id: BTO:0002720
 name: BC-1 cell
-def: "PEL cell line carrying the Epstain-Barr virus (EBV) infection." [PMID:10673746]
+def: "PEL cell line carrying the Epstein-Barr virus (EBV) infection." [PMID:10673746]
 is_a: BTO:0002719 ! primary effusion lymphoma cell line
 
 [Term]
 id: BTO:0002721
 name: BC-2 cell
-def: "PEL cell line carrying the Epstain-Barr virus (EBV) infection." [PMID:10673746]
+def: "PEL cell line carrying the Epstein-Barr virus (EBV) infection." [PMID:10673746]
 is_a: BTO:0002719 ! primary effusion lymphoma cell line
 
 [Term]
@@ -19284,13 +19293,13 @@ is_a: BTO:0002719 ! primary effusion lymphoma cell line
 [Term]
 id: BTO:0002723
 name: HBL-6 cell
-def: "PEL cell line carrying the Epstain-Barr virus (EBV) infection." [PMID:10673746]
+def: "PEL cell line carrying the Epstein-Barr virus (EBV) infection." [PMID:10673746]
 is_a: BTO:0002719 ! primary effusion lymphoma cell line
 
 [Term]
 id: BTO:0002724
 name: CRO-AP/2 cell
-def: "PEL cell line carrying the Epstain-Barr virus (EBV) infection." [PMID:10673746]
+def: "PEL cell line carrying the Epstein-Barr virus (EBV) infection." [PMID:10673746]
 is_a: BTO:0002719 ! primary effusion lymphoma cell line
 
 [Term]
@@ -19302,7 +19311,7 @@ is_a: BTO:0002719 ! primary effusion lymphoma cell line
 [Term]
 id: BTO:0002726
 name: CRO-AP/5 cell
-def: "PEL cell line carrying the Epstain-Barr virus (EBV) infection." [PMID:10673746]
+def: "PEL cell line carrying the Epstein-Barr virus (EBV) infection." [PMID:10673746]
 is_a: BTO:0002719 ! primary effusion lymphoma cell line
 
 [Term]
@@ -20574,7 +20583,7 @@ relationship: develops_from BTO:0002846 ! non-Hodgkin lymphoma cell
 id: BTO:0002905
 name: NHL-B cell
 def: "B-cell non-Hodgkin lymphoma cell line." [PMID:16497967]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 is_a: BTO:0002904 ! non-Hodgkin lymphoma cell line
 
 [Term]
@@ -20606,7 +20615,7 @@ relationship: develops_from BTO:0000738 ! HL-60 cell
 [Term]
 id: BTO:0002909
 name: RK-13 cell
-def: "Rabbit renal epithlium cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Rabbit renal epithelium cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "RK13 cell" RELATED []
 is_a: BTO:0002886 ! renal epithelium cell line
 
@@ -20804,7 +20813,7 @@ relationship: develops_from BTO:0000243 ! vagina
 [Term]
 id: BTO:0002937
 name: S-16 cell
-def: "Rat immortilized Schwann cell line." [PMID:16373334]
+def: "Rat immortalized Schwann cell line." [PMID:16373334]
 synonym: "S16 cell" RELATED []
 is_a: BTO:0001216 ! Schwann cell line
 
@@ -24162,7 +24171,7 @@ relationship: part_of BTO:0000879 ! lateral ventricle
 [Term]
 id: BTO:0003413
 name: encysting cell
-def: "A cell beeing in the process of forming a cyst or becoming enclosed in a capsule." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=encystation]
+def: "A cell being in the process of forming a cyst or becoming enclosed in a capsule." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=encystation]
 is_a: BTO:0002322 ! cell property
 
 [Term]
@@ -24395,7 +24404,7 @@ relationship: disease_arises_from_structure BTO:0002099 ! middle ear
 [Term]
 id: BTO:0003447
 name: cavum septum pellucidum
-def: "Space enclosed within the laminae of the septum pelludicum, the membranous partition that seperates the frontal horns of the ventricle." [Brain_Tumor_Dictionary:http\://www.virtualtrials.com/]
+def: "Space enclosed within the laminae of the septum pelludicum, the membranous partition that separates the frontal horns of the ventricle." [Brain_Tumor_Dictionary:http\://www.virtualtrials.com/]
 relationship: part_of BTO:0000879 ! lateral ventricle
 
 [Term]
@@ -25146,7 +25155,7 @@ relationship: develops_from BTO:0003556 ! SN-56 cell
 id: BTO:0003558
 name: REC-1 cell
 def: "Human mantle cell lymphoma (B cell non-Hodgkin's lymphoma) cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 is_a: BTO:0002904 ! non-Hodgkin lymphoma cell line
 
 [Term]
@@ -25718,7 +25727,8 @@ is_a: BTO:0002817 ! esophageal cancer cell line
 [Term]
 id: BTO:0003642
 name: Hca-F cell
-def: "Murine hepatocarcinoma cell line." [PMID:16978538]
+def: "The Hca-F and Hca-P cell lines are subclones derived from the same parent cells of mouse hepatocarcinoma ascitic cells. In tumor-bearing mice, Hca-F cells have an approximate 70% lymph node metastasis rate and Hca-P cells have an approximate 30% lymph node metastasis." [PMID:29783989]
+synonym: "HcaF cell" RELATED []
 is_a: BTO:0000578 ! hepatoma cell line
 
 [Term]
@@ -29262,7 +29272,7 @@ is_a: BTO:0001619 ! skin fibroblast cell line
 [Term]
 id: BTO:0004162
 name: MALME-3M cell
-def: "Human malignant melanoma cell line derived from lung tisse of a 43 years old caucasian male." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Human malignant melanoma cell line derived from lung tissue of a 43 years old caucasian male." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "Malme-3M cell" RELATED []
 is_a: BTO:0000849 ! melanoma cell line
 
@@ -29586,7 +29596,7 @@ is_a: BTO:0002024 ! squamous cell carcinoma cell line
 [Term]
 id: BTO:0004205
 name: RPMI-2650 cell
-def: "Human nasal septum squamous cell carinoma cell line; established from the pleural effusion of a 52-year-old man with anaplastic squamous cell carcinoma of the nasal septum in 1962." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Human nasal septum squamous cell carcinoma cell line; established from the pleural effusion of a 52-year-old man with anaplastic squamous cell carcinoma of the nasal septum in 1962." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 synonym: "RPMI 2650 cell" RELATED []
 synonym: "RPMI2650 cell" RELATED []
 is_a: BTO:0004204 ! nasal squamous cell carcinoma cell line
@@ -29763,7 +29773,7 @@ is_a: BTO:0004513 ! Sertoli cell line
 [Term]
 id: BTO:0004231
 name: TCMK-1 cell
-def: "Mouse normal kidney cell line; SV-40 transfomed." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Mouse normal kidney cell line; SV-40 transformed." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "TMCK-1 cell" RELATED []
 is_a: BTO:0000067 ! kidney cell line
 
@@ -30464,7 +30474,7 @@ is_a: BTO:0001926 ! hybridoma cell line
 [Term]
 id: BTO:0004334
 name: EBV-PBL cell
-def: "Eppstein-Barr virus (EBV)-transformed peripheral blood lymphocyte (PBL) cell line." [PMID:16080119]
+def: "Epstein-Barr virus (EBV)-transformed peripheral blood lymphocyte (PBL) cell line." [PMID:16080119]
 is_a: BTO:0001008 ! PBMC cell line
 
 [Term]
@@ -30501,7 +30511,7 @@ relationship: develops_from BTO:0003898 ! GT1 cell
 [Term]
 id: BTO:0004340
 name: culture condition:high copper medium-grown cell
-def: "The concentration of copper is above 1 mikromol of Cu per mg of cell protein." [PMID:11698372]
+def: "The concentration of copper is above 1 micromol of Cu per mg of cell protein." [PMID:11698372]
 is_a: BTO:0001479 ! culture condition:-grown cell
 
 [Term]
@@ -31447,7 +31457,7 @@ creation_date: 2013-03-15T12:56:20Z
 [Term]
 id: BTO:0004461
 name: KYSE-30 cell
-def: "Well differentiated human suamous cell carcinoma from esophageal cancer." [Japanese_Collection_of_Research_Bioresources:http\://cellbank.nibio.go.jp/]
+def: "Well differentiated human squamous cell carcinoma from esophageal cancer." [Japanese_Collection_of_Research_Bioresources:http\://cellbank.nibio.go.jp/]
 synonym: "KYSE30 cell" RELATED []
 is_a: BTO:0002428 ! esophageal squamous cell carcinoma cell line
 created_by: Marion
@@ -33537,7 +33547,7 @@ name: regio oralis
 def: "The region of the face including the lips and mouth." [Biology-Online_Dictionary:http\://www.biology-online.org/dictionary/]
 synonym: "oral part of face" RELATED []
 synonym: "oral region" RELATED []
-is_a: BTO:0000282 ! head
+relationship: part_of BTO:0000282 ! head
 created_by: mgr
 creation_date: 2010-05-14T02:12:33Z
 
@@ -34431,6 +34441,8 @@ creation_date: 2010-10-05T09:29:44Z
 id: BTO:0004798
 name: accessory sex gland
 def: "Male accessory glands in humans are the seminal vesicles, prostate gland, and the bulbourethral glands. In insects, male accessory glands produce products that mix with the sperm to protect and preserve them." [Wikipedia:The_Free_Encyclopedia]
+synonym: "accessory gonad" RELATED []
+synonym: "accessory gonadal gland" RELATED []
 synonym: "male accessory gland" RELATED []
 is_a: BTO:0000080 ! male reproductive gland
 created_by: mgr
@@ -34578,7 +34590,7 @@ synonym: "DT 40 cell" RELATED []
 synonym: "DT-40B cell" RELATED []
 synonym: "DT40 cell" RELATED []
 synonym: "DT40B cell" RELATED []
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 is_a: BTO:0001522 ! B-lymphocyte cell line
 created_by: mgr
 creation_date: 2010-10-05T11:47:40Z
@@ -36035,7 +36047,7 @@ creation_date: 2011-02-26T11:12:21Z
 id: BTO:0004981
 name: KARPAS-422 cell
 def: "Human B cell lymphoma cell line; established from the pleural effusion of a 73-year-old woman with B cell non-Hodgkin lymphoma (intraabdominal, diffuse large cell lymphoma, refractory, terminal) in 1987." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 created_by: XPMUser
 creation_date: 2011-02-26T11:18:09Z
 
@@ -36289,7 +36301,7 @@ creation_date: 2011-03-01T09:46:06Z
 [Term]
 id: BTO:0005011
 name: 1205-Lu cell
-def: "The 1205Lu cell line was derived from lung metastases of WM793 after subcutaneous injection into immunodeficient mice. 1205Lu cells are highly invasive and exhibit spontaneous metastatis to lung and liver." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "The 1205Lu cell line was derived from lung metastases of WM793 after subcutaneous injection into immunodeficient mice. 1205Lu cells are highly invasive and exhibit spontaneous metastasis to lung and liver." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "1205 Lu cell" RELATED []
 synonym: "1205Lu cell" RELATED []
 relationship: develops_from BTO:0004612 ! WM-793B cell
@@ -37876,7 +37888,7 @@ creation_date: 2011-09-01T08:33:48Z
 [Term]
 id: BTO:0005195
 name: K-562/R7 cell
-def: "Doxorubicin-selected variantt of the human myelogenous leukemia cell line K562." [PMID:8106146]
+def: "Doxorubicin-selected variant of the human myelogenous leukemia cell line K562." [PMID:8106146]
 synonym: "K562/R7 cell" RELATED []
 relationship: develops_from BTO:0000664 ! K-562 cell
 created_by: XPMUser
@@ -39886,7 +39898,7 @@ creation_date: 2013-03-18T08:30:15Z
 [Term]
 id: BTO:0005431
 name: Vgamma9Vdelta2 T-lymphocyte
-def: "Vgamma9Vdelta2 T- lymphocytes are reported to participate in the anti-tumor immune surveillance in human. They are known to recognize phosphoantigens and molecules expressed on cells undergoing neoplasic transformation." [PMID:17764010]
+def: "Vgamma9Vdelta2 T- lymphocytes are reported to participate in the anti-tumor immune surveillance in human. They are known to recognize phosphoantigens and molecules expressed on cells undergoing neoplastic transformation." [PMID:17764010]
 synonym: "Vgamma9Vdelta2 T lymphocyte" RELATED []
 is_a: BTO:0000782 ! T-lymphocyte
 created_by: XPMUser
@@ -40280,7 +40292,7 @@ creation_date: 2013-09-09T05:35:38Z
 [Term]
 id: BTO:0005477
 name: SUM-190PT cell
-def: "Human breast cancer cell line, derived from a poorly differentiated primary human inflammatoy luminal breast carcinoma." [Asterand_Bioscience:http\://solutions.asterand.com/]
+def: "Human breast cancer cell line, derived from a poorly differentiated primary human inflammatory luminal breast carcinoma." [Asterand_Bioscience:http\://solutions.asterand.com/]
 synonym: "SUM 190 cell" RELATED []
 synonym: "SUM 190PT cell" RELATED []
 synonym: "SUM-190 cell" RELATED []
@@ -41943,6 +41955,8 @@ id: BTO:0005672
 name: LNCaP-C4-2 cell
 def: "LNCaP and its derivative cell lines, which include C4-2 and the related C4-2B and CL1, are used as models of prostate cancer." [PMID:15162376]
 synonym: "C4-2 cell" RELATED []
+synonym: "C42 cell" RELATED []
+synonym: "LNCaP subline C4-2" RELATED []
 synonym: "LNCaP-C4-2 cell" RELATED []
 relationship: develops_from BTO:0001321 ! LNCaP cell
 created_by: Marion
@@ -43247,7 +43261,7 @@ creation_date: 2016-04-15T10:22:00Z
 [Term]
 id: BTO:0005826
 name: Detroit-551 cell
-def: "Normal human skin fibroblast cell line; established from a fetus of a causian female." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Normal human skin fibroblast cell line; established from a fetus of a Caucasian female." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "Detroit 551 cell" RELATED []
 synonym: "Detroit551 cell" RELATED []
 is_a: BTO:0001619 ! skin fibroblast cell line
@@ -44698,7 +44712,7 @@ creation_date: 2016-09-28T11:39:49Z
 [Term]
 id: BTO:0005988
 name: CHO-Lec4 cell
-def: "Chinese hamster ovary glycolysation mutant with no detectable N-acetylglucosaminyltransferase V activity." [PMID:2530238]
+def: "Chinese hamster ovary glycosylation mutant with no detectable N-acetylglucosaminyltransferase V activity." [PMID:2530238]
 synonym: "CHO Lec4 cell" RELATED []
 synonym: "Lec4 cell" RELATED []
 synonym: "ProLec4.7b cell" RELATED []
@@ -44709,7 +44723,7 @@ creation_date: 2016-09-28T11:50:47Z
 [Term]
 id: BTO:0005989
 name: CHO-Lec4A cell
-def: "Chinese hamster ovary glycolysation mutant with N-acetylglucosaminyltransferase V activity as in the parental CHO cell line." [PMID:2530238]
+def: "Chinese hamster ovary glycosylation mutant with N-acetylglucosaminyltransferase V activity as in the parental CHO cell line." [PMID:2530238]
 synonym: "CHO Lec4A cell" RELATED []
 synonym: "Lec4A cell" RELATED []
 synonym: "ProLec4A.12.2 cell" RELATED []
@@ -45418,7 +45432,7 @@ creation_date: 2017-04-07T15:16:21Z
 [Term]
 id: BTO:0006063
 name: YAC-1 cell
-def: "Mouse lymphoma cell line; induced with moloney murine leukmia virus." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Mouse lymphoma cell line; induced with moloney murine leukemia virus." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 is_a: BTO:0000104 ! lymphoma cell line
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2017-04-07T15:19:17Z
@@ -45438,7 +45452,7 @@ creation_date: 2017-04-07T15:23:31Z
 [Term]
 id: BTO:0006065
 name: BT-474-LR cell
-def: "Lapatinib-resistand subline of BT-474 cell line." [PMID:25590338]
+def: "Lapatinib-resistant subline of BT-474 cell line." [PMID:25590338]
 synonym: "BT-474 LR cell" RELATED []
 synonym: "BT474 LR cell" RELATED []
 synonym: "BT474-LR cell" RELATED []
@@ -45540,7 +45554,7 @@ creation_date: 2017-05-14T19:15:43Z
 [Term]
 id: BTO:0006076
 name: benign prostatic hyperplasia cell
-def: "Benign enlargement of the prostate, a noncancerous increase in size of the prostate. BPH involves hyperplasia of prostatic stromal and epithelial cells, resulting in the formation of large, fairly discrete nodules in the transistion zone of the prostate. It involves hyperplasia - an increase in the number of cells - rather than hypertrophy - a growth in the size of individual cells." [Wikipedia:The_Free_Encyclopedia]
+def: "Benign enlargement of the prostate, a noncancerous increase in size of the prostate. BPH involves hyperplasia of prostatic stromal and epithelial cells, resulting in the formation of large, fairly discrete nodules in the transition zone of the prostate. It involves hyperplasia - an increase in the number of cells - rather than hypertrophy - a growth in the size of individual cells." [Wikipedia:The_Free_Encyclopedia]
 synonym: "BPH cell" RELATED []
 relationship: develops_from BTO:0001129 ! prostate gland
 created_by: Marion, contact@brenda-enzymes.org
@@ -47183,7 +47197,7 @@ creation_date: 2019-03-03T12:49:11Z
 [Term]
 id: BTO:0006261
 name: HL-60/S cell
-def: "Promyeloblastic cell line differentiated to neutrophils or macrophages by tumor promoters, vitamne D3 or cytokines." [JCRB_Japanese_Collection_of_Research_Bioresources:http\://cellbank.nibio.go.jp./]
+def: "Promyeloblastic cell line differentiated to neutrophils or macrophages by tumor promoters, vitamine D3 or cytokines." [JCRB_Japanese_Collection_of_Research_Bioresources:http\://cellbank.nibio.go.jp./]
 synonym: "HL-60 S cell" RELATED []
 synonym: "HL-60-S cell" RELATED []
 synonym: "HL60(S) cell" RELATED []
@@ -47486,7 +47500,7 @@ creation_date: 2019-09-20T19:57:36Z
 [Term]
 id: BTO:0006294
 name: BWZ.36 cell
-def: "Mouse lymphoma cell line, derived by transfectlng alpha-beta-BW5147 cells with the NFAT-lacZ construct." [PMID:8186188]
+def: "Mouse lymphoma cell line, derived by transfecting alpha-beta-BW5147 cells with the NFAT-lacZ construct." [PMID:8186188]
 relationship: develops_from BTO:0000791 ! BW-5147 cell
 created_by: Marion
 creation_date: 2019-09-21T12:23:49Z
@@ -47494,7 +47508,7 @@ creation_date: 2019-09-21T12:23:49Z
 [Term]
 id: BTO:0006295
 name: BWZ.36 CD8 alpha cell
-def: "Mouse lymphoma cell line, derived by transfectlng alpha-beta-BW5147 cells with the NFAT-lacZ construct." [PMID:8186188]
+def: "Mouse lymphoma cell line, derived by transfecting alpha-beta-BW5147 cells with the NFAT-lacZ construct." [PMID:8186188]
 synonym: "BWZ.36.CD8 alpha" RELATED []
 synonym: "BWZ.36/CD8alpha" RELATED []
 relationship: develops_from BTO:0000791 ! BW-5147 cell
@@ -47616,7 +47630,7 @@ creation_date: 2019-09-29T13:33:20Z
 [Term]
 id: BTO:0006308
 name: TCC-SUP cell
-def: "Urinary bladder transitional cell carcinoma cell line; established from the tumor spediment rexected from the undifferentiated grade IV urinary bladder transitinal cell carcinome of a 67-year-old woman in 1974." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Urinary bladder transitional cell carcinoma cell line; established from the tumor spediment resected from the undifferentiated grade IV urinary bladder transitional cell carcinoma of a 67-year-old woman in 1974." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 synonym: "TCCSUP cell" RELATED []
 is_a: BTO:0002868 ! urinary bladder transitional cell carcinoma cell line
 created_by: Marion
@@ -47739,7 +47753,7 @@ creation_date: 2019-10-10T10:08:05Z
 [Term]
 id: BTO:0006322
 name: Jump-In-T-REx HEK293 cell
-def: "T-REx cell derivative generated by genomic integration of an R4 acceptor site and a promoterless Geneticin antibiotic restistance gene using the Jump-In Cell Engineering Technology." [ThermoFisherScientific:http\://www.thermofisher.com/order/catalog/product/]
+def: "T-REx cell derivative generated by genomic integration of an R4 acceptor site and a promoterless Geneticin antibiotic resistance gene using the Jump-In Cell Engineering Technology." [ThermoFisherScientific:http\://www.thermofisher.com/order/catalog/product/]
 synonym: "HEK293 Jump-In T-REx cell" RELATED []
 synonym: "Jump-In 293 T-Rex cell" RELATED []
 synonym: "Jump-In-T-REx cell" RELATED []
@@ -48132,7 +48146,7 @@ creation_date: 2020-04-03T13:04:12Z
 id: BTO:0006365
 name: diffuse large B-cell lymphoma cell line
 def: "Diffuse large B-cell lymphoma is a common type of non-Hodgkin lymphoma (NHL) accounting for about 2 in 5 of all cases. It is a cancer of the B-lymphocytes. Diffuse B-cell lymphoma can occur at any time between adolescence and old age. It is slightly more common in men than in women." [Cancerbackup.org:http\://www.cancerbackup.org.uk/Cancertype/Lymphomanon-Hodgkin/TypesofNHL/DiffuselargeB-cell]
-relationship: develops_from BTO:0001518 ! B-lymphoma cell line
+relationship: develops_from BTO:0001518 ! B-cell lymphoma cell line
 created_by: Marion
 creation_date: 2020-04-03T13:07:49Z
 
@@ -48421,7 +48435,7 @@ creation_date: 2020-03-26T12:21:41Z
 [Term]
 id: BTO:0006398
 name: MCF-10-2A cell
-def: "Nontumorigenic human mammary gland cell line from fibrocystic disease. MCA-10-2A was derived from adherent cells in the population.\nThis line was established from the same tumor material as MCF 10A." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+def: "Nontumorigenic human mammary gland cell line from fibrocystic disease. MCA-10-2A was derived from adherent cells in the population. This line was established from the same tumor material as MCF 10A." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "MCF 10-2A cell" RELATED []
 is_a: BTO:0002768 ! mammary epithelial cell line
 created_by: Marion
@@ -48492,7 +48506,7 @@ creation_date: 2020-03-27T09:02:46Z
 [Term]
 id: BTO:0006405
 name: K-1 cell
-def: "Human thyroid carcinoma cell line; derived from a primay papillary thyroid carcinoma. It has been reported that K1 cells have their origin in the thyroid papillary carcinoma cell line GLAG-66." [SigmaAldrich:https\://www.sigmaaldrich.com/]
+def: "Human thyroid carcinoma cell line; derived from a primary papillary thyroid carcinoma. It has been reported that K1 cells have their origin in the thyroid papillary carcinoma cell line GLAG-66." [SigmaAldrich:https\://www.sigmaaldrich.com/]
 synonym: "K1 cell" RELATED []
 relationship: develops_from BTO:0006406 ! GLAG-66 cell
 created_by: Marion
@@ -48579,7 +48593,7 @@ synonym: "LY7 cell" RELATED []
 synonym: "OCI-Ly 7 cell" RELATED []
 synonym: "OCI-LY-7 cell" RELATED []
 synonym: "OCILY7 cell" RELATED []
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 created_by: Marion
 creation_date: 2020-03-27T10:01:33Z
 
@@ -48624,7 +48638,7 @@ creation_date: 2020-03-27T11:06:53Z
 [Term]
 id: BTO:0006419
 name: FD105 cell
-def: "Human h-Tert immortalized AOA1 fibroblast cell line, derived from an individual with Ataxia with Oculomo-\ntor Apraxia type 1 (AOA1) and thus lacking aprataxin." [PMID:19303373, PMID:26204256]
+def: "Human h-Tert immortalized AOA1 fibroblast cell line, derived from an individual with Ataxia with Oculomotor Apraxia type 1 (AOA1) and thus lacking aprataxin." [PMID:19303373, PMID:26204256]
 is_a: BTO:0000453 ! fibroblast cell line
 created_by: Marion
 creation_date: 2020-04-07T09:44:56Z
@@ -48866,7 +48880,7 @@ creation_date: 2020-09-24T12:41:53Z
 id: BTO:0006444
 name: Jeko-1 cell
 def: "Human peripheral blood mantle cell lymphoma cell line, established from the peripheral blood of a 78-year-old woman with B-cell non-Hodgkin lymphoma (B-NHL)." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/, Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 created_by: Marion
 creation_date: 2020-09-24T16:08:13Z
 
@@ -49020,7 +49034,7 @@ creation_date: 2020-09-26T18:27:36Z
 [Term]
 id: BTO:0006460
 name: KMS-12-PE cell
-def: "Human multiple myeloma cell liine, established in 1987 from the pleural effusion of a 64-year-old woman with refractory, terminal multiple myeloma (Ig-non-producing) after combination chemotherapy; described in the literature to carry t(11:14)(q13:q32) rearrangement; sister cell line of KMS-12-BM." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+def: "Human multiple myeloma cell line, established in 1987 from the pleural effusion of a 64-year-old woman with refractory, terminal multiple myeloma (Ig-non-producing) after combination chemotherapy; described in the literature to carry t(11:14)(q13:q32) rearrangement; sister cell line of KMS-12-BM." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 synonym: "KMS 12 PE cell" RELATED []
 synonym: "KMS-12PE cell" RELATED []
 synonym: "KMS12-PE cell" RELATED []
@@ -49064,7 +49078,7 @@ synonym: "SU-DHL2 cell" RELATED []
 synonym: "SuDHL 2 cell" RELATED []
 synonym: "SUDHL-2 cell" RELATED []
 synonym: "SUDHL2 cell" RELATED []
-is_a: BTO:0001518 ! B-lymphoma cell line
+is_a: BTO:0001518 ! B-cell lymphoma cell line
 created_by: Marion
 creation_date: 2020-09-26T18:51:22Z
 
@@ -49127,7 +49141,7 @@ creation_date: 2020-10-08T17:23:37Z
 [Term]
 id: BTO:0006470
 name: MDA-MB-231-Met2 cell
-def: "Cell line generated from MDA-MB-231 cells co-transfected with reporter plasmids, pGL3 control luciferase and pPUR. Puromycin-resistant clones were based upon the highest luciferase response. This clone was expanded and\ninjected via tail vein into athymic nude mice. After allowing tumors to establish, the MDA-MB-231met2 clone was isolated from a lung metastasis." [PMID:30337562]
+def: "Cell line generated from MDA-MB-231 cells co-transfected with reporter plasmids, pGL3 control luciferase and pPUR. Puromycin-resistant clones were based upon the highest luciferase response. This clone was expanded and injected via tail vein into athymic nude mice. After allowing tumors to establish, the MDA-MB-231met2 clone was isolated from a lung metastasis." [PMID:30337562]
 synonym: "MDA-MB-231 met2 cell" RELATED []
 synonym: "MDA-MB-231met2 cell" RELATED []
 relationship: develops_from BTO:0000815 ! MDA-MB-231 cell
@@ -49187,12 +49201,406 @@ created_by: Marion
 creation_date: 2020-10-09T16:42:37Z
 
 [Term]
+id: BTO:0006477
+name: T37i cell
+def: "Mouse brown adipocyte cell line; derived from a hibernoma (malignant brown fat tumor) of a transgenic mouse carrying a hybrid gene composed of the human MR proximal promoter linked to the SV40 large T antigen." [Merck_Millipore:https\://www.merckmillipore.com/DE/de/product/T37i-Mouse-Brown-Adipocyte-Cell-Line\,MM_NF-SCC250]
+is_a: BTO:0003452 ! adipocyte cell line
+created_by: Marion
+creation_date: 2021-03-04T09:33:11Z
+
+[Term]
 id: BTO:0006478
 name: Bm7Brm cell
 def: "Lung cancer cells with progressive migration ability." [PMID:28537886]
 relationship: develops_from BTO:0006333 ! BM7 cell
 created_by: Marion
 creation_date: 2021-02-03T10:35:42Z
+
+[Term]
+id: BTO:0006479
+name: Hep3B-c1 cell
+def: "It was engineered by stable transfection of plasmids for hypoxia/HIF-1 response element (HRE)-driving firefly luciferase reporter (p2.1) and constitutive renilla luciferase reporter (pSV-renilla) in the human liver cancer cell line Hep3B." [PMID:21917920]
+synonym: "HEP-3B C1 cell" RELATED []
+synonym: "Hep3B-C1 cell" RELATED []
+synonym: "Hep3Bc1 cell" RELATED []
+relationship: develops_from BTO:0000972 ! HEP-3B cell
+created_by: Marion
+creation_date: 2021-03-04T09:45:33Z
+
+[Term]
+id: BTO:0006480
+name: NU-DUL-1 cell
+def: "B cell lymphoma cell line; established in 1982 from the cerebrospinal fluid of a 43-year-old Caucasian man with B-cell non-Hodgkin lymphoma (B-NHL), described at the time as undifferentiated lymphoma; assigned to ABC-like lymphoma subtype (activated B-cell)." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "NUDUL-1 cell" RELATED []
+synonym: "NUDUL1 cell" RELATED []
+is_a: BTO:0001518 ! B-cell lymphoma cell line
+created_by: Marion
+creation_date: 2021-03-04T10:07:23Z
+
+[Term]
+id: BTO:0006481
+name: lateral hypothalamus
+def: "The lateral hypothalamus contains the primary orexinergic nucleus within the hypothalamus that widely projects throughout the nervous system. This system of neurons mediates an array of cognitive and physical processes, such as promoting feeding behavior and arousal, reducing pain perception, and regulating body temperature, digestive functions, and blood pressure, among many others. It extends throughout most of the rostrocaudal extent of the hypothalamus lateral to the column of the fornix; includes lateral tuberal nuclei, tuberomammillary nuclei, and diffuse populations of cells." [Medical_Dictionary:http\\\://medical-dictionary.thefreedictionary.com/, Wikipedia:The_free_encyclopedia]
+synonym: "area hypothalamica lateralis" RELATED []
+synonym: "lateral hypothalamic area" RELATED []
+synonym: "lateral hypothalamic region" RELATED []
+synonym: "LH" RELATED []
+synonym: "LHA" RELATED []
+relationship: part_of BTO:0000614 ! hypothalamus
+created_by: Marion
+creation_date: 2021-03-04T10:11:32Z
+
+[Term]
+id: BTO:0006482
+name: SNU-719 cell
+def: "Human gastric cancer cell line." [PMID:15016554]
+synonym: "SNU719 cell" RELATED []
+is_a: BTO:0000787 ! gastric cancer cell line
+created_by: Marion
+creation_date: 2021-03-04T18:13:55Z
+
+[Term]
+id: BTO:0006483
+name: GL-261 cell
+def: "Murine glioblastoma cell line; established as in vitro growing cell culture in the mid 1990s from the Gl261 tumor which was induced in 1939 by intracranial injection of 3-methylcholanthrene into C57BL/6 mice and subsequently maintained by serial transplantation in syngeneic mouse strain." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "GL261 cell" RELATED []
+synonym: "Gl261 cell" RELATED []
+synonym: "Glioma 261 cell" RELATED []
+synonym: "Glioma-261 cell" RELATED []
+is_a: BTO:0001530 ! glioblastoma cell line
+created_by: Marion
+creation_date: 2021-03-04T18:22:17Z
+
+[Term]
+id: BTO:0006484
+name: HMT-3522 S1 cell
+def: "Human Caucasian breast epithelial\ncell line is a subline that has been derived from HMT-3522." [European_collection_of_cell_cultures:ECACC]
+synonym: "HMT-3522-S1 cell" RELATED []
+synonym: "HMT-3522/wt cell" RELATED []
+synonym: "HMT-3522S1 cell" RELATED []
+synonym: "HMT3522S1 cell" RELATED []
+relationship: develops_from BTO:0003884 ! HMT-3522 cell
+created_by: Marion
+creation_date: 2021-03-04T18:28:46Z
+
+[Term]
+id: BTO:0006485
+name: PA-TU-8902 cell
+def: "Human pancreatic adenocarcinoma cell line; established in 1985 from the primary ductal pancreatic adenocarcinoma (grade II) from a 44-year-old woman." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "PaTu 8902 cell" RELATED []
+synonym: "PATU-8902 cell" RELATED []
+synonym: "PaTu-8902 cell" RELATED []
+synonym: "PATU8902 cell" RELATED []
+is_a: BTO:0001521 ! pancreatic adenocarcinoma cell line
+created_by: Marion
+creation_date: 2021-03-04T18:32:41Z
+
+[Term]
+id: BTO:0006486
+name: myxofibrosarcoma cell
+def: "A malignant fibrous histiocytoma with a predominance of myxoid areas that resemble primitive mesenchymal tissue." [Medical_Dictionary:http\\\://medical-dictionary.thefreedictionary.com/]
+is_a: BTO:0003431 ! dermatofibroma cell
+created_by: Marion
+creation_date: 2021-03-04T18:38:13Z
+
+[Term]
+id: BTO:0006487
+name: aerodigestive tract
+def: "The mixed airway and gastrointestinal tract that includes the oral cavity, pharynx, paranasal sinuses, sinonasal tract, larynx, pyriform sinus, pharynx, and upper oesophagus." [Medical_Dictionary:http\\\://medical-dictionary.thefreedictionary.com/]
+is_a: BTO:0001491 ! viscus
+created_by: Marion
+creation_date: 2021-03-04T18:47:12Z
+
+[Term]
+id: BTO:0006488
+name: steroidogenic cell
+def: "Cell of, relating to, or involved in steroidogenesis." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:https\://www.merriam-webster.com/medical/steroidogenic]
+is_a: BTO:0002322 ! cell property
+created_by: Marion
+creation_date: 2021-03-04T18:48:39Z
+
+[Term]
+id: BTO:0006489
+name: brood pouch
+def: "A sac or cavity of the body of an animal where the eggs or embryos are received and undergo a part of their development." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:https\://www.merriam-webster.com/dictionary/brood_20pouch]
+relationship: part_of BTO:0001493 ! trunk
+created_by: Marion
+creation_date: 2021-03-04T18:58:52Z
+
+[Term]
+id: BTO:0006490
+name: GT-38 cell
+def: "Human EBV-associated gastric cancer cell line." [PMID:32056716]
+synonym: "GT38 cell" RELATED []
+is_a: BTO:0000787 ! gastric cancer cell line
+created_by: Marion
+creation_date: 2021-03-12T10:19:00Z
+
+[Term]
+id: BTO:0006491
+name: GT-39 cell
+def: "Human EBV-associated gastric cancer cell line." [PMID:32056716]
+synonym: "GT39 cell" RELATED []
+is_a: BTO:0000787 ! gastric cancer cell line
+created_by: Marion
+creation_date: 2021-03-12T10:22:18Z
+
+[Term]
+id: BTO:0006492
+name: palea
+def: "The upper (distal), usually smaller, of the pair of flower bracts enclosing a spikelet floret." [Plant_Ontology:https\://raw.githubusercontent.com/Planteome/plant-ontology/master/po.obo]
+synonym: "pale" BROAD []
+synonym: "palet" RELATED []
+relationship: part_of BTO:0002119 ! spikelet
+created_by: Marion
+creation_date: 2021-03-12T10:31:24Z
+
+[Term]
+id: BTO:0006493
+name: myxoliposarcoma cell
+def: "A liposarcoma characterized by the presence of round non-lipogenic primitive mesenchymal cells and small signet ring lipoblasts within a myxoid stoma with a branching vascular pattern. This category includes hypercellular lesions with round cell morphology, formerly known as round cell liposarcoma." [NIH_National_Cancer_Institute:NCIthesaurus]
+synonym: "myxoid liposarcoma cell" RELATED []
+is_a: BTO:0003745 ! liposarcoma cell
+created_by: Marion
+creation_date: 2021-03-12T10:52:42Z
+
+[Term]
+id: BTO:0006494
+name: fibromyxosarcoma cell
+def: "A sarcoma containing fibrous and myxoid tissue." [Medical_Dictionary:http\\\://medical-dictionary.thefreedictionary.com/]
+synonym: "fibromyxoid sarcoma cell" RELATED []
+is_a: BTO:0000459 ! fibrosarcoma cell
+created_by: Marion
+creation_date: 2021-03-12T11:00:25Z
+
+[Term]
+id: BTO:0006495
+name: spathe
+def: "A sheathing bract or pair of bracts partly enclosing an inflorescence and especially a spadix on the same axis." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:https\://www.merriam-webster.com/dictionary/spathe]
+relationship: part_of BTO:0006496 ! inflorescence bract
+created_by: Marion
+creation_date: 2021-03-12T11:05:59Z
+
+[Term]
+id: BTO:0006496
+name: inflorescence bract
+def: "A bract subtending a branch of the inflorescence or borne on the inflorescence axis below any branch  or flower." [Plant_Ontology:https\://raw.githubusercontent.com/Planteome/plant-ontology/master/po.obo]
+is_a: BTO:0002222 ! bract
+created_by: Marion
+creation_date: 2021-03-12T11:08:59Z
+
+[Term]
+id: BTO:0006497
+name: NASS cell
+def: "MYCN single copy neuroblastoma cell line." [PMID:27906629]
+is_a: BTO:0000932 ! neuroblastoma cell line
+created_by: Marion
+creation_date: 2021-03-13T19:54:19Z
+
+[Term]
+id: BTO:0006498
+name: FISK cell
+def: "MYCN single copy neuroblastoma cell line." [PMID:27906629]
+is_a: BTO:0000932 ! neuroblastoma cell line
+created_by: Marion
+creation_date: 2021-03-13T19:55:03Z
+
+[Term]
+id: BTO:0006499
+name: spermatocyte cell line
+relationship: develops_from BTO:0001275 ! spermatocyte
+created_by: Marion
+creation_date: 2021-03-13T20:00:39Z
+
+[Term]
+id: BTO:0006500
+name: GC-2 cell
+def: "Mouse spermatocyte cell line, established by stable cotransfection of freshly isolated spermatocytes with the SV40 large T antigen gene and a temperature sensitive mutant of the p53 tumor suppressor gene." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "GC-2 spd cell" RELATED []
+synonym: "GC-2 spd(ts) cell" RELATED []
+synonym: "GC-2spd(ts) cell" RELATED []
+synonym: "GC2 cell" RELATED []
+synonym: "GC2spd(ts) cell" RELATED []
+is_a: BTO:0006499 ! spermatocyte cell line
+created_by: Marion
+creation_date: 2021-03-13T20:01:00Z
+
+[Term]
+id: BTO:0006501
+name: natural killer T cell
+def: "A heterogeneous group of T cells that share properties of both T cells and natural killer cells." [Wikipedia:The_free_encyclopedia]
+synonym: "NKT cell" RELATED []
+is_a: BTO:0000782 ! T-lymphocyte
+created_by: Marion
+creation_date: 2021-03-13T20:12:25Z
+
+[Term]
+id: BTO:0006502
+name: Jar-GnT4a cell
+def: "Human choriocarcinoma cell line with GnT-IVa overexpression." [PMID:28534963]
+relationship: develops_from BTO:0001585 ! JAR cell
+created_by: Marion
+creation_date: 2021-03-13T20:17:13Z
+
+[Term]
+id: BTO:0006503
+name: CGL-2 cell
+def: "A fusion hybrid of the HeLa adenocarcinoma cell line and normal human fibroblasts. This cell line derived from a hybrid of the HeLa variant, D98/AH2, and a normal human fibroblast strain, GM77." [PMID:15471901]
+is_a: BTO:0000567 ! HeLa cell
+created_by: Marion
+creation_date: 2021-03-13T20:22:16Z
+
+[Term]
+id: BTO:0006504
+name: oculomotor nucleus
+def: "The fibers of the oculomotor nerve arise from a nucleus in the midbrain, which lies in the gray substance of the floor of the cerebral aqueduct and extends in front of the aqueduct for a short distance into the floor of the third ventricle." [Wikipedia:The_free_encyclopedia]
+relationship: part_of BTO:0000138 ! midbrain
+created_by: Marion
+creation_date: 2021-03-18T11:04:03Z
+
+[Term]
+id: BTO:0006505
+name: Edinger-Westphal nucleus
+def: "The parasympathetic pre-ganglionic nucleus that innervates the iris sphincter muscle and the ciliary muscle. Alternatively, the term is often used to refer to the adjacent population of non-preganglionic neurons that do not project to the ciliary ganglion, but rather project to the spinal cord, dorsal raphe nucleus, lateral septal nuclei, lateral hypothalamic area and the central nucleus of the amygdala, among other regions." [Wikipedia:The_free_encyclopedia]
+synonym: "accessory oculomotor nucleus" RELATED []
+relationship: part_of BTO:0000138 ! midbrain
+created_by: Marion
+creation_date: 2021-03-18T11:05:43Z
+
+[Term]
+id: BTO:0006506
+name: CL1-5 Fut8-KD cell
+def: "CL1-5 cell line with Fucosyltransferase 8, Fut8, knocked down." [PMID:28678517]
+relationship: develops_from BTO:0002876 ! CL1-5 cell
+created_by: Marion
+creation_date: 2021-03-18T11:22:00Z
+
+[Term]
+id: BTO:0006507
+name: CHO-Lec8 cell
+def: "Chinese hamster ovary cell line, a mutant clone derived from the parental CHO clone Pro-5." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "CHO Lec8 cell" RELATED []
+synonym: "Lec8 cell" RELATED []
+synonym: "Pro-5WgaRVIII3D cell" RELATED []
+relationship: develops_from BTO:0000246 ! CHO cell
+relationship: develops_from BTO:0002176 ! Pro-5 cell
+created_by: Marion
+creation_date: 2021-03-19T09:41:46Z
+
+[Term]
+id: BTO:0006508
+name: TPC-1 cell
+def: "Human papillary thyroid carcinoma cell line." [Sigma_Aldrich:http\\\://www.sigmaaldrich.com/]
+synonym: "TPC1 cell" RELATED []
+is_a: BTO:0003210 ! papillary thyroid cancer cell line
+created_by: Marion
+creation_date: 2021-03-19T09:57:08Z
+
+[Term]
+id: BTO:0006509
+name: Hca-P cell
+def: "The Hca-F and Hca-P cell lines are subclones derived from the same parent cells of mouse hepatocarcinoma ascitic cells. In tumor-bearing mice, Hca-F cells have an approximate 70% lymph node metastasis rate and Hca-P cells have an approximate 30% lymph node metastasis." [PMID:29783989]
+synonym: "HcaP cell" RELATED []
+is_a: BTO:0000578 ! hepatoma cell line
+created_by: Marion
+creation_date: 2021-03-19T10:02:16Z
+
+[Term]
+id: BTO:0006510
+name: MOSEC cell
+def: "Mouse ovarian surface epithelial cell line." [PMID:28423672]
+is_a: BTO:0004482 ! ovarian surface epithelial cell line
+created_by: Marion
+creation_date: 2021-03-19T10:16:22Z
+
+[Term]
+id: BTO:0006511
+name: PMF-Ko14 cell
+def: "Human colorectal cancer cell line." [PMID:31044169]
+synonym: "PMF-ko14 cell" RELATED []
+synonym: "PMFKO14 cell" RELATED []
+synonym: "PMFko14 cell" RELATED []
+is_a: BTO:0000797 ! colonic cancer cell line
+created_by: Marion
+creation_date: 2021-03-19T10:55:15Z
+
+[Term]
+id: BTO:0006512
+name: SPCA-1 cell
+def: "Lung adenocarcinoma cell line. But seems to be contaminated with Hela cells." [PMID:26116706, PMID:29377583]
+synonym: "SPC-A-1 cell" RELATED []
+synonym: "SPC-A1 cell" RELATED []
+synonym: "SPCA1 cell" RELATED []
+is_a: BTO:0001911 ! lung adenocarcinoma cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
+created_by: Marion
+creation_date: 2021-03-19T11:06:00Z
+
+[Term]
+id: BTO:0006513
+name: HEK-293-AT1 cell
+def: "HEK293 cell line stably expressing the rat AT1a angiotensin receptor." [PMID:30626625]
+synonym: "HEK 293/AT1 cell" RELATED []
+synonym: "HEK-293/AT1 cell" RELATED []
+synonym: "HEK293-AT1 cell" RELATED []
+relationship: develops_from BTO:0000007 ! HEK-293 cell
+created_by: Marion
+creation_date: 2021-03-19T11:37:54Z
+
+[Term]
+id: BTO:0006514
+name: foreleg
+def: "A front leg." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:https\://www.merriam-webster.com/dictionary/foreleg]
+is_a: BTO:0000721 ! leg
+created_by: Marion
+creation_date: 2021-03-21T17:34:32Z
+
+[Term]
+id: BTO:0006515
+name: hindleg
+def: "The posterior leg of a quadruped." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:https\://www.merriam-webster.com/dictionary/hind leg]
+synonym: "hind leg" RELATED []
+is_a: BTO:0000721 ! leg
+created_by: Marion
+creation_date: 2021-03-21T17:36:28Z
+
+[Term]
+id: BTO:0006516
+name: invertebrate maxilla
+def: "In arthropods, the maxillae are paired structures present on the head as mouthparts in members of the clade Mandibulata, used for tasting and manipulating food." [Wikipedia:The_free_encyclopedia]
+synonym: "maxilla" RELATED []
+relationship: develops_from BTO:0006517 ! maxillary palp
+relationship: part_of BTO:0001090 ! mouth
+created_by: Marion
+creation_date: 2021-03-21T17:49:28Z
+
+[Term]
+id: BTO:0006517
+name: maxillary palp
+def: "Embryologically, the maxillae are derived from the 4th and 5th segment of the head and the maxillary palps." [Wikipedia:The_free_encyclopedia]
+relationship: part_of BTO:0001090 ! mouth
+created_by: Marion
+creation_date: 2021-03-21T17:50:30Z
+
+[Term]
+id: BTO:0006518
+name: storage parenchyma
+def: "Storage parenchyma is specialized as large water storage tissue in many succulent and xerophytic plants with greatly expanded vacuole. The cells are chlorophyll-free and thin-walled. In potatoes tuber and grain for example, the parenchyma acts as a special storage tissue to store food material." [Plant_Tissues_And_Cells:https\://eima86.tripod.com/id4.html]
+synonym: "storage parenchyma cell" RELATED []
+is_a: BTO:0000999 ! plant parenchyma
+created_by: Marion
+creation_date: 2021-03-21T17:54:10Z
+
+[Term]
+id: BTO:0006519
+name: mesontle
+def: "The heart of the agave, when the leaves and the root are cut off, also named as the  piña of the agave. Piña literally means pineapple in Spanish but in Mexico it is also used to describe the heart of the agave because it so closely resembles a pineapple." [Mezcalistas:https\://www.mezcalistas.com/pinas/]
+synonym: "mezontle" RELATED []
+synonym: "piña" RELATED []
+is_a: BTO:0003841 ! plant organ culture
+relationship: part_of BTO:0001461 ! whole plant
+created_by: Marion
+creation_date: 2021-03-21T18:17:41Z
 
 [Typedef]
 id: bearer_of

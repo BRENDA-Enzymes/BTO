@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: bto/releases/2021-04-27/bto-base.owl
-date: 21:03:2021 18:30
+data-version: bto/releases/2021-10-26/bto-base.owl
+date: 23:10:2021 16:56
 saved-by: Marion
 auto-generated-by: OBO-Edit 2.3.1
 synonymtypedef: FR "LANGUAGE FRENCH"
@@ -252,8 +252,8 @@ name: colorectal adenocarcinoma cell
 def: "Adenocarcinoma cell related to the colon and/or rectum." [Medical_Dictionary:http\://www.medterms.com/]
 synonym: "adenocarcinoma cell, colorectal" RELATED []
 is_a: BTO:0000193 ! rectal cancer cell
-is_a: BTO:0000586 ! colonic cancer cell
 is_a: BTO:0000604 ! adenocarcinoma cell
+is_a: BTO:0001533 ! gastrointestinal cancer cell
 
 [Term]
 id: BTO:0000036
@@ -524,7 +524,8 @@ relationship: contained_in BTO:0000025 ! amniotic cavity
 id: BTO:0000069
 name: WISH cell
 def: "Human amnion cell line with HeLa markers." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
-is_a: BTO:0000110 ! amniotic cell line
+comment: Originally thought to be an amnion cell line, but shown to be a HeLa derivative.
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0000070
@@ -834,6 +835,12 @@ id: BTO:0000111
 name: BALB/3T12-3 cell
 def: "Derived from a 14-17 day old BALB/c mouse embryo. The cells are tumorigenic, are insensitive to contact inhibition and are susceptible to transformation with SV40 virus." [HyperCLDB:http\://www.biotech.ist.unige.it/]
 synonym: "3T12 cell" RELATED []
+synonym: "3T12-3 cell" RELATED []
+synonym: "Balb 3T12 cell" RELATED []
+synonym: "BALB 3T12-3 cell" RELATED []
+synonym: "BALB/3T12 cell" RELATED []
+synonym: "Balb/3T12-3 cell" RELATED []
+synonym: "BALB/c 3T12-3 cell" RELATED []
 is_a: BTO:0001958 ! embryonic fibroblast cell line
 
 [Term]
@@ -2223,6 +2230,7 @@ relationship: part_of BTO:0001233 ! plant embryo
 id: BTO:0000301
 name: crop
 def: "A pouched enlargement of the gullet of many birds that serves as a receptacle for food and for its preliminary maceration; also: an enlargement of the gullet of another animal (as an insect)." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=crop]
+synonym: "craw" RELATED []
 relationship: part_of BTO:0001049 ! pharynx
 
 [Term]
@@ -2657,6 +2665,8 @@ id: BTO:0000365
 name: duodenum
 def: "The first part of the small intestine extending from the pylorus to the jejunum." [From_Merriam-Webster's_Online_Dictionary_at_www.Merriam-Webster.com:http\://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=duodenum]
 synonym: "anterior intestine" RELATED []
+synonym: "dodecadactylon" RELATED []
+synonym: "intestinum duodenum" RELATED []
 synonym: "proximal intestine" RELATED []
 synonym: "upper intestine" RELATED []
 relationship: part_of BTO:0000651 ! small intestine
@@ -3121,8 +3131,8 @@ is_obsolete: true
 id: BTO:0000430
 name: EUE cell
 def: "Human embryonic epithelial cell line." [PMID:9691432]
-is_a: BTO:0000669 ! embryonic cell line
-is_a: BTO:0001120 ! epithelial cell line
+comment: Originally thougt to be a human embryonic epithelial cell line, but shown to be a HeLa derivative.
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0000431
@@ -4537,12 +4547,20 @@ is_a: BTO:0000584 ! pancreatic cancer cell
 
 [Term]
 id: BTO:0000633
-name: intestine-407 cell
+name: Intestine-407 cell
 def: "Human Caucasian embryonic intestine, HeLa characteristics." [HyperCLDB:http\://www.biotech.ist.unige.it/]
+comment: Originally thought to be an intestinal cell line, but shown to be a HeLa derivative.
+synonym: "HEI cell" RELATED []
+synonym: "Henle-407 cell" RELATED []
 synonym: "INT 407 cell" RELATED []
+synonym: "Int 407 cell" RELATED []
 synonym: "INT-407 cell" RELATED []
+synonym: "Int-407 cell" RELATED []
+synonym: "INT407 cell" RELATED []
+synonym: "Int407 cell" RELATED []
 synonym: "intestine 407 cell" RELATED []
-is_a: BTO:0000003 ! intestinal cell line
+synonym: "intestine-407 cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0000634
@@ -5345,7 +5363,7 @@ id: BTO:0000748
 name: P-388 cell
 def: "An experimental lymphocytic leukemia originally induced in DBA/2 mice by painting with methylcholanthrene." [Medical_Encyclopedia:http\://www.nlm.nih.gov/medlineplus/encyclopedia.html]
 synonym: "P388 cell" RELATED []
-is_a: BTO:0000741 ! lymphocytic leukemia cell line
+is_a: BTO:0000104 ! lymphoma cell line
 
 [Term]
 id: BTO:0000749
@@ -5889,8 +5907,8 @@ relationship: develops_from BTO:0001049 ! pharynx
 [Term]
 id: BTO:0000820
 name: C127I cell
-def: "Mouse mammary gland cell line. C127I cells are suitable hosts for transformation with bovine papilloma virus DNA plasmids." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
-is_a: BTO:0003568 ! mammary gland cell line
+def: "Mouse mammary gland tumor cell line. C127I cells are suitable hosts for transformation with bovine papilloma virus DNA plasmids." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+relationship: develops_from BTO:0001193 ! C-127 cell
 
 [Term]
 id: BTO:0000821
@@ -6155,7 +6173,7 @@ id: BTO:0000860
 name: CHRB-30 cell
 def: "Multidrug resistant chinese hamster ovary cell line." [PMID:9099718]
 synonym: "CHRB30 cell" RELATED []
-is_a: BTO:0000977 ! ovary cell line
+relationship: develops_from BTO:0000246 ! CHO cell
 
 [Term]
 id: BTO:0000861
@@ -6662,6 +6680,14 @@ is_a: BTO:0000932 ! neuroblastoma cell line
 id: BTO:0000934
 name: IMR-32 cell
 def: "Human neuroblastoma, established from an abdominal mass (diagnosed as neuroblastoma) of a 1-year-old caucasian boy in 1967." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: " AG03320 cell" RELATED []
+synonym: " AG3320 cell" RELATED []
+synonym: "GM03320 cell" RELATED []
+synonym: "GM3320C cell" RELATED []
+synonym: "GM3320D cell" RELATED []
+synonym: "IMR 32 cell" RELATED []
+synonym: "IMR32 cell" RELATED []
+synonym: "Institute for Medical Research-32 cell" RELATED []
 is_a: BTO:0000932 ! neuroblastoma cell line
 
 [Term]
@@ -7023,7 +7049,7 @@ id: BTO:0000984
 name: P-388D1 cell
 def: "Lymphoma cell line, established from mus musculus DBA/2. Tumors develop within 21 days at 100% frequency in nude mice inoculated subcutaneously with 10(7) cells." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "P388D1 cell" RELATED []
-is_a: BTO:0000104 ! lymphoma cell line
+relationship: develops_from BTO:0000748 ! P-388 cell
 
 [Term]
 id: BTO:0000985
@@ -7520,8 +7546,9 @@ is_a: BTO:0001479 ! culture condition:-grown cell
 id: BTO:0001052
 name: ND-1 cell
 def: "Prostate carcinoma cell line." [PMID:12067994]
+comment: Contaminated. Shown to be a DU-145 derivative.
 synonym: "ND1 cell" RELATED []
-is_a: BTO:0001033 ! prostate cancer cell line
+relationship: develops_from BTO:0001332 ! DU-145 cell
 
 [Term]
 id: BTO:0001053
@@ -7586,7 +7613,10 @@ is_a: BTO:0001033 ! prostate cancer cell line
 id: BTO:0001062
 name: PPC-1 cell
 def: "Human prostate cancer cell line." [PMID:12700285]
-is_a: BTO:0001033 ! prostate cancer cell line
+comment: Contaminated. Shown to be a PC-3 derivative.
+synonym: "Primary Prostate Carcinoma-1 cell" RELATED []
+synonym: "Specimen P-3 cell" RELATED []
+relationship: develops_from BTO:0001061 ! PC-3 cell
 
 [Term]
 id: BTO:0001063
@@ -7605,9 +7635,14 @@ is_a: BTO:0000720 ! plant form
 
 [Term]
 id: BTO:0001065
-name: Tsu-Pr1 cell
-def: "Human prostate epithelial carcinoma cell line." [PMID:12810698]
-is_a: BTO:0001033 ! prostate cancer cell line
+name: TSU-Pr1 cell
+def: "Originally thought to be a human prostate epithelial carcinoma cell line." [PMID:12810698]
+comment: Contaminated. Shown to be a T-24 derivative.
+synonym: "TSU cell" RELATED []
+synonym: "TSU-PR1 cell" RELATED []
+synonym: "Tsu-Pr1 cell" RELATED []
+synonym: "TSUpr1 cell" RELATED []
+relationship: develops_from BTO:0001345 ! T-24 cell
 
 [Term]
 id: BTO:0001066
@@ -7999,6 +8034,21 @@ relationship: part_of BTO:0000282 ! head
 id: BTO:0001118
 name: P3X63Ag8 cell
 def: "Mouse BALB/c plasmacytoma B lymphocyte myeloma cell line. Morphology: lymphoblast. Species: mouse, BALB/c. Tumor: myeloma." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/, HyperCLDB:http\://www.biotech.ist.unige.it/]
+synonym: " P3-X63Ag8 cell" RELATED []
+synonym: "GM03571 cell" RELATED []
+synonym: "P3 X 63 Ag8 cell" RELATED []
+synonym: "P3 x 63Ag8 cell" RELATED []
+synonym: "P3-X63-Ag8 cell" RELATED []
+synonym: "P3/X63 Ag8 cell" RELATED []
+synonym: "P3/X63-Ag8 cell" RELATED []
+synonym: "P3/X63/Ag8 cell" RELATED []
+synonym: "P3x63 Ag8 cell" RELATED []
+synonym: "P3X63 cell" RELATED []
+synonym: "P3x63Ag8 cell" RELATED []
+synonym: "X63 cell" RELATED []
+synonym: "X63-AG8 cell" RELATED []
+synonym: "X63-Ag8 cell" RELATED []
+synonym: "x63-Ag8 cell" RELATED []
 is_a: BTO:0000456 ! plasmacytoma cell line
 is_a: BTO:0000899 ! myeloma cell line
 is_a: BTO:0001522 ! B-lymphocyte cell line
@@ -8690,7 +8740,7 @@ id: BTO:0001219
 name: MEB-4 cell
 def: "Mouse melanoma cell line." [PMID:12517748]
 synonym: "MEB4 cell" RELATED []
-is_a: BTO:0000849 ! melanoma cell line
+relationship: develops_from BTO:0000576 ! B-16 cell
 
 [Term]
 id: BTO:0001220
@@ -9146,6 +9196,8 @@ relationship: part_of BTO:0005810 ! immune system
 id: BTO:0001282
 name: HT-1080 cell
 def: "Human fibrosarcoma cell line; established from the biopsy from a fibrosarcoma of a 35-year-old Caucasian man in 1972; patient did not receive any chemo- or radiotherapy." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "HT 1080 cell" RELATED []
+synonym: "HT1080 cell" RELATED []
 is_a: BTO:0000460 ! fibrosarcoma cell line
 
 [Term]
@@ -10530,7 +10582,8 @@ is_a: BTO:0001045 ! T-lymphocyte cell line
 id: BTO:0001483
 name: WiDr cell
 def: "Human, colon, adenocarcinoma cell line." [HyperCLDB:http\://www.biotech.ist.unige.it/]
-is_a: BTO:0001913 ! colonic adenocarcinoma cell line
+comment: Contaminated. Shown to be a HT-29 derivative .
+relationship: develops_from BTO:0000182 ! HT-29 cell
 
 [Term]
 id: BTO:0001484
@@ -11003,7 +11056,8 @@ relationship: develops_from BTO:0000843 ! megakaryocyte
 id: BTO:0001550
 name: Dami cell
 def: "Human megakaryocytic cell line." [PMID:12670444, PMID:9804859]
-is_a: BTO:0001549 ! megakaryocyte cell line
+comment: Contaminated. Shown to be a HEL derivative.
+relationship: develops_from BTO:0000565 ! HEL cell
 
 [Term]
 id: BTO:0001551
@@ -11239,7 +11293,7 @@ synonym: "T 98 G cell" RELATED []
 synonym: "T98 G cell" RELATED []
 synonym: "T98-G cell" RELATED []
 synonym: "T98G cell" RELATED []
-is_a: BTO:0005949 ! glioblastoma multiforme cell line
+relationship: develops_from BTO:0006123 ! T-98 cell
 
 [Term]
 id: BTO:0001584
@@ -11459,8 +11513,8 @@ relationship: develops_from BTO:0001613 ! colorectum
 id: BTO:0001616
 name: colorectal cancer cell line
 synonym: "CRC cell line" RELATED []
-is_a: BTO:0000797 ! colonic cancer cell line
 is_a: BTO:0001532 ! rectal cancer cell line
+is_a: BTO:0001533 ! gastrointestinal cancer cell
 is_a: BTO:0001614 ! colorectal cell line
 relationship: develops_from BTO:0001615 ! colorectal cancer cell
 
@@ -13450,7 +13504,7 @@ relationship: part_of BTO:0000511 ! gastrointestinal tract
 id: BTO:0001896
 name: IDH4 cell
 def: "SV40-transformed human fibroblast cell line." [PMID:9153257]
-is_a: BTO:0000453 ! fibroblast cell line
+relationship: develops_from BTO:0001229 ! IMR-90 cell
 
 [Term]
 id: BTO:0001897
@@ -13521,8 +13575,33 @@ is_a: BTO:0001368 ! thorax
 
 [Term]
 id: BTO:0001907
-name: NS-1 cell
+name: P3/NS1/1-Ag4.1 cell
 def: "Mouse myeloma cell line." [PMID:12665628]
+synonym: " NS-1-Ag4-1 cell" RELATED []
+synonym: "3 NS1 Ag4/1 cell" RELATED []
+synonym: "<new synonym>" RELATED []
+synonym: "GM-3573 cell" RELATED []
+synonym: "GM03573 cell" RELATED []
+synonym: "GM03573A cell" RELATED []
+synonym: "NS-1 cell" RELATED []
+synonym: "NS-I/1 cell" RELATED []
+synonym: "NS1-1 Ag4.1 cell" RELATED []
+synonym: "NS1-Ag 4/1 cell" RELATED []
+synonym: "NS1-Ag4 cell" RELATED []
+synonym: "NS1-Ag4/1 cell" RELATED []
+synonym: "NSI/1-Ag4-1 cell" RELATED []
+synonym: "P3 NS1 Ag4 cell" RELATED []
+synonym: "P3-NS/1-Ag4-1 cell" RELATED []
+synonym: "P3-NS1/1-Ag4-1 cell" RELATED []
+synonym: "P3-NS1/1Ag 4.1 cell" RELATED []
+synonym: "P3.NS-1/1.Ag4.1 cell" RELATED []
+synonym: "P3/NS-1; NS1/1-Ag4.1 cell" RELATED []
+synonym: "P3/NS1/1-AG4-1 cell" RELATED []
+synonym: "P3/NS1/1-Ag4-1 cell" RELATED []
+synonym: "P3/NS1/Ag4-1 cell" RELATED []
+synonym: "P3/NSI/1-AG4-1 cell" RELATED []
+synonym: "P301 cell" RELATED []
+synonym: "P3X63NS1 cell" RELATED []
 is_a: BTO:0000899 ! myeloma cell line
 
 [Term]
@@ -13562,7 +13641,6 @@ is_a: BTO:0000356 ! breast cancer cell line
 id: BTO:0001913
 name: colonic adenocarcinoma cell line
 is_a: BTO:0000797 ! colonic cancer cell line
-is_a: BTO:0001914 ! colorectal adenocarcinoma cell line
 
 [Term]
 id: BTO:0001914
@@ -13732,8 +13810,13 @@ is_a: BTO:0000407 ! osteosarcoma cell line
 id: BTO:0001939
 name: MCF-10A cell
 def: "Human mammary epithelial cell line." [PMID:15389879]
+synonym: " MCF.10A cell" RELATED []
 synonym: "MCF 10A cell" RELATED []
+synonym: "MCF-10 Attached cell" RELATED []
+synonym: "MCF10-A cell" RELATED []
 synonym: "MCF10A cell" RELATED []
+synonym: "MCF10a cell" RELATED []
+synonym: "Michigan Cancer Foundation-10A cell" RELATED []
 is_a: BTO:0002768 ! mammary epithelial cell line
 
 [Term]
@@ -13761,9 +13844,14 @@ relationship: part_of BTO:0000344 ! stratum corneum
 
 [Term]
 id: BTO:0001944
-name: H9 cell
+name: H-9 cell
 def: "Human acute lymphoblastic leukemia cell line." [HyperCLDB:http\://www.biotech.ist.unige.it/]
-is_a: BTO:0002144 ! acute lymphoblastic leukemia cell line
+comment: Shown to be a clone of HUT-78 cell.
+synonym: "H 9 cell" RELATED []
+synonym: "H9 cell" RELATED []
+synonym: "HT clone H9 cell" RELATED []
+synonym: "HT(H9) cell" RELATED []
+relationship: develops_from BTO:0001945 ! HUT-78 cell
 
 [Term]
 id: BTO:0001945
@@ -14179,8 +14267,11 @@ is_a: BTO:0001530 ! glioblastoma cell line
 id: BTO:0002006
 name: ALVA-41 cell
 def: "Human prostate cancer cell line." [PMID:7533340]
+comment: Contaminated. Shown to be a PC-3 derivative.
+synonym: "ALVA 41 cell" RELATED []
 synonym: "ALVA41 cell" RELATED []
-is_a: BTO:0001033 ! prostate cancer cell line
+synonym: "American Lake VA-41 cell" RELATED []
+relationship: develops_from BTO:0001061 ! PC-3 cell
 
 [Term]
 id: BTO:0002007
@@ -14248,9 +14339,9 @@ relationship: develops_from BTO:0001332 ! DU-145 cell
 
 [Term]
 id: BTO:0002016
-name: C81-61 cell
+name: C-8161 cell
 def: "Human melanoma cell line." [PMID:15054471]
-synonym: "C-8161 cell" RELATED []
+synonym: "C81-61 cell" RELATED []
 synonym: "C8161 cell" RELATED []
 is_a: BTO:0000849 ! melanoma cell line
 
@@ -14338,8 +14429,9 @@ relationship: develops_from BTO:0001774 ! oral cancer cell
 id: BTO:0002028
 name: J-96 cell
 def: "Human, Caucasian, peripheral blood, subacute leukemia cell line." [HyperCLDB:http\://www.biotech.ist.unige.it/]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "J96 cell" RELATED []
-is_a: BTO:0000737 ! leukemia cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0002029
@@ -14495,8 +14587,10 @@ is_a: BTO:0002007 ! aggregation stage
 id: BTO:0002049
 name: Chang cell
 def: "Human normal hepatic cell line with epithelial-like morphology. Originally established from liver, HeLa-contaminated." [Cell_Name_Index:http\://www.jhsf.or.jp/bank/CellName.html]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "Chang liver cell" RELATED []
-is_a: BTO:0000224 ! liver cell line
+synonym: "CHL cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0002050
@@ -16314,7 +16408,15 @@ is_a: BTO:0001262 ! soft body part
 id: BTO:0002306
 name: ARO cell
 def: "Human anaplastic thyroid cancer cell line." [PMID:16172195]
-is_a: BTO:0003209 ! anaplastic thyroid cancer cell line
+comment: Contaminated. Shown to be a HT-29 derivative.
+synonym: "ARO 81-1 cell" RELATED []
+synonym: "ARO-81 cell" RELATED []
+synonym: "ARO81 cell" RELATED []
+synonym: "ARO81-1 cell" RELATED []
+synonym: "UCLA RO-81-A-1 cell" RELATED []
+synonym: "UCLA-RO 81 cell" RELATED []
+synonym: "UCLA-RO-81A-1 cell" RELATED []
+relationship: develops_from BTO:0000182 ! HT-29 cell
 created_by: mgr
 creation_date: 2010-09-28T04:15:56Z
 
@@ -16861,8 +16963,10 @@ is_a: BTO:0000787 ! gastric cancer cell line
 id: BTO:0002381
 name: MKN-28 cell
 def: "Well differentiated human gastric adenocarcinoma cell line." [PMID:10073143]
+comment: Contaminated. Shown to be a MKN74 derivative.
+synonym: "MKN 28 cell" RELATED []
 synonym: "MKN28 cell" RELATED []
-is_a: BTO:0002380 ! gastric adenocarcinoma cell line
+relationship: develops_from BTO:0002383 ! MKN-74 cell
 
 [Term]
 id: BTO:0002382
@@ -16938,8 +17042,10 @@ relationship: develops_from BTO:0002389 ! U-1285 cell
 id: BTO:0002392
 name: SGC-7901 cell
 def: "Human gastric cancer cell line." [PMID:16401398]
+comment: Contaminated. Shown to be a HeLa derivative.
+synonym: "SGC 7901 cell" RELATED []
 synonym: "SGC7901 cell" RELATED []
-is_a: BTO:0000787 ! gastric cancer cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0002393
@@ -16954,7 +17060,7 @@ is_a: BTO:0001242 ! fetal cell line
 id: BTO:0002394
 name: DC-3F cell
 def: "Chinese hamster lung fibroblast cell line." [PMID:12145328]
-is_a: BTO:0000161 ! lung fibroblast cell line
+relationship: develops_from BTO:0002995 ! DEDE cell
 
 [Term]
 id: BTO:0002395
@@ -17031,8 +17137,9 @@ is_a: BTO:0000383 ! renal cell carcinoma cell line
 id: BTO:0002404
 name: YMB-1 cell
 def: "Human breast cancer cell line; established from a 55 year-old human female." [Cell_Name_Index:http\://www.jhsf.or.jp/bank/CellName.html]
+comment: Problematic cell line: Contaminated. Shown to be a ZR-75-1 derivative.
 synonym: "YMB1 cell" RELATED []
-is_a: BTO:0004086 ! mammary gland tumor cell line
+relationship: develops_from BTO:0003136 ! ZR-75-1 cell
 
 [Term]
 id: BTO:0002405
@@ -18000,6 +18107,11 @@ creation_date: 2013-03-01T08:37:18Z
 id: BTO:0002537
 name: BNL CL.2 cell
 def: "Mus musculus BALB/c liver cell line; established from an embryo." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+synonym: "BN-CL2 cell" RELATED []
+synonym: "BNCL-2 cell" RELATED []
+synonym: "BNCL2 cell" RELATED []
+synonym: "BNL CL2 cell" RELATED []
+synonym: "BNL-CL.2 cell" RELATED []
 synonym: "BNL-CL2 cell" RELATED []
 synonym: "BNL.CL2 cell" RELATED []
 synonym: "TIB-73 cell " BROAD []
@@ -18244,7 +18356,7 @@ id: BTO:0002571
 name: Caco-2/TC7 cell
 def: "Caco-2/TC7 cell line was established from the parental human enterocyte-like Caco-2 cell line." [PMID:16907815]
 synonym: "Caco-2/TC-7 cell" RELATED []
-is_a: BTO:0000195 ! CACO-2 cell
+relationship: develops_from BTO:0000195 ! CACO-2 cell
 
 [Term]
 id: BTO:0002572
@@ -18848,7 +18960,7 @@ is_a: BTO:0000424 ! erythrocyte
 id: BTO:0002657
 name: mpkCCDc14 cell
 def: "Kidney cortical collecting duct cell line." [GEO_Gene_Expression_Omnibus:NCBI]
-is_a: BTO:0002658 ! collecting duct cell line
+relationship: develops_from BTO:0006302 ! mpkCCD cell
 
 [Term]
 id: BTO:0002658
@@ -19208,7 +19320,7 @@ is_a: BTO:0001479 ! culture condition:-grown cell
 id: BTO:0002708
 name: GT1-7 cell
 def: "Immortalized female rat hypothalamus gonadotropin-releasing hormone (GnRH) neurons." [PMID:16879992]
-is_a: BTO:0000947 ! neuronal cell line
+relationship: develops_from BTO:0003898 ! GT1 cell
 
 [Term]
 id: BTO:0002709
@@ -19495,7 +19607,7 @@ is_a: BTO:0001521 ! pancreatic adenocarcinoma cell line
 id: BTO:0002746
 name: PC-1.0 cell
 def: "Hamster pancreatic cancer cell line." [PMID:16110828]
-is_a: BTO:0001521 ! pancreatic adenocarcinoma cell line
+relationship: develops_from BTO:0002747 ! PC-1 cell
 
 [Term]
 id: BTO:0002747
@@ -19626,7 +19738,7 @@ id: BTO:0002767
 name: GH4-C1 cell
 def: "Rat pituitary tumor cell line; established from a pituitary tumor of a 7-month-old female Wistar/Furth rat. Cell line GH4 was subcloned in order to obtain a cell line secreting high amounts of growth hormones." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 synonym: "GH4C1 cell" RELATED []
-is_a: BTO:0000756 ! pituitary gland tumor cell line
+relationship: develops_from BTO:0001410 ! GH3 cell
 
 [Term]
 id: BTO:0002768
@@ -19881,6 +19993,10 @@ def: "The human melanoma cell line M14 has been established from surgically remo
 synonym: "M-14 cell" RELATED []
 synonym: "M-14 melanoma cell" RELATED []
 synonym: "M14 cell" RELATED []
+synonym: "M14-MEL cell" RELATED []
+synonym: "Melanoma 14 cell" RELATED []
+synonym: "UCLA SO M14 cell" RELATED []
+synonym: "UCLA-SO-M14 cell" RELATED []
 is_a: BTO:0000849 ! melanoma cell line
 
 [Term]
@@ -20416,8 +20532,10 @@ relationship: develops_from BTO:0002875 ! CL1-0 cell
 id: BTO:0002877
 name: PC-14 cell
 def: "Human lung adenocarcinoma cell line." [PMID:15746434]
+comment: Contaminated. Shown to be a PC-9 derivative.
+synonym: "PC 14 cell" RELATED []
 synonym: "PC14 cell" RELATED []
-is_a: BTO:0001911 ! lung adenocarcinoma cell line
+relationship: develops_from BTO:0005518 ! PC-9 cell
 
 [Term]
 id: BTO:0002878
@@ -20736,7 +20854,6 @@ name: LS174T-HM7 cell
 def: "High-mucin variant cell line, derived from parental cell line LS174T." [PMID:7745973]
 synonym: "HM-7 cell" RELATED []
 synonym: "HM7 cell" RELATED []
-is_a: BTO:0001616 ! colorectal cancer cell line
 relationship: develops_from BTO:0001553 ! LS-174T cell
 
 [Term]
@@ -20879,9 +20996,12 @@ is_a: BTO:0000762 ! lung cancer cell line
 id: BTO:0002941
 name: Colo-38 cell
 def: "Human melanoma cell line." [PMID:1710168]
+comment: Contaminated. Shown to be a M14 derivative.
+synonym: "COLO #38 cell" RELATED []
 synonym: "Colo 38 cell" RELATED []
 synonym: "Colo38 cell" RELATED []
-is_a: BTO:0000849 ! melanoma cell line
+synonym: "Colorado 38 cell" RELATED []
+relationship: develops_from BTO:0002805 ! M14 melanoma cell
 
 [Term]
 id: BTO:0002942
@@ -21076,9 +21196,12 @@ is_a: BTO:0000849 ! melanoma cell line
 
 [Term]
 id: BTO:0002970
-name: H494 cell
+name: H-494 cell
 def: "Human prostate carcinoma cell line." [PMID:6788840]
-is_a: BTO:0001033 ! prostate cancer cell line
+comment: Contaminated. Shown to be a HeLa derivative.
+synonym: "H 494 cell" RELATED []
+synonym: "H494 cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0002971
@@ -21117,6 +21240,7 @@ relationship: develops_from BTO:0000007 ! HEK-293 cell
 id: BTO:0002975
 name: A-2058 cell
 def: "Human skin melanoma cell line, established from a 43 years adult caucasian male." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+synonym: "A 2058 cell" RELATED []
 synonym: "A2058 cell" RELATED []
 is_a: BTO:0000849 ! melanoma cell line
 
@@ -21228,6 +21352,7 @@ is_a: BTO:0000416 ! epithelium
 id: BTO:0002992
 name: ARH-77 cell
 def: "Human plasma cell leukemia cell line, established from the peripheral blood of a 33-year-old woman with IgG plasma cell leukemia; cell line is widely used as model for multiple myeloma/plasma cell leukemia, but cells are clearly EBV+ indicating that ARH-77 might be rather a normal B-lymphoblastoid cell line than a tumor cell line." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+comment: Misclassified. Originally thought to be a myeloma cell line but is a B-lymphoblastoid cell line.
 synonym: "ARH77 cell" RELATED []
 is_a: BTO:0002062 ! B-lymphoblastoid cell line
 
@@ -21250,9 +21375,10 @@ relationship: develops_from BTO:0000817 ! mammary gland
 
 [Term]
 id: BTO:0002995
-name: CCL-39 cell
+name: DEDE cell
 def: "Cricetulus griseus (chinese hamster) lung fibroblast cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
-synonym: "CCL39 cell" RELATED []
+synonym: "CCL-39 cell" RELATED MS []
+synonym: "CCL39 cell" RELATED MS []
 is_a: BTO:0000161 ! lung fibroblast cell line
 
 [Term]
@@ -21542,7 +21668,9 @@ creation_date: 2010-10-08T09:33:37Z
 id: BTO:0003031
 name: HCA-7 cell
 def: "HCA-7 cell line was originally derived from human colonic carcinoma." [PMID:9151799]
-is_a: BTO:0000797 ! colonic cancer cell line
+synonym: "HCA 7 cell" RELATED []
+synonym: "HCA7 cell" RELATED []
+is_a: BTO:0001913 ! colonic adenocarcinoma cell line
 
 [Term]
 id: BTO:0003032
@@ -21616,6 +21744,8 @@ relationship: develops_from BTO:0000658 ! uterine adenocarcinoma cell
 id: BTO:0003041
 name: Ishikawa cell
 def: "The cell line Ishikawa was established from an endometrial adenocarcinoma from a 39-year-old Asian woman." [European_collection_of_cell_cultures:ECACC]
+synonym: "ISHI cell" RELATED []
+synonym: "ISHIKAWA cell" RELATED []
 is_a: BTO:0003040 ! uterine adenocarcinoma cell line
 
 [Term]
@@ -21629,7 +21759,7 @@ is_a: BTO:0002279 ! J-774 cell
 id: BTO:0003043
 name: JJ012-TS4 cell
 def: "Human chondrosarcoma cell line." [PMID:14701864]
-is_a: BTO:0001574 ! chondrosarcoma cell line
+relationship: develops_from BTO:0005168 ! JJ012 cell
 
 [Term]
 id: BTO:0003044
@@ -21874,7 +22004,7 @@ relationship: develops_from BTO:0003079 ! RAMOS (RA.1) cell
 id: BTO:0003078
 name: RAMOS-EHRB cell
 def: "Human Caucasian Burkitt's lymphoma cell line. Derived from a three-year-old male Caucasian with histologic diagnosis of Burkitt's lymphoma. It is EBV positive." [European_collection_of_cell_cultures:ECACC]
-is_a: BTO:0000889 ! Burkitt lymphoma cell line
+relationship: develops_from BTO:0003079 ! RAMOS (RA.1) cell
 
 [Term]
 id: BTO:0003079
@@ -22246,7 +22376,8 @@ is_a: BTO:0003128 ! brain microvascular endothelial cell line
 id: BTO:0003130
 name: FL cell
 def: "Human amnion epithelial cell line." [PMID:16619194]
-is_a: BTO:0001373 ! amnion epithelial cell line
+comment: Contaminated. Shown to be a HeLa derivative.
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0003131
@@ -22921,10 +23052,12 @@ is_a: BTO:0003225 ! neurilemoma cell line
 id: BTO:0003227
 name: SMMC-7721 cell
 def: "Human hepatocellular carcinoma cell line." [PMID:18076791]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "H-7721 cell" RELATED []
 synonym: "H7721 cell" RELATED []
+synonym: "SMMC 7721 cell" RELATED []
 synonym: "SMMC7721 cell" RELATED []
-is_a: BTO:0000578 ! hepatoma cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0003228
@@ -23144,20 +23277,20 @@ is_a: BTO:0000421 ! connective tissue
 id: BTO:0003258
 name: Col-1 cell
 def: "Human colonic adenocarcinoma cell line." [PMID:11156595]
-is_a: BTO:0001913 ! colonic adenocarcinoma cell line
+relationship: develops_from BTO:0003031 ! HCA-7 cell
 
 [Term]
 id: BTO:0003259
 name: Col-24 cell
 def: "Human colonic adenocarcinoma cell line." [PMID:11156595]
 synonym: "Colony-24 cell" RELATED []
-is_a: BTO:0001913 ! colonic adenocarcinoma cell line
+relationship: develops_from BTO:0003031 ! HCA-7 cell
 
 [Term]
 id: BTO:0003260
 name: Col-6 cell
 def: "Human colonic adenocarcinoma cell line." [PMID:11156595]
-is_a: BTO:0001913 ! colonic adenocarcinoma cell line
+relationship: develops_from BTO:0003031 ! HCA-7 cell
 
 [Term]
 id: BTO:0003261
@@ -23321,8 +23454,9 @@ is_a: BTO:0002380 ! gastric adenocarcinoma cell line
 id: BTO:0003284
 name: TMC-1 cell
 def: "The EBV negative TMC1 cell line was derived from metastatic tumor cells in the lymph node of a patient with poorly differentiated adenocarcinoma of the stomach." [PMID:9422524]
+comment: Contaminated. Shown to be a SW480 derivative.
 synonym: "TMC1 cell" RELATED []
-is_a: BTO:0002380 ! gastric adenocarcinoma cell line
+relationship: develops_from BTO:0000038 ! SW-480 cell
 
 [Term]
 id: BTO:0003285
@@ -23415,9 +23549,10 @@ relationship: develops_from BTO:0004122 ! bone marrow stromal cell
 id: BTO:0003297
 name: NCTC-2544 cell
 def: "Human skin keratinocyte cell line." [HyperCLDB:http\://www.biotech.ist.unige.it/]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "NCTC 2544 cell" RELATED []
 synonym: "NCTC2544 cell" RELATED []
-is_a: BTO:0000375 ! keratinocyte cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0003298
@@ -23497,7 +23632,7 @@ is_a: BTO:0001033 ! prostate cancer cell line
 id: BTO:0003307
 name: L6E9 cell
 def: "Rat myoblast cell line." [PMID:11278386]
-is_a: BTO:0000256 ! myoblast cell line
+relationship: develops_from BTO:0002809 ! L-6 myoblast cell
 
 [Term]
 id: BTO:0003308
@@ -23531,15 +23666,18 @@ is_a: BTO:0002932 ! cholangiocarcinoma cell line
 id: BTO:0003312
 name: KM-12C cell
 def: "Colorectal carcinoma cell line derived from a primary tumor." [PMID:17409450]
+synonym: "KM12 C cell" RELATED []
+synonym: "KM12-C cell" RELATED []
 synonym: "KM12C cell" RELATED []
-is_a: BTO:0001616 ! colorectal cancer cell line
+synonym: "Km12C cell" RELATED []
+relationship: develops_from BTO:0003172 ! KM-12 cell
 
 [Term]
 id: BTO:0003313
 name: WT-8 cell
 def: "Rat hepatoma cell line." [PMID:16824661]
 synonym: "WT8 cell" RELATED []
-is_a: BTO:0000578 ! hepatoma cell line
+relationship: develops_from BTO:0003234 ! FTO-2B cell
 
 [Term]
 id: BTO:0003314
@@ -23560,10 +23698,13 @@ is_a: BTO:0002709 ! head and neck squamous cell carcinoma cell line
 [Term]
 id: BTO:0003316
 name: JB6 Cl41 cell
-def: "Human colorectal cancer cell line." [PMID:17631144]
+def: "Mouse skin epidermis cell line; established from primary cultures of neonatal BALB/c epidermal cells that had been treated with dimethylsulfoxide." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "B6 Cl 41-5a cell" RELATED []
+synonym: "JB-6 Cl 41 cell" RELATED []
+synonym: "JB6 Cl41 cell" RELATED []
 synonym: "JB6 clone 41 cell" RELATED []
 synonym: "JB6Cl41 cell" RELATED []
-is_a: BTO:0001616 ! colorectal cancer cell line
+relationship: develops_from BTO:0004831 ! JB6 cell
 
 [Term]
 id: BTO:0003317
@@ -23603,14 +23744,15 @@ synonym: "HEL 92.1.7 cell" RELATED []
 synonym: "HEL TIB 180 cell" RELATED []
 synonym: "HEL.92.1.7 cell" RELATED []
 synonym: "HEL92.1.7 cell" RELATED []
-is_a: BTO:0000846 ! erythroleukemia cell line
+synonym: "HEL9217 cell" RELATED []
+relationship: develops_from BTO:0000565 ! HEL cell
 
 [Term]
 id: BTO:0003321
 name: HCE cell
 def: "Human corneal epithelial cell line." [PMID:11446462]
 comment: Problematic cell line: Contaminated. Shown to be a HeLa derivative. PubMed=1246601, 20143388.
-is_a: BTO:0003221 ! corneal cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0003322
@@ -24320,15 +24462,17 @@ is_a: BTO:0000794 ! pancreatic cancer cell line
 id: BTO:0003429
 name: BIC-1 cell
 def: "Barrett's esophageal adenocarcinoma cell line." [PMID:14599624]
+comment: Contaminated. Shown to be a SW480 derivative.
 synonym: "BIC1 cell" RELATED []
-is_a: BTO:0002817 ! esophageal cancer cell line
+relationship: develops_from BTO:0000038 ! SW-480 cell
 
 [Term]
 id: BTO:0003430
 name: SEG-1 cell
 def: "Barrett's esophageal adenocarcinoma cell line." [PMID:14599624]
+comment: Contaminated. Shown to be a NCI-H460 derivative.
 synonym: "SEG1 cell" RELATED []
-is_a: BTO:0002817 ! esophageal cancer cell line
+relationship: develops_from BTO:0002207 ! NCI-H460 cell
 
 [Term]
 id: BTO:0003431
@@ -24406,7 +24550,7 @@ id: BTO:0003441
 name: L3.6pl cell
 def: "Human pancreatic cancer cell line." [PMID:18790769]
 synonym: "L3.6p1 cell" RELATED []
-is_a: BTO:0000794 ! pancreatic cancer cell line
+relationship: develops_from BTO:0003440 ! COLO-357 cell
 
 [Term]
 id: BTO:0003442
@@ -25136,7 +25280,8 @@ is_a: BTO:0000932 ! neuroblastoma cell line
 id: BTO:0003549
 name: KP-1N cell
 def: "Human pancreatic cancer cell line, obtained from liver metastases of pancreatic tumors." [PMID:2172194]
-is_a: BTO:0000794 ! pancreatic cancer cell line
+comment: Contaminated. Shown to be a PANC-1 derivative.
+relationship: develops_from BTO:0000304 ! PANC-1 cell
 
 [Term]
 id: BTO:0003550
@@ -25304,8 +25449,9 @@ relationship: develops_from BTO:0000738 ! HL-60 cell
 id: BTO:0003574
 name: HTC-4 cell
 def: "Rat hepatoma cell line." [PMID:10617617]
+synonym: "Hepatoma Tissue Culture-4 cell" RELATED []
 synonym: "HTC4 cell" RELATED []
-is_a: BTO:0000578 ! hepatoma cell line
+relationship: develops_from BTO:0000607 ! HTC cell
 
 [Term]
 id: BTO:0003575
@@ -25753,7 +25899,9 @@ is_a: BTO:0000811 ! ovary cancer cell line
 id: BTO:0003639
 name: EJ-1 cell
 def: "Human urinary bladder cancer cell line." [PMID:18949407]
-is_a: BTO:0000792 ! urinary bladder carcinoma cell line
+comment: Contaminated. Shown to be a T24 derivative.
+synonym: "EJ1 cell" RELATED []
+relationship: develops_from BTO:0001345 ! T-24 cell
 
 [Term]
 id: BTO:0003640
@@ -26129,7 +26277,7 @@ relationship: develops_from BTO:0000227 ! central nervous system
 id: BTO:0003695
 name: CAD cell
 def: "A CNS catecholaminergic cell line." [PMID:9006967]
-is_a: BTO:0003694 ! CNS cell line
+relationship: develops_from BTO:0005820 ! CATH.a cell
 
 [Term]
 id: BTO:0003696
@@ -26152,15 +26300,18 @@ relationship: disease_causes_dysfunction_of BTO:0000290 ! coronary artery
 
 [Term]
 id: BTO:0003699
-name: C1R cell
+name: HMy2.C1R cell
 def: "The HLA-A,B negative mutant cell line C1R is widely used as a transfection recipient in functional studies of class I MHC genes. It was derived from a normal B cell line." [PMID:1541831]
+synonym: "C1R cell" RELATED []
+synonym: "Hmy2.CIR cell" RELATED []
 is_a: BTO:0001522 ! B-lymphocyte cell line
+relationship: develops_from BTO:0002992 ! ARH-77 cell
 
 [Term]
 id: BTO:0003700
 name: C1R-B27 cell
 def: "Human C1R cell line, that stably expresses the HLA-B27 molecule." [PMID:11337494]
-relationship: develops_from BTO:0003699 ! C1R cell
+relationship: develops_from BTO:0003699 ! HMy2.C1R cell
 
 [Term]
 id: BTO:0003701
@@ -26212,14 +26363,14 @@ id: BTO:0003706
 name: WTK-1 cell
 def: "Human lymphoblastoid cell line." [PMID:16584912]
 synonym: "WTK1 cell" RELATED []
-is_a: BTO:0000773 ! lymphoblastoid cell line
+relationship: develops_from BTO:0001524 ! WIL2-NS cell
 
 [Term]
 id: BTO:0003707
 name: TK-6 cell
 def: "Human lymphoblastoid cell line." [PMID:16584912]
 synonym: "TK6 cell" RELATED []
-is_a: BTO:0000773 ! lymphoblastoid cell line
+relationship: develops_from BTO:0001523 ! WIL-2 cell
 
 [Term]
 id: BTO:0003708
@@ -26301,7 +26452,7 @@ name: V-79-4 cell
 def: "Lung cell line; derived from the lung tissue of a male Chinese hamster; clone of V79 cell line." [HyperCLDB:http\://www.biotech.ist.unige.it/]
 synonym: "V 79-4 cell" RELATED []
 synonym: "V79-4 cell" RELATED []
-is_a: BTO:0000353 ! lung cell line
+relationship: develops_from BTO:0001425 ! V-79 cell
 
 [Term]
 id: BTO:0003720
@@ -26581,8 +26732,12 @@ is_a: BTO:0000578 ! hepatoma cell line
 id: BTO:0003761
 name: SNB-19 cell
 def: "Human glioblastoma cell line; established from the surgical resection of a left parieto-occipital glioblastoma from a 47-year-old man in 1980." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+comment: Contaminated. Shown to be a U-251MG derivative.
+synonym: "Aurgical Neurology Branch-19 cell" RELATED []
+synonym: "SNB 19 cell" RELATED []
+synonym: "SNB.19 cell" RELATED []
 synonym: "SNB19 cell" RELATED []
-is_a: BTO:0001530 ! glioblastoma cell line
+relationship: develops_from BTO:0002035 ! U-251MG cell
 
 [Term]
 id: BTO:0003762
@@ -26648,7 +26803,7 @@ id: BTO:0003771
 name: T2 cell
 def: "Human-human somatic cell hybrid cell line, established by PEG-mediated fusion of the B-lymphoblastoid cell line LCL 721.174 with an 8-azaguanine and ouabain-resistant variant of the T-LCL CEM. Subclone of the T1 cell line which has lost both CEM(R)-derived copies of chromosome 6." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
 synonym: "174xCEM.T2 cell" RELATED []
-is_a: BTO:0001926 ! hybridoma cell line
+relationship: develops_from BTO:0006566 ! T1 cell
 
 [Term]
 id: BTO:0003772
@@ -26666,6 +26821,8 @@ is_a: BTO:0001289 ! squamous cell carcinoma cell
 id: BTO:0003774
 name: SCC-25 cell
 def: "Human squamous cell carcinoma cell line; established from the biopsy of a squamous cell carcinoma of the tongue of a 70-year-old man." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "hSCC-25 cell" RELATED []
+synonym: "SCC 25 cell" RELATED []
 synonym: "SCC25 cell" RELATED []
 is_a: BTO:0002211 ! oral squamous cell carcinoma cell line
 
@@ -26694,7 +26851,7 @@ is_a: BTO:0003776 ! urinary bladder squamous cell carcinoma cell line
 id: BTO:0003778
 name: SAOS-alpha2beta1 cell
 def: "Human osteosarcoma cell line, overexpressing the alpha2 integrin subunit." [PMID:18448666]
-is_a: BTO:0000407 ! osteosarcoma cell line
+relationship: develops_from BTO:0000971 ! SAOS-2 cell
 
 [Term]
 id: BTO:0003779
@@ -27143,7 +27300,8 @@ is_a: BTO:0001289 ! squamous cell carcinoma cell
 id: BTO:0003850
 name: ALVA-31 cell
 def: "Human primary prostate tumor cell line." [PMID:7681207]
-is_a: BTO:0001033 ! prostate cancer cell line
+comment: Contaminated. Shown to be a PC-3 derivative.
+relationship: develops_from BTO:0001061 ! PC-3 cell
 
 [Term]
 id: BTO:0003851
@@ -27199,13 +27357,19 @@ relationship: develops_from BTO:0000249 ! chondrocyte
 id: BTO:0003859
 name: C-28/I2 cell
 def: "Immortalized human chondrocyte cell line." [PMID:14673991]
+synonym: " C-28I2 cell" RELATED []
 synonym: "C28/I2 cell" RELATED []
-is_a: BTO:0003858 ! chondrocyte cell line
+relationship: develops_from BTO:0003860 ! T/C-28a2 cell
 
 [Term]
 id: BTO:0003860
 name: T/C-28a2 cell
 def: "Human chondrocyte cell line." [PMID:17126445]
+synonym: "C28A2 cell" RELATED []
+synonym: "T/C-28 a2 cell" RELATED []
+synonym: "T/C-28 cell" RELATED []
+synonym: "T/C28a2 cell" RELATED []
+synonym: "TC28a2 cell" RELATED []
 is_a: BTO:0003858 ! chondrocyte cell line
 
 [Term]
@@ -27327,8 +27491,9 @@ is_a: BTO:0000407 ! osteosarcoma cell line
 id: BTO:0003878
 name: BGC-823 cell
 def: "Human gastric cancer cell line." [PMID:19396019]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "BGC823 cell" RELATED []
-is_a: BTO:0000787 ! gastric cancer cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0003879
@@ -27407,15 +27572,21 @@ is_a: BTO:0002709 ! head and neck squamous cell carcinoma cell line
 id: BTO:0003889
 name: JHU-019 cell
 def: "Human head and neck squamous cell carcinoma (HNSCC) cell line." [PMID:18347187]
+comment: Contaminated. Shown to be a PC-3 derivative.
 synonym: "JHU-O19 cell" RELATED []
-is_a: BTO:0002709 ! head and neck squamous cell carcinoma cell line
+relationship: develops_from BTO:0001061 ! PC-3 cell
 
 [Term]
 id: BTO:0003890
 name: JHU-013 cell
 def: "Human head and neck squamous cell carcinoma (HNSCC) cell line." [PMID:18347187]
+comment: Contaminated. Shown to be a FaDu derivative.
+synonym: "JHU 013 cell" RELATED []
+synonym: "JHU-13 cell" RELATED []
 synonym: "JHU-O13 cell" RELATED []
-is_a: BTO:0002709 ! head and neck squamous cell carcinoma cell line
+synonym: "JHU013 cell" RELATED []
+synonym: "O13 cell" RELATED []
+relationship: develops_from BTO:0003233 ! FaDu cell
 
 [Term]
 id: BTO:0003891
@@ -27476,13 +27647,16 @@ is_a: BTO:0000947 ! neuronal cell line
 id: BTO:0003899
 name: GT1-1 cell
 def: "Immortalized GnRH secreting mouse neuronal cell line." [PMID:17466987]
-is_a: BTO:0000947 ! neuronal cell line
+relationship: develops_from BTO:0003898 ! GT1 cell
 
 [Term]
 id: BTO:0003900
 name: MCF-10F cell
 def: "Normal breast epithelial cell line." [PMID:18423413]
+synonym: "MCF 10F cell" RELATED []
+synonym: "MCF-10 Floating cell" RELATED []
 synonym: "MCF10F cell" RELATED []
+synonym: "Michigan Cancer Foundation-10F cell" RELATED []
 is_a: BTO:0002768 ! mammary epithelial cell line
 
 [Term]
@@ -27799,6 +27973,7 @@ id: BTO:0003944
 name: Mel-Ab cell
 def: "Spontaneously immortalized mouse melanocyte cell line." [PMID:19406006]
 is_a: BTO:0003183 ! melanocyte cell line
+relationship: develops_from BTO:0003216 ! melan-a cell
 
 [Term]
 id: BTO:0003945
@@ -28422,7 +28597,8 @@ is_a: BTO:0000811 ! ovary cancer cell line
 id: BTO:0004035
 name: 222 cell
 def: "Human gynecologic ovarian cancer cell line." [PMID:9554442]
-is_a: BTO:0000811 ! ovary cancer cell line
+comment: Contaminated. Shown to be a PA-1 derivative.
+relationship: develops_from BTO:0001591 ! PA-1 cell
 
 [Term]
 id: BTO:0004036
@@ -28542,8 +28718,13 @@ relationship: develops_from BTO:0001344 ! adult T-cell lymphoma cell
 id: BTO:0004050
 name: BEL-7402 cell
 def: "Human liver cancer cell line." [PMID:19666410]
+comment: Contaminated. Shown to be a HeLa derivative.
+synonym: "BEL 7402 cell" RELATED []
+synonym: "Bel 7402 cell" RELATED []
+synonym: "Bel-7402 cell" RELATED []
 synonym: "BEL7402 cell" RELATED []
-is_a: BTO:0000578 ! hepatoma cell line
+synonym: "Bel7402 cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0004051
@@ -28988,7 +29169,11 @@ is_a: BTO:0003236 ! gall bladder cancer cell line
 id: BTO:0004113
 name: GLC-82 cell
 def: "Lung adenocarcinoma cell line." [PMID:16219134]
-is_a: BTO:0001911 ! lung adenocarcinoma cell line
+comment: Contaminated. Shown to be a HeLa derivative.
+synonym: "Gejiu Lung Carcinoma-82 cell" RELATED []
+synonym: "Glc-82 cell" RELATED []
+synonym: "GLC82 cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 
 [Term]
 id: BTO:0004114
@@ -29194,20 +29379,20 @@ id: BTO:0004143
 name: Lovo-175X2 cell
 def: "Colorectal cancer cell line." [PMID:18600534]
 synonym: "Lovo175X2 cell" RELATED []
-is_a: BTO:0001616 ! colorectal cancer cell line
+relationship: develops_from BTO:0004146 ! Lovo-92 cell
 
 [Term]
 id: BTO:0004144
 name: Lovo-273X17 cell
 def: "Colorectal cancer cell line." [PMID:18600534]
 synonym: "Lovo273X17 cell" RELATED []
-is_a: BTO:0001616 ! colorectal cancer cell line
+relationship: develops_from BTO:0004146 ! Lovo-92 cell
 
 [Term]
 id: BTO:0004145
 name: Lovo-li cell
 def: "Colorectal cancer cell line." [PMID:18600534]
-is_a: BTO:0001616 ! colorectal cancer cell line
+relationship: develops_from BTO:0004146 ! Lovo-92 cell
 
 [Term]
 id: BTO:0004146
@@ -29215,6 +29400,7 @@ name: Lovo-92 cell
 def: "Colorectal cancer cell line." [PMID:18508032]
 synonym: "Lovo92 cell" RELATED []
 is_a: BTO:0001616 ! colorectal cancer cell line
+relationship: develops_from BTO:0000666 ! LoVo cell
 
 [Term]
 id: BTO:0004147
@@ -29474,7 +29660,10 @@ relationship: develops_from BTO:0003054 ! OVCA-8 cell
 id: BTO:0004182
 name: NCI-H322M cell
 def: "Human non-small cell lung cancer cell line." [PMID:17332303]
-is_a: BTO:0002553 ! non-small cell lung cancer cell line
+synonym: "H-322M cell" RELATED []
+synonym: "H-322m cell" RELATED []
+synonym: "NCI.H322M cell" RELATED []
+relationship: develops_from BTO:0003007 ! NCI-H322 cell
 
 [Term]
 id: BTO:0004183
@@ -29501,7 +29690,10 @@ relationship: part_of BTO:0000108 ! olfactory epithelium
 id: BTO:0004186
 name: DuPro cell
 def: "Androgen-insensitive human prostate cancer cell line." [PMID:18413741]
-is_a: BTO:0001033 ! prostate cancer cell line
+comment: Contaminated. Shown to be a PC-3 derivative.
+synonym: "DUPRO cell" RELATED []
+synonym: "DuPro-1 cell" RELATED []
+relationship: develops_from BTO:0001061 ! PC-3 cell
 created_by: XPMUser
 creation_date: 2013-03-15T12:22:37Z
 
@@ -30103,7 +30295,6 @@ name: adult liver stem cell
 def: "Hepatic progenitor cells can be isolated from fetal liver and extrahepatic tissues." [PMID:19737349]
 synonym: "adult-derived human liver progenitor cell" RELATED []
 synonym: "adulte Leberstammzelle" RELATED GE []
-synonym: "hepatic oval cell" RELATED []
 synonym: "hepatic progenitor cell" RELATED []
 synonym: "HPC cell" RELATED []
 is_a: BTO:0002666 ! adult stem cell
@@ -30357,15 +30548,21 @@ is_a: BTO:0001581 ! embryonic stem cell line
 id: BTO:0004309
 name: Cl-66 cell
 def: "A murine breast adenocarcinoma cell line." [PMID:19671689]
+synonym: "66 [Mouse mammary tumor] cell" RELATED []
 synonym: "Cl66 cell" RELATED []
+synonym: "Clone 66 cell " RELATED []
+synonym: "Line 66 cell" RELATED []
 is_a: BTO:0001912 ! breast adenocarcinoma cell line
 
 [Term]
 id: BTO:0004310
 name: Cl-66M2 cell
 def: "Mouse breast adenocarcinoma cell line." [PMID:18632634]
+synonym: "66M2 [Mouse mammary tumor] cell" RELATED []
 synonym: "Cl66M2 cell" RELATED []
-is_a: BTO:0001912 ! breast adenocarcinoma cell line
+synonym: "Clone 66M2 cell" RELATED []
+synonym: "Line 66M2 cell" RELATED []
+relationship: develops_from BTO:0004309 ! Cl-66 cell
 
 [Term]
 id: BTO:0004311
@@ -30381,8 +30578,10 @@ is_a: BTO:0004086 ! mammary gland tumor cell line
 
 [Term]
 id: BTO:0004313
-name: GM16096 cell
+name: 46BR cell
 def: "DNA ligase I-deficient human primary fibroblast cell line." [PMID:18440984]
+synonym: "46 BRighton cell" RELATED []
+synonym: "GM16096 cell" RELATED []
 is_a: BTO:0001619 ! skin fibroblast cell line
 
 [Term]
@@ -30397,7 +30596,7 @@ name: HTD-114 cell
 def: "Adenine phosphoribosyltransferase (APRT) -deficient human fibrosarcoma cell line." [PMID:7510848]
 synonym: "HTD 114 cell" RELATED []
 synonym: "HTD114 cell" RELATED []
-is_a: BTO:0000460 ! fibrosarcoma cell line
+relationship: develops_from BTO:0001282 ! HT-1080 cell
 
 [Term]
 id: BTO:0004316
@@ -30430,6 +30629,7 @@ name: WB-311 cell
 def: "Tumorigenic liver epithelial cell line, originally derived from the WB-F344 line." [PMID:19816606]
 synonym: "WB311 cell" RELATED []
 is_a: BTO:0000578 ! hepatoma cell line
+relationship: develops_from BTO:0004318 ! WB-F344 cell
 
 [Term]
 id: BTO:0004320
@@ -30525,7 +30725,7 @@ is_a: BTO:0001008 ! PBMC cell line
 id: BTO:0004335
 name: GP6 cell
 def: "Rapamycin-resistant rat hepatic cell line." [PMID:18543252]
-is_a: BTO:0000224 ! liver cell line
+relationship: develops_from BTO:0004319 ! WB-311 cell
 
 [Term]
 id: BTO:0004336
@@ -30544,7 +30744,7 @@ is_a: BTO:0000224 ! liver cell line
 id: BTO:0004338
 name: GN5 cell
 def: "Rapamycin-sensitive rat hepatic cell line." [PMID:18543252]
-is_a: BTO:0000224 ! liver cell line
+relationship: develops_from BTO:0004319 ! WB-311 cell
 
 [Term]
 id: BTO:0004339
@@ -31391,8 +31591,9 @@ creation_date: 2010-02-02T03:41:14Z
 id: BTO:0004449
 name: LN-443 cell
 def: "Human glioblastoma cell line." [PMID:7693337]
+comment: Contaminated. Shown to be a LN-444 derivative.
 synonym: "LN443 cell" RELATED []
-is_a: BTO:0001530 ! glioblastoma cell line
+relationship: develops_from BTO:0004450 ! LN-444 cell
 created_by: Marion
 creation_date: 2010-02-02T03:45:33Z
 
@@ -31617,7 +31818,7 @@ creation_date: 2010-02-04T10:26:11Z
 id: BTO:0004474
 name: MDA-MB-231-BAG cell
 def: "Human breast cancer cell line." [PMID:15065599]
-is_a: BTO:0001912 ! breast adenocarcinoma cell line
+relationship: develops_from BTO:0000815 ! MDA-MB-231 cell
 created_by: Marion
 creation_date: 2010-02-04T10:30:08Z
 
@@ -32029,8 +32230,8 @@ name: TIG-3-20 cell
 def: "Normal fibroblast cell line derived from Japanese fetal lung." [Japanese_Collection_of_Research_Bioresources:http\://cellbank.nibio.go.jp/]
 synonym: "TIG 3-20 cell" RELATED []
 synonym: "TIG3-20 cell" RELATED []
-is_a: BTO:0000161 ! lung fibroblast cell line
 is_a: BTO:0001242 ! fetal cell line
+relationship: develops_from BTO:0006282 ! TIG-3 cell
 created_by: mgr
 creation_date: 2010-02-11T07:57:27Z
 
@@ -32493,7 +32694,7 @@ name: BOSC-23 cell
 def: "Human embryonic kidney cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "BOSC 23 cell" RELATED []
 synonym: "BOSC23 cell" RELATED []
-is_a: BTO:0002733 ! embryonic kidney cell line
+relationship: develops_from BTO:0006328 ! HEK-293T/17 cell
 created_by: mgr
 creation_date: 2010-04-11T11:07:25Z
 
@@ -32573,7 +32774,7 @@ creation_date: 2010-04-12T10:33:48Z
 id: BTO:0004582
 name: A31N-ts20 cell
 def: "Mouse embryonic fibroblast cell line." [PMID:10848989]
-is_a: BTO:0001958 ! embryonic fibroblast cell line
+relationship: develops_from BTO:0000218 ! BALB/3T3 cell
 created_by: mgr
 creation_date: 2010-04-12T10:36:00Z
 
@@ -32770,11 +32971,15 @@ creation_date: 2010-04-13T09:38:28Z
 id: BTO:0004605
 name: U-118MG cell
 def: "Human neuronal glioblastoma (grade III) cell line." [CLS-Cell_Lines_Service:http\://www.cell-lines-service.de/]
+comment: Contaminated. Shown to be a U-138MG derivative.
+synonym: "118 MG cell" RELATED []
+synonym: "118MG cell" RELATED []
 synonym: "U-118 cell" RELATED []
 synonym: "U-118 MG cell" RELATED []
+synonym: "U-118-MG-cell" RELATED []
 synonym: "U118 cell" RELATED []
 synonym: "U118-MG cell" RELATED []
-is_a: BTO:0001530 ! glioblastoma cell line
+relationship: develops_from BTO:0002127 ! U-138MG cell
 created_by: XPMUser
 creation_date: 2011-02-25T08:22:30Z
 
@@ -33205,7 +33410,7 @@ synonym: "SHEP-21/N cell" RELATED []
 synonym: "SHEP-21N cell" RELATED []
 synonym: "SHEP21N cell" RELATED []
 synonym: "Tet-21/N cell" RELATED []
-is_a: BTO:0000932 ! neuroblastoma cell line
+relationship: develops_from BTO:0005397 ! SH-EP cell
 created_by: mgr
 creation_date: 2010-05-05T08:56:34Z
 
@@ -34085,6 +34290,8 @@ id: BTO:0004752
 name: adipose-derived stromal cell
 def: "Adipose-derived stromal cells have been shown to have multiple lineage differentiation properties and to be suitable for tissues regeneration in many degenerative processes." [PMID:20863390]
 synonym: "ADSC cell" RELATED []
+synonym: "stromal vascular fraction cell" RELATED []
+synonym: "SVF cell" RELATED []
 is_a: BTO:0002064 ! stromal cell
 created_by: mgr
 creation_date: 2010-09-29T02:04:53Z
@@ -34246,7 +34453,13 @@ creation_date: 2010-10-02T10:59:47Z
 id: BTO:0004771
 name: NPA cell
 def: "Papillary thyroid tumor cell line." [PMID:10372715]
-is_a: BTO:0003210 ! papillary thyroid cancer cell line
+comment: Contaminated. Shown to be a M14 derivative,
+synonym: "NPA 87 cell" RELATED []
+synonym: "NPA-87 cell" RELATED []
+synonym: "NPA87-1 cell" RELATED []
+synonym: "UCLA NPA871 cell" RELATED []
+synonym: "UCLA-NPA-87-1 cell" RELATED []
+relationship: develops_from BTO:0002805 ! M14 melanoma cell
 created_by: mgr
 creation_date: 2010-10-02T11:01:58Z
 
@@ -34516,9 +34729,13 @@ creation_date: 2010-10-05T09:52:00Z
 
 [Term]
 id: BTO:0004801
-name: BG3A-C2 cell
+name: ML-DmBG3-c2 cell
 def: "Cell line from Drosophila larval central nervous system." [PMID:18824562]
-synonym: "ML-DmBG3A-C2 cell" RELATED []
+synonym: "BG3A-C2 cell" RELATED MS []
+synonym: "BG3C2 cell" RELATED []
+synonym: "BG3c2 cell" RELATED []
+synonym: "Bm3-c2 cell" RELATED MS []
+synonym: "ML-DmBG3A-C2 cell" RELATED MS []
 is_a: BTO:0000947 ! neuronal cell line
 is_a: BTO:0002632 ! larval cell line
 created_by: mgr
@@ -34749,8 +34966,9 @@ creation_date: 2010-10-05T04:46:20Z
 id: BTO:0004827
 name: hFOB cell
 def: "Immortalized human fetal osteoblastic cell line." [PMID:12210717]
-is_a: BTO:0001242 ! fetal cell line
-is_a: BTO:0004324 ! osteoblast cell line
+comment: Made obsolete. Is a synonym of hFOB 1.19 cell.
+synonym: "hFOB cell" RELATED []
+is_obsolete: true
 created_by: mgr
 creation_date: 2010-10-05T04:50:08Z
 
@@ -34799,6 +35017,7 @@ name: large cell neuroendocrine carcinoma cell
 def: "Large-cell neuroendocrine carcinoma is now recognized as an histologically high-grade non-small cell carcinoma showing histopathological features of neuroendocrine differentiation as well as immunohistochemical neuroendocrine markers." [NCI_Dictionary_of_Cancer_Terms:http\://www.nci.nih.gov/]
 synonym: "large-cell neuroendocrine carcinoma cell" RELATED []
 synonym: "LCNEC" RELATED []
+is_a: BTO:0001407 ! neuroendocrine tumor cell
 is_a: BTO:0002058 ! non-small cell lung cancer cell
 created_by: mgr
 creation_date: 2010-10-08T08:59:20Z
@@ -34919,9 +35138,11 @@ creation_date: 2010-10-08T11:33:42Z
 id: BTO:0004847
 name: ONCO-DG1 cell
 def: "Oxyphilic papillary thyroid carcinoma cell line." [PMID:1381131]
+comment: Contaminated. Shown to be a OVCAR-3 derivative.
 synonym: "ONCO-DG 1 cell" RELATED []
 synonym: "ONCO-DG-1 cell" RELATED []
-is_a: BTO:0003210 ! papillary thyroid cancer cell line
+synonym: "ONCODG1 cell" RELATED []
+relationship: develops_from BTO:0000812 ! OVCAR-3 cell
 created_by: mgr
 creation_date: 2010-10-08T11:36:09Z
 
@@ -35089,7 +35310,10 @@ name: LiM-6 cell
 def: "Human colon cancer cell line." [PMID:19190323]
 synonym: "LiM6 cell" RELATED []
 synonym: "LS LiM6 cell" RELATED []
-is_a: BTO:0000797 ! colonic cancer cell line
+synonym: "LS-LiM6 cell" RELATED []
+synonym: "Ls-LiM6 cell" RELATED []
+synonym: "LsLiM6 cell" RELATED []
+relationship: develops_from BTO:0001553 ! LS-174T cell
 created_by: mgr
 creation_date: 2010-10-11T03:44:40Z
 
@@ -35318,7 +35542,7 @@ creation_date: 2010-10-12T06:03:07Z
 id: BTO:0004892
 name: SLT4 cell
 def: "Human bladder cancer cell line." [PMID:18724390]
-is_a: BTO:0000792 ! urinary bladder carcinoma cell line
+relationship: develops_from BTO:0001345 ! T-24 cell
 creation_date: 2010-10-14T09:02:21Z
 
 [Term]
@@ -35839,10 +36063,13 @@ creation_date: 2010-10-28T10:12:56Z
 id: BTO:0004952
 name: MV-522 cell
 def: "Human non-small cell lung adenocarcinoma cell line. This cell line is of high metastatic potential. It is a high metastatic variant of UCP-3." [Patent:CA_Patent_2469027, PMID:11297269]
+comment: Contaminated. Shown to be a HT-29 derivative.
+synonym: "Line 522 cell" RELATED []
+synonym: "Metastatic Variant 522 cell" RELATED []
+synonym: "Metastatic Variant-522 cell" RELATED []
 synonym: "MV- 522 cell" RELATED []
 synonym: "MV522 cell" RELATED []
-is_a: BTO:0002553 ! non-small cell lung cancer cell line
-relationship: develops_from BTO:0004841 ! UCP-3 cell
+relationship: develops_from BTO:0000182 ! HT-29 cell
 created_by: Marion Gremse
 creation_date: 2010-10-28T10:36:53Z
 
@@ -35866,9 +36093,12 @@ creation_date: 2010-10-28T11:16:05Z
 
 [Term]
 id: BTO:0004955
-name: MDA-B02 cell
+name: MDA-MB-231-B02 cell
 def: "Human breast cancer cell line." [PMID:20305819]
-is_a: BTO:0000356 ! breast cancer cell line
+synonym: "B02 cell" RELATED []
+synonym: "MDA-B02 cell" RELATED []
+synonym: "MDA-MB-231/B02 cell" RELATED []
+relationship: develops_from BTO:0000815 ! MDA-MB-231 cell
 created_by: Marion Gremse
 creation_date: 2010-10-28T11:00:01Z
 
@@ -35910,7 +36140,9 @@ creation_date: 2010-10-28T12:35:25Z
 id: BTO:0004960
 name: CMK-86 cell
 def: "Acute megakaryoblastic leukemia cell line." [Japanese_Collection_of_Research_Bioresources:http\://cellbank.nibio.go.jp/]
+synonym: "CMK86 cell" RELATED []
 is_a: BTO:0004961 ! acute megakaryoblastic leukemia cell line
+relationship: develops_from BTO:0000978 ! CMK cell
 created_by: Marion Gremse
 creation_date: 2010-10-28T12:38:14Z
 
@@ -35980,8 +36212,11 @@ creation_date: 2010-10-28T01:14:32Z
 id: BTO:0004968
 name: NS-0 cell
 def: "Mouse myeloma cell line." [PMID:19882737]
+synonym: "NS/0 cell" RELATED []
+synonym: "NS/O cell" RELATED []
 synonym: "NS0 cell" RELATED []
-is_a: BTO:0000899 ! myeloma cell line
+synonym: "NSO cell" RELATED []
+relationship: develops_from BTO:0001907 ! P3/NS1/1-Ag4.1 cell
 created_by: Marion Gremse
 creation_date: 2010-10-29T01:51:22Z
 
@@ -36355,9 +36590,12 @@ creation_date: 2011-03-02T10:17:41Z
 
 [Term]
 id: BTO:0005012
-name: 46BR.1G1 cell
+name: 46BR-1G1 cell
 def: "Human skin fibroblast cell line, SV40 T antigen transformed, derived from 46BR, a fibroblast from an individual with hypogammaglobulinaemia. The parent line was transformed with the plasmid pSV3gpt expressing SV40 T-antigen." [Health_Protection_Agency_Culture_Collections:http\://hpacultures.org.uk/products/celllines/]
-is_a: BTO:0001619 ! skin fibroblast cell line
+synonym: "46BR 1G1 cell" RELATED []
+synonym: "46BR.1G1 cell" RELATED []
+synonym: "46Br.1G1 cell" RELATED []
+relationship: develops_from BTO:0004313 ! 46BR cell
 created_by: XPMUser
 creation_date: 2011-03-02T10:22:08Z
 
@@ -36365,7 +36603,7 @@ creation_date: 2011-03-02T10:22:08Z
 id: BTO:0005013
 name: 46BRLigI cell
 def: "Derivative of DNA ligase I, hLigI-deficient human cell line 46BR1.G1." [PMID:19628465]
-relationship: develops_from BTO:0005012 ! 46BR.1G1 cell
+relationship: develops_from BTO:0005012 ! 46BR-1G1 cell
 created_by: XPMUser
 creation_date: 2011-03-02T10:27:46Z
 
@@ -36607,7 +36845,8 @@ creation_date: 2011-03-05T11:39:06Z
 id: BTO:0005041
 name: HT-168 cell
 def: "Human melanoma cell line." [PMID:10951267]
-is_a: BTO:0000849 ! melanoma cell line
+synonym: "HT168 cell" RELATED []
+relationship: develops_from BTO:0002975 ! A-2058 cell
 created_by: XPMUser
 creation_date: 2011-03-05T11:42:58Z
 
@@ -36624,7 +36863,7 @@ id: BTO:0005043
 name: M1 melanoma cell
 def: "Human melanoma cell line." [PMID:10951267]
 synonym: "M1 cell" RELATED []
-is_a: BTO:0000849 ! melanoma cell line
+relationship: develops_from BTO:0005041 ! HT-168 cell
 created_by: XPMUser
 creation_date: 2011-03-05T11:45:26Z
 
@@ -36893,7 +37132,7 @@ creation_date: 2011-03-07T04:56:51Z
 id: BTO:0005074
 name: M9A cell
 def: "Mouse macrophage cell line expressing an autoactivating form of pro-matrix-metalloproteinase-9." [PMID:19116209]
-is_a: BTO:0002278 ! macrophage cell line
+relationship: develops_from BTO:0003292 ! RAW-264.7 cell
 created_by: XPMUser
 creation_date: 2011-03-07T04:58:46Z
 
@@ -37608,7 +37847,7 @@ synonym: "Caco-2 BBe cell" RELATED []
 synonym: "Caco-2BBe cell" RELATED []
 synonym: "Caco-2BBe1 cell" RELATED []
 synonym: "Caco2BBe cell" RELATED []
-is_a: BTO:0000195 ! CACO-2 cell
+relationship: develops_from BTO:0000195 ! CACO-2 cell
 created_by: XPMUser
 creation_date: 2011-08-27T03:31:20Z
 
@@ -38116,7 +38355,9 @@ id: BTO:0005217
 name: LNGK-9 PCa cell
 def: "Human prostate cancer cell line." [PMID:19125422]
 synonym: "LNGK-9 cell" RELATED []
-is_a: BTO:0001033 ! prostate cancer cell line
+synonym: "LNGK9 cell" RELATED []
+synonym: "LnGK9 cell" RELATED []
+relationship: develops_from BTO:0001321 ! LNCaP cell
 created_by: XPMUser
 creation_date: 2011-09-02T12:37:17Z
 
@@ -38177,6 +38418,7 @@ creation_date: 2011-09-03T08:33:30Z
 id: BTO:0005224
 name: hFOB 1.19 cell
 def: "Human fetal osteoblast cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
+synonym: "hFOB cell" RELATED []
 synonym: "hFOB1.19 cell" RELATED []
 is_a: BTO:0001242 ! fetal cell line
 is_a: BTO:0004324 ! osteoblast cell line
@@ -38434,6 +38676,14 @@ creation_date: 2011-10-03T08:30:58Z
 id: BTO:0005255
 name: RPMI-1788 cell
 def: "Human B-lymphocyte cell line." [CLS-Cell_Lines_Service:http\://www.cell-lines-service.de/]
+synonym: "<new synonym>" RELATED []
+synonym: "GM02131 cell" RELATED []
+synonym: "GM02131A cell" RELATED []
+synonym: "GM17219 cell" RELATED []
+synonym: "GM2131 cell" RELATED []
+synonym: "Roswell Park Memorial Institute 1788 cell" RELATED []
+synonym: "RPMI 1788 cell" RELATED []
+synonym: "RPMI1788 cell" RELATED []
 is_a: BTO:0001522 ! B-lymphocyte cell line
 created_by: XPMUser
 creation_date: 2011-10-03T08:48:47Z
@@ -38602,7 +38852,7 @@ creation_date: 2012-02-06T09:31:24Z
 id: BTO:0005275
 name: HPK1A-ras cell
 def: "Malignant human keratinocyte cell line." [PMID:1742725]
-is_a: BTO:0000375 ! keratinocyte cell line
+relationship: develops_from BTO:0005276 ! HPK1A cell
 created_by: XPMUser
 creation_date: 2012-02-06T09:53:06Z
 
@@ -38635,7 +38885,7 @@ creation_date: 2012-02-06T11:28:06Z
 id: BTO:0005279
 name: Caco-2/15 cell
 def: "Human colon carcinoma cell line." [PMID:20676402]
-is_a: BTO:0000195 ! CACO-2 cell
+relationship: develops_from BTO:0000195 ! CACO-2 cell
 created_by: XPMUser
 creation_date: 2012-02-06T11:35:10Z
 
@@ -38804,7 +39054,11 @@ creation_date: 2012-02-09T04:16:04Z
 id: BTO:0005299
 name: MUM-2C cell
 def: "Human uveal melanoma line." [PMID:12149457]
-is_a: BTO:0000849 ! melanoma cell line
+comment: Contaminated. Shown to be a M14 derivative.
+synonym: "MuM-2C cell" RELATED []
+synonym: "MUM2C cell" RELATED []
+synonym: "Mum2C cell" RELATED []
+relationship: develops_from BTO:0002805 ! M14 melanoma cell
 created_by: XPMUser
 creation_date: 2012-02-09T04:17:23Z
 
@@ -38905,7 +39159,9 @@ creation_date: 2012-02-13T12:17:13Z
 id: BTO:0005311
 name: SF-xL cell
 def: "Human glioblastoma cell line." [PMID:21555572]
+synonym: "SFxl cell" RELATED []
 is_a: BTO:0001530 ! glioblastoma cell line
+relationship: develops_from BTO:0002824 ! SF-188 cell
 created_by: XPMUser
 creation_date: 2012-02-13T12:24:05Z
 
@@ -39246,8 +39502,10 @@ creation_date: 2012-03-23T09:36:35Z
 id: BTO:0005352
 name: 1-LN cell
 def: "Human prostate cancer cell line." [PMID:15016824]
+synonym: "1-LN-PC-3-1A cell" RELATED []
 synonym: "1LN cell" RELATED []
-is_a: BTO:0001033 ! prostate cancer cell line
+synonym: "1LN-PC31A cell" RELATED []
+relationship: develops_from BTO:0001061 ! PC-3 cell
 created_by: XPMUser
 creation_date: 2012-08-30T12:11:52Z
 
@@ -39348,9 +39606,13 @@ creation_date: 2012-08-31T10:19:12Z
 id: BTO:0005364
 name: D-54MG cell
 def: "Human glioma cell line." [PMID:16193382]
+comment: Contaminated. Shown to be a A-172 derivative.
 synonym: "D-54 MG cell" RELATED []
+synonym: "D54 cell" RELATED []
+synonym: "D54-MG cell" RELATED []
 synonym: "D54MG cell" RELATED []
-is_a: BTO:0000711 ! glioma cell line
+synonym: "D54Mg cell" RELATED []
+relationship: develops_from BTO:0000016 ! A-172 cell
 created_by: XPMUser
 creation_date: 2012-08-31T10:23:54Z
 
@@ -39358,7 +39620,10 @@ creation_date: 2012-08-31T10:23:54Z
 id: BTO:0005365
 name: ECC-1 cell
 def: "An established epithelial cell line derived from an adenocarcinoma of human endometrial lining." [PMID:10478797]
-is_a: BTO:0003040 ! uterine adenocarcinoma cell line
+comment: Contaminated. Shown to be a Ishikawa 3-H-12 derivative.
+synonym: "ECC1 cell" RELATED []
+synonym: "EnCa1 cell" RELATED []
+relationship: develops_from BTO:0006568 ! Ishikawa-3H12 cell
 created_by: XPMUser
 creation_date: 2012-08-31T10:26:56Z
 
@@ -39645,8 +39910,10 @@ creation_date: 2012-09-03T08:33:09Z
 
 [Term]
 id: BTO:0005396
-name: SKMG cell
+name: SK-MG-1 cell
 def: "Human glioma cell line." [PMID:20601429]
+synonym: "SKMG cell" RELATED []
+synonym: "SKMG1 cell" RELATED []
 is_a: BTO:0000711 ! glioma cell line
 created_by: XPMUser
 creation_date: 2012-09-03T08:52:34Z
@@ -39883,6 +40150,7 @@ id: BTO:0005424
 name: melan-a Hm cell
 def: "HERmrk-transgenic melanocytes that transgenically express a chimeric protein consisting of an extracellular EGFR- and an intracellular Xmrk (an oncogene) domain." [PMID:20667128]
 is_a: BTO:0003183 ! melanocyte cell line
+relationship: develops_from BTO:0003216 ! melan-a cell
 created_by: XPMUser
 creation_date: 2013-03-15T06:37:19Z
 
@@ -39953,8 +40221,8 @@ creation_date: 2013-03-18T08:52:47Z
 id: BTO:0005432
 name: Bm3-c2 cell
 def: "Drosophila melanogaster larval neuronal cell line." [PMID:20372979]
-is_a: BTO:0000947 ! neuronal cell line
-is_a: BTO:0002632 ! larval cell line
+comment: Obsolete, due to misspelling. Is a synonym of ML-DmBG3A-C2 cell.
+is_obsolete: true
 created_by: XPMUser
 creation_date: 2013-03-21T09:01:55Z
 
@@ -40000,7 +40268,11 @@ creation_date: 2013-04-22T09:43:48Z
 id: BTO:0005438
 name: HO-8910 cell
 def: "Human epithelial ovarian cancer cell line." [PMID:21211287]
-is_a: BTO:0000811 ! ovary cancer cell line
+comment: Contaminated. Shown to be a HeLa derivative.
+synonym: "Ho-8910 cell" RELATED []
+synonym: "HO8910 cell" RELATED []
+synonym: "Ho8910 cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: XPMUser
 creation_date: 2013-04-22T10:09:12Z
 
@@ -40263,7 +40535,7 @@ id: BTO:0005469
 name: RPK-9 cell
 def: "Parental and gemcitabine resistant pancreatic cancer cell line." [PMID:22490663]
 synonym: "RPK9 cell" RELATED []
-is_a: BTO:0000794 ! pancreatic cancer cell line
+relationship: develops_from BTO:0005486 ! PK-9 cell
 created_by: XPMUser
 creation_date: 2013-09-09T05:17:32Z
 
@@ -40273,6 +40545,7 @@ name: RPK-1 cell
 def: "Parental and gemcitabine resistant pancreatic cancer cell line." [PMID:22490663]
 synonym: "RPK1 cell" RELATED []
 is_a: BTO:0000794 ! pancreatic cancer cell line
+relationship: develops_from BTO:0004854 ! PK-1 cell
 created_by: XPMUser
 creation_date: 2013-09-09T05:19:26Z
 
@@ -40281,7 +40554,7 @@ id: BTO:0005471
 name: RPK-59 cell
 def: "Parental and gemcitabine resistant pancreatic cancer cell line." [PMID:22490663]
 synonym: "RPK59 cell" RELATED []
-is_a: BTO:0000794 ! pancreatic cancer cell line
+relationship: develops_from BTO:0005487 ! PK-59 cell
 created_by: XPMUser
 creation_date: 2013-09-09T05:19:30Z
 
@@ -41038,7 +41311,8 @@ creation_date: 2014-02-26T15:32:59Z
 id: BTO:0005558
 name: T/C-28a4 cell
 def: "Immortalized human chondrocyte cell line." [PMID:14673991]
-is_a: BTO:0003858 ! chondrocyte cell line
+synonym: "T/C28a4 cell" RELATED []
+relationship: develops_from BTO:0003860 ! T/C-28a2 cell
 created_by: Marion
 creation_date: 2014-02-26T15:42:17Z
 
@@ -41046,7 +41320,7 @@ creation_date: 2014-02-26T15:42:17Z
 id: BTO:0005559
 name: Caki-dTub cell
 def: "Human renal cell carcinoma selected for resistance to 2-deoxytubercidin." [PMID:17009030]
-is_a: BTO:0000383 ! renal cell carcinoma cell line
+relationship: develops_from BTO:0003204 ! Caki-1 cell
 created_by: Marion
 creation_date: 2014-02-26T15:45:11Z
 
@@ -41612,7 +41886,7 @@ creation_date: 2014-04-02T10:28:24Z
 id: BTO:0005625
 name: NE-GFP-4C cell
 def: "The neuroepithelial cell line NE-GFP-4C was established from the cerebral vesicles of 9-day-old mouse embryos lacking the functional p53 genes." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
-is_a: BTO:0005623 ! neuroepithelial cell line
+relationship: develops_from BTO:0005624 ! NE-4C cell
 created_by: Marion
 creation_date: 2014-04-02T10:28:55Z
 
@@ -41946,7 +42220,7 @@ id: BTO:0005666
 name: Caco-2/AQ cell
 def: "A differentiated human colon cancer cell line." [PMID:24176760]
 synonym: "Caco2/AQ cell" RELATED []
-is_a: BTO:0000195 ! CACO-2 cell
+relationship: develops_from BTO:0000195 ! CACO-2 cell
 created_by: Marion
 creation_date: 2014-09-05T08:09:10Z
 
@@ -42030,7 +42304,10 @@ creation_date: 2014-09-05T11:01:14Z
 id: BTO:0005675
 name: BNL-HCC cell
 def: "Mouse hepatoma cell line derived from the normal BALB/c embryonic liver cell line BNL CL2." [PMID:22427965]
-is_a: BTO:0000578 ! hepatoma cell line
+synonym: "BNL 1ME A.7R.1 cell" RELATED []
+synonym: "BNL 1MEA.7R.1 cell" RELATED []
+synonym: "BNL.1ME A.7R.1 cell" RELATED []
+relationship: develops_from BTO:0002537 ! BNL CL.2 cell
 created_by: Marion
 creation_date: 2014-09-05T11:10:09Z
 
@@ -42413,7 +42690,10 @@ creation_date: 2015-04-16T16:44:42Z
 id: BTO:0005721
 name: QGY-7703 cell
 def: "Human hepatocellular carcinoma cell line." [PMID:10567879]
-is_a: BTO:0000578 ! hepatoma cell line
+comment: Contaminated. Shown to be a HeLa derivative.
+synonym: "QGY cell" RELATED []
+synonym: "QGY7703 cell" RELATED []
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: Marion
 creation_date: 2015-04-16T17:16:38Z
 
@@ -42660,7 +42940,10 @@ creation_date: 2015-09-13T13:19:58Z
 id: BTO:0005751
 name: C8161.9 cell
 def: "Human highly metastatic melanoma cell line." [PMID:19400942]
-is_a: BTO:0000849 ! melanoma cell line
+synonym: "C8161 cl.9 cell" RELATED []
+synonym: "C8161 subclone 9cell" RELATED []
+synonym: "C8161cl.9 cell" RELATED []
+relationship: develops_from BTO:0002016 ! C-8161 cell
 created_by: Marion
 creation_date: 2015-09-13T13:40:07Z
 
@@ -42774,7 +43057,7 @@ id: BTO:0005765
 name: 2fTGH cell
 def: "The human sarcoma cell line HT 1080 was transfected with a vector encoding the selectable marker guanine phosphoribosyltransferase regulated by alpha interferon to create the 2fTGH cell line, enabling the selection of mutations in genes encoding components of the interferon signalling pathway." [Public_Health_England:http\://www.phe-culturecollections.org.uk/products/celllines/]
 synonym: "2-fTGH cell" RELATED []
-is_a: BTO:0001282 ! HT-1080 cell
+relationship: develops_from BTO:0001282 ! HT-1080 cell
 created_by: Marion
 creation_date: 2015-09-28T08:33:02Z
 
@@ -42829,7 +43112,14 @@ creation_date: 2015-09-28T09:26:28Z
 id: BTO:0005772
 name: HO-8910PM
 def: "Highly metastatic human ovarian cancer cell line." [PMID:10464713]
-is_a: BTO:0000811 ! ovary cancer cell line
+comment: Contaminated. Parent cell line has been shown to be a HeLa derivative.
+synonym: "HO-8910 PM cell" RELATED []
+synonym: "HO8910-PM cell" RELATED []
+synonym: "HO8910-pm cell" RELATED []
+synonym: "HO8910/PM cell" RELATED []
+synonym: "HO8910PM cell" RELATED []
+synonym: "HO8910pm cell" RELATED []
+relationship: develops_from BTO:0005438 ! HO-8910 cell
 created_by: Marion
 creation_date: 2015-09-28T09:29:59Z
 
@@ -42972,7 +43262,8 @@ creation_date: 2015-10-01T09:09:21Z
 id: BTO:0005788
 name: SH-EP1 cell
 def: "Human neuroblastoma cell line, established from brain bone marrow tissue from a 4 years old caucasian white with neuroblastoma." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
-is_a: BTO:0000932 ! neuroblastoma cell line
+synonym: "SH-EPi cell" RELATED []
+relationship: develops_from BTO:0005397 ! SH-EP cell
 created_by: Marion
 creation_date: 2015-10-01T09:14:25Z
 
@@ -43195,11 +43486,14 @@ creation_date: 2016-04-12T15:23:55Z
 id: BTO:0005814
 name: BEL-7404 cell
 def: "Hepatocellular carcinoma cell line." [PMID:25787749]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "7404 cell" RELATED []
+synonym: "BEL 7404 cell" RELATED []
+synonym: "Bel 7404 cell" RELATED []
 synonym: "Bel-7404 cell" RELATED []
 synonym: "BEL7404 cell" RELATED []
 synonym: "Bel7404 cell" RELATED []
-is_a: BTO:0000578 ! hepatoma cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-04-14T08:57:29Z
 
@@ -43479,7 +43773,7 @@ name: IMR-5 cell
 def: "Human neuroblastoma cell line." [PMID:12536080]
 synonym: "IMR 5 cell" RELATED []
 synonym: "IMR5 cell" RELATED []
-is_a: BTO:0000932 ! neuroblastoma cell line
+relationship: develops_from BTO:0000934 ! IMR-32 cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-04-19T09:31:26Z
 
@@ -43592,7 +43886,7 @@ creation_date: 2016-04-19T16:25:46Z
 id: BTO:0005860
 name: LA1-55n cell
 def: "Human neuroblastoma cell line, derived from LA1-5s a clonal subline of LA-N-1. LA-N-1 was derived from neuroblastoma cells in the bone marrow of a 2-year-old male with clinical Stage IV neuroblastoma." [Sigma-Aldrich:http\://www.sigmaaldrich.com/]
-is_a: BTO:0000932 ! neuroblastoma cell line
+relationship: develops_from BTO:0003542 ! LAN-1 cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-04-19T16:31:33Z
 
@@ -43631,8 +43925,11 @@ creation_date: 2016-04-28T08:50:57Z
 id: BTO:0005865
 name: U-251SP cell
 def: "Human glioma cell line." [PMID:16343929]
+synonym: "U-251 MG sp cell" RELATED []
+synonym: "U-251 MGsp cell" RELATED []
+synonym: "U-251MG sp cell" RELATED []
 synonym: "U251SP cell" RELATED []
-is_a: BTO:0000711 ! glioma cell line
+relationship: develops_from BTO:0002035 ! U-251MG cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-04-28T11:00:50Z
 
@@ -44044,10 +44341,11 @@ creation_date: 2016-06-14T16:30:08Z
 id: BTO:0005911
 name: KM-20L2 cell
 def: "Human colon carcinoma cell line." [PMID:8035426]
+comment: Contaminated. Shown to be a HT-29 derivative.
 synonym: "KM 2012 cell" RELATED []
 synonym: "KM 20L2 cell" RELATED []
 synonym: "KM20L2 cell" RELATED []
-is_a: BTO:0000797 ! colonic cancer cell line
+relationship: develops_from BTO:0000182 ! HT-29 cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-06-14T16:33:15Z
 
@@ -44510,8 +44808,9 @@ creation_date: 2016-09-24T09:41:58Z
 id: BTO:0005962
 name: GM-95 cell
 def: "A mutant cell line derived from mouse melanoma MEB-4 cells, is deficient in glycosphingolipids due to the lack of ceramide glucosyltransferase-1 activity." [PMID:8662871]
+synonym: "GM95 cell" RELATED []
 synonym: "MEC-4 cell" RELATED []
-is_a: BTO:0001219 ! MEB-4 cell
+relationship: develops_from BTO:0001219 ! MEB-4 cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-09-24T09:48:20Z
 
@@ -44537,13 +44836,14 @@ creation_date: 2016-09-24T16:13:40Z
 id: BTO:0005965
 name: HL-7702 cell
 def: "Normal human liver cell line." [PMID:26143199]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "HL 7702 cell" RELATED []
 synonym: "HL7702 cell" RELATED []
 synonym: "L-02 cell" RELATED []
 synonym: "L02 cell" RELATED []
 synonym: "LO-2 cell" RELATED []
 synonym: "LO2 cell" RELATED []
-is_a: BTO:0000224 ! liver cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2016-09-24T16:43:44Z
 
@@ -45427,9 +45727,10 @@ creation_date: 2017-04-07T14:18:53Z
 id: BTO:0006058
 name: Tca-8113 cell
 def: "Human tongue squamous cell carcinoma cell line." [PMID:14994074]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "TCA8113 cell" RELATED []
 synonym: "Tca8113 cell" RELATED []
-is_a: BTO:0000786 ! tongue cancer cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2017-04-07T14:33:55Z
 
@@ -45653,8 +45954,9 @@ creation_date: 2017-05-14T20:03:32Z
 id: BTO:0006082
 name: TSCCA cell
 def: "Oral squamous cell carcinoma cell line." [PMID:25901533]
+comment: Contaminated. Shown to be a HeLa derivative.
 synonym: "TSCCa cell" RELATED []
-is_a: BTO:0002211 ! oral squamous cell carcinoma cell line
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2017-05-14T20:15:16Z
 
@@ -45965,9 +46267,12 @@ creation_date: 2017-09-26T18:56:51Z
 
 [Term]
 id: BTO:0006118
-name: MYCN2 cell
+name: MYCN-2 cell
 def: "Human neuroblastoma cell line." [PMID:23440295]
-is_a: BTO:0000932 ! neuroblastoma cell line
+synonym: "MYCN-2 cell" RELATED []
+synonym: "MYCN-2 Tet-on cell" RELATED []
+synonym: "MYCN2 cell" RELATED []
+relationship: develops_from BTO:0005397 ! SH-EP cell
 created_by: Marion, contact@brenda-enzymes.org
 creation_date: 2017-09-28T09:27:07Z
 
@@ -47279,11 +47584,12 @@ creation_date: 2019-03-03T13:33:38Z
 [Term]
 id: BTO:0006265
 name: MR49F cell
-def: "Enzalutamide-resistant pancreatic cancer cell line." [PMID:25459660]
+def: "Enzalutamide-resistant prostate cancer cell line." [PMID:25459660]
 synonym: "49FENZR cell" RELATED []
+synonym: "ENZR 49F cell" RELATED []
 synonym: "ENZR49F cell" RELATED []
 synonym: "MR49-F cell" RELATED []
-is_a: BTO:0000794 ! pancreatic cancer cell line
+relationship: develops_from BTO:0001321 ! LNCaP cell
 created_by: Marion
 creation_date: 2019-03-03T13:38:09Z
 
@@ -47434,8 +47740,11 @@ creation_date: 2019-03-07T10:20:27Z
 [Term]
 id: BTO:0006282
 name: TIG-3 cell
-def: "Human embryonic fibroblast cell line." [PMID:16024784]
+def: "Human embryonic lung fibroblast cell line." [PMID:16024784]
 synonym: "TIG3 cell" RELATED []
+synonym: "Tig3 cell" RELATED []
+synonym: "Tokyo Institute of Gerontology-3 cell" RELATED []
+is_a: BTO:0000161 ! lung fibroblast cell line
 is_a: BTO:0001958 ! embryonic fibroblast cell line
 created_by: Marion
 creation_date: 2019-03-07T10:39:53Z
@@ -47582,10 +47891,14 @@ creation_date: 2019-09-21T12:56:47Z
 id: BTO:0006298
 name: HepAD38 cell
 def: "HepAD38 is a stably transfected hepatoblastoma cell line that replicates human HBV under the control of a tetracycline-regulated promoter." [PMID:28242843]
+synonym: "AD-38 cell" RELATED []
 synonym: "AD38 cell" RELATED []
 synonym: "Hep AD38 cell" RELATED []
+synonym: "Hep G2 AD 38 cell" RELATED []
 synonym: "HepG2 AD38 cell" RELATED []
+synonym: "HepG2-AD38 cell" RELATED []
 is_a: BTO:0001664 ! hepatoblastoma cell line
+relationship: develops_from BTO:0000599 ! Hep-G2 cell
 created_by: Marion
 creation_date: 2019-09-21T17:15:45Z
 
@@ -47685,7 +47998,7 @@ creation_date: 2019-09-29T13:35:59Z
 id: BTO:0006309
 name: WIF-B9 cell
 def: "Rat hepatoma/human fibroblast hybrid cell line." [PMID:17276572]
-is_a: BTO:0005889 ! WIF-B cell
+relationship: develops_from BTO:0005889 ! WIF-B cell
 created_by: Marion
 creation_date: 2019-09-29T13:48:27Z
 
@@ -48299,6 +48612,7 @@ id: BTO:0006377
 name: AHH-1 cell
 def: "B-lymphoblast cell line." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 is_a: BTO:0002062 ! B-lymphoblastoid cell line
+relationship: develops_from BTO:0005255 ! RPMI-1788 cell
 created_by: Marion
 creation_date: 2020-03-22T18:00:25Z
 
@@ -48323,6 +48637,7 @@ creation_date: 2020-03-22T18:13:27Z
 id: BTO:0006380
 name: BEL-7404-CP20 cell
 def: "BEL-7404 cell line, growing in 20microgramm per milliliter cisplatin for 24 months." [PMID:8660948]
+comment: Contaminated. Parental cell line has been shown to be a HeLa derivative.
 relationship: develops_from BTO:0005814 ! BEL-7404 cell
 created_by: Marion
 creation_date: 2020-03-22T18:22:33Z
@@ -48482,7 +48797,7 @@ id: BTO:0006398
 name: MCF-10-2A cell
 def: "Nontumorigenic human mammary gland cell line from fibrocystic disease. MCA-10-2A was derived from adherent cells in the population. This line was established from the same tumor material as MCF 10A." [ATCC_American_Cell_Type_Culture_Collection:http\://www.lgcstandards-atcc.org/]
 synonym: "MCF 10-2A cell" RELATED []
-is_a: BTO:0002768 ! mammary epithelial cell line
+relationship: develops_from BTO:0003900 ! MCF-10F cell
 created_by: Marion
 creation_date: 2020-03-26T12:28:10Z
 
@@ -48676,7 +48991,7 @@ id: BTO:0006418
 name: SCC-25/CP cell
 def: "Human head and neck squamous cell carcinoma cell line which is relatively stably resistant to CDDP after repeated exposure to escalating doses of the drug." [PMID:3539321]
 synonym: "SCC25/CP cell" RELATED []
-is_a: BTO:0002211 ! oral squamous cell carcinoma cell line
+relationship: develops_from BTO:0003774 ! SCC-25 cell
 created_by: Marion
 creation_date: 2020-03-27T11:06:53Z
 
@@ -49492,7 +49807,7 @@ creation_date: 2021-03-13T20:17:13Z
 id: BTO:0006503
 name: CGL-2 cell
 def: "A fusion hybrid of the HeLa adenocarcinoma cell line and normal human fibroblasts. This cell line derived from a hybrid of the HeLa variant, D98/AH2, and a normal human fibroblast strain, GM77." [PMID:15471901]
-is_a: BTO:0000567 ! HeLa cell
+relationship: develops_from BTO:0000567 ! HeLa cell
 created_by: Marion
 creation_date: 2021-03-13T20:22:16Z
 
@@ -49647,6 +49962,461 @@ is_a: BTO:0003841 ! plant organ culture
 relationship: part_of BTO:0001461 ! whole plant
 created_by: Marion
 creation_date: 2021-03-21T18:17:41Z
+
+[Term]
+id: BTO:0006520
+name: SKM-1 cell
+def: "Human acute myeloid leukemia cell line, established from the peripheral blood of a 76-year-old man with acute monoblastic leukemia in 1989 following myelodysplastic syndromes." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+is_a: BTO:0001883 ! acute myeloid leukemia cell line
+created_by: Marion
+creation_date: 2021-09-11T17:37:52Z
+
+[Term]
+id: BTO:0006521
+name: SK-MM-1 cell
+def: "Human plasma cell leukemia cell line,\nestablished in 1981 from the bone marrow of a 55-year-old man with plasma cell leukemia at relapse after chemotherapy." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "SKMM-1 cell" RELATED []
+synonym: "SKMM1 cell" RELATED []
+is_a: BTO:0000456 ! plasmacytoma cell line
+created_by: Marion
+creation_date: 2021-09-11T17:41:14Z
+
+[Term]
+id: BTO:0006522
+name: trochophore
+def: "A trochophore is a type of free-swimming planktonic marine larva with several bands of cilia." [Wikipedia:The_free_encyclopedia]
+synonym: "trocophore" RELATED []
+is_a: BTO:0000707 ! larva
+created_by: Marion
+creation_date: 2021-09-11T17:47:06Z
+
+[Term]
+id: BTO:0006523
+name: AII amacrine cell
+def: "AII amacrine cells are a subtype of amacrine cells present in the retina of mammals." [Wikipedia:The_free_encyclopedia]
+synonym: "Aii amacrine cell" RELATED []
+is_a: BTO:0004044 ! amacrine cell
+created_by: Marion
+creation_date: 2021-09-11T18:03:55Z
+
+[Term]
+id: BTO:0006524
+name: NCI-H1522 cell
+def: "Human small cell lung cancer cell line. Stage E cancer." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "H1522 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-09-12T13:02:01Z
+
+[Term]
+id: BTO:0006525
+name: NCI-H1836 cell
+def: "Human small cell lung cancer cell line. Stage L cancer." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "H1836 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-09-12T13:05:10Z
+
+[Term]
+id: BTO:0006526
+name: NCI-H2141 cell
+def: "Human small cell lung cancer cell line. Stage E cancer. Cell type lymphoblast." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "H2141 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-09-12T13:08:15Z
+
+[Term]
+id: BTO:0006527
+name: BPLER cell
+def: "Highly malignant human triple-negative breast cancer cell line." [PMID:30349315]
+is_a: BTO:0000356 ! breast cancer cell line
+created_by: Marion
+creation_date: 2021-09-12T13:26:01Z
+
+[Term]
+id: BTO:0006528
+name: HMLER cell
+def: "Less malignant isogenic human triple-negative breast cancer cell line." [PMID:30349315]
+is_a: BTO:0000356 ! breast cancer cell line
+created_by: Marion
+creation_date: 2021-09-12T13:27:29Z
+
+[Term]
+id: BTO:0006529
+name: HCC-33 cell
+def: "Human small cell lung carcinoma cell line, established from the pleural effusion of a 52-year-old man with small cell lung carcinoma." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-09-12T13:33:33Z
+
+[Term]
+id: BTO:0006530
+name: 6DT1 cell
+def: "6DT1 mouse\nmammary carcinoma cell line, derived from an MMTV-c-Myc\ntransgenic mouse model." [PMID:25368990]
+is_a: BTO:0000356 ! breast cancer cell line
+created_by: Marion
+creation_date: 2021-09-29T08:50:13Z
+
+[Term]
+id: BTO:0006531
+name: LCL-721 cell
+def: "An Epstein-Barr virus (EBV) transformed lymphoblastoid cell line with Human Leukocyte Antigen (HLA)-typing data available." [European_collection_of_cell_cultures:ECACC]
+synonym: "721 cell" RELATED []
+synonym: "B-LCL 721 cell" RELATED []
+synonym: "EBV-LCL 721 cell" RELATED []
+synonym: "LCL 721 cell" RELATED []
+synonym: "LCL721 cell" RELATED []
+is_a: BTO:0002062 ! B-lymphoblastoid cell line
+created_by: Marion
+creation_date: 2021-09-29T09:05:49Z
+
+[Term]
+id: BTO:0006532
+name: 80S14 cell
+def: "A p21 clone of HCT116 derived by homologous recombination." [PMID:10781590]
+relationship: develops_from BTO:0001109 ! HCT-116 cell
+created_by: Marion
+creation_date: 2021-09-29T09:57:23Z
+
+[Term]
+id: BTO:0006533
+name: branchial crown
+def: "A structure surrounding the terminal mouth composed of ciliated, bipinnate filaments functioning in suspension filter feeding and respiration. (Annelida, Polychaeta)" [Dictionary_of_Invertebrate_Zoology:http\\\://species-id.net/zooterms/]
+synonym: "tentacular crown" RELATED []
+is_a: BTO:0001262 ! soft body part
+created_by: Marion
+creation_date: 2021-09-29T10:01:08Z
+
+[Term]
+id: BTO:0006534
+name: cerebral nucleus
+def: "The term cerebral nuclei refers to one of three components of the cerebrum. It is a composite structure of the endbrain defined on the basis of origin from the ventricular ridge of the embryonic Encephalon. It consists of the extended striatum and the extended pallidum." [Braininfo:http\://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=2677]
+synonym: "cerebral nuclei" RELATED []
+relationship: develops_from BTO:0004726 ! embryonic brain
+created_by: Marion
+creation_date: 2021-09-29T10:59:22Z
+
+[Term]
+id: BTO:0006535
+name: gill cell line
+relationship: develops_from BTO:0000518 ! gill
+created_by: Marion
+creation_date: 2021-09-29T11:21:33Z
+
+[Term]
+id: BTO:0006536
+name: FG-9307 cell
+def: "A continuous cell line, derived from gill tissue of the flounder Paralichthys olivaceus." [ScienceDirect:https\://doi.org/10.1016/S0044-8486(97)00070-7]
+synonym: "FG cell" RELATED []
+synonym: "FG9307 cell" RELATED []
+synonym: "Flounder Gill-9307 cell" RELATED []
+is_a: BTO:0006535 ! gill cell line
+created_by: Marion
+creation_date: 2021-09-29T11:21:57Z
+
+[Term]
+id: BTO:0006537
+name: GSC11 cell
+def: "Human glioblastoma stem cell line, derived from human primary glioblastoma tissues." [PMID:23132831]
+is_a: BTO:0006001 ! GSC cell line
+created_by: Marion
+creation_date: 2021-09-29T14:04:45Z
+
+[Term]
+id: BTO:0006538
+name: GSC23 cell
+def: "Human glioblastoma stem cell line, derived from human primary glioblastoma tissues." [PMID:23132831]
+is_a: BTO:0006001 ! GSC cell line
+created_by: Marion
+creation_date: 2021-09-29T14:07:33Z
+
+[Term]
+id: BTO:0006539
+name: NCI-H3255 cell
+def: "Human non-small-cell lung cancer cell line." [PMID:15492241]
+synonym: "H-3255 cell" RELATED []
+synonym: "H3255 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-09-29T14:24:39Z
+
+[Term]
+id: BTO:0006540
+name: MRC5-SV2 cell
+def: "Human foetal lung cell line, SV40 transformed. Derived from the parental cell line MRC-5 by transformation with the SV40 virus. The cells do not senesce." [Sigma_Aldrich:http\\\://www.sigmaaldrich.com/]
+synonym: "MRC-5 SV2 cell" RELATED []
+synonym: "MRC5-SV12 cell" RELATED []
+relationship: develops_from BTO:0001590 ! MRC-5 cell
+created_by: Marion
+creation_date: 2021-09-29T14:33:03Z
+
+[Term]
+id: BTO:0006541
+name: NCI-H60 cell
+def: "Human small-cell lung cancer cell line." [PMID:2414316]
+synonym: "H-60 cell" RELATED []
+synonym: "H60 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-09-29T14:41:34Z
+
+[Term]
+id: BTO:0006542
+name: NEC-8 cell
+def: "Human testicular germ cell tumor cell line." [JCRB_Japanese_Collection_of_Research_Bioresources:http\\\://cellbank.nibio.go.jp/]
+synonym: "NEC8 cell" RELATED []
+is_a: BTO:0004229 ! testicular cell line
+created_by: Marion
+creation_date: 2021-09-29T14:47:22Z
+
+[Term]
+id: BTO:0006543
+name: HF-2303 cell
+def: "Human glioblastoma cell line." [PMID:27564115]
+synonym: "HF2303 cell" RELATED []
+is_a: BTO:0001530 ! glioblastoma cell line
+created_by: Marion
+creation_date: 2021-10-09T13:19:16Z
+
+[Term]
+id: BTO:0006544
+name: IN-859 cell
+def: "Human glioblastoma cell line." [PMID:27564115]
+synonym: "IN859 cell" RELATED []
+is_a: BTO:0001530 ! glioblastoma cell line
+created_by: Marion
+creation_date: 2021-10-09T13:20:48Z
+
+[Term]
+id: BTO:0006545
+name: MGG-8 cell
+def: "Human glioblastoma cell line." [PMID:27564115]
+synonym: "MGG8 cell" RELATED []
+is_a: BTO:0001530 ! glioblastoma cell line
+created_by: Marion
+creation_date: 2021-10-09T13:21:31Z
+
+[Term]
+id: BTO:0006546
+name: IN-2045 cell
+def: "Human glioblastoma cell line." [PMID:27564115]
+synonym: "IN2045 cell" RELATED []
+is_a: BTO:0001530 ! glioblastoma cell line
+created_by: Marion
+creation_date: 2021-10-09T13:22:04Z
+
+[Term]
+id: BTO:0006547
+name: HUP-T3 cell
+def: "Human pancreas carcinoma cell line,\nestablished from the malignant ascites of a 66-year-old man with pancreas carcinoma in 1984." [Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen_GmbH:DSMZ]
+synonym: "HuP-T3 cell" RELATED []
+synonym: "HUPT3 cell" RELATED []
+is_a: BTO:0000794 ! pancreatic cancer cell line
+created_by: Marion
+creation_date: 2021-10-09T13:24:30Z
+
+[Term]
+id: BTO:0006548
+name: LC-540 cell
+def: "Rat Fischer Leydig cell testicular tumour\ncell line, established  from a spontaneous transplantable Leydig cell tumour in a Fischer strain rat," [European_collection_of_cell_cultures:ECACC]
+synonym: "LC 540 cell" RELATED []
+synonym: "LC540 cell" RELATED []
+is_a: BTO:0001560 ! testicular cancer cell line
+created_by: Marion
+creation_date: 2021-10-09T13:28:41Z
+
+[Term]
+id: BTO:0006549
+name: MARC-145 cell
+def: "Monkey kidney cell line." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "MARC 145 cell" RELATED []
+synonym: "MARC145 cell" RELATED []
+is_a: BTO:0000067 ! kidney cell line
+created_by: Marion
+creation_date: 2021-10-09T13:44:03Z
+
+[Term]
+id: BTO:0006550
+name: RBL-5 cell
+def: "Murine leukemia cell line, induced by Rauscher murine leukemia virus (R-MuLV) carried in the ascites form in C57BL/6 mice was cultivated in vitro and passaged continuously." [PMID:864745]
+is_a: BTO:0000737 ! leukemia cell line
+created_by: Marion
+creation_date: 2021-10-09T20:51:59Z
+
+[Term]
+id: BTO:0006551
+name: NS-5 cell
+def: "Mouse neural stem cell line." [PMID:20626555]
+synonym: "NS5 cell" RELATED []
+synonym: "NS5 neural stem cell" RELATED []
+is_a: BTO:0002891 ! neural stem cell line
+created_by: Marion
+creation_date: 2021-10-09T20:56:24Z
+
+[Term]
+id: BTO:0006552
+name: SWH-80 cell
+def: "Human colorectal carcinoma cell line." [PMID:28797028]
+synonym: "SWH80 cell" RELATED []
+is_a: BTO:0001616 ! colorectal cancer cell line
+created_by: Marion
+creation_date: 2021-10-09T21:09:35Z
+
+[Term]
+id: BTO:0006553
+name: Sa-3 cell
+def: "Human oral squamous cell carcinoma cell line." [PMID:15756446]
+synonym: "<new synonym>" RELATED []
+synonym: "Sa3 cell" RELATED []
+is_a: BTO:0002211 ! oral squamous cell carcinoma cell line
+created_by: Marion
+creation_date: 2021-10-09T21:12:33Z
+
+[Term]
+id: BTO:0006554
+name: MVT-1 cell
+def: "Mouse mammary tumor cell line, derived from a primary mammary tumor of a MMTV-VEGF/Myc bitransgenic mouse" [PMID:29813119]
+synonym: "Mvt-1 cell" RELATED []
+synonym: "Mvt1 cell" RELATED []
+is_a: BTO:0004086 ! mammary gland tumor cell line
+created_by: Marion
+creation_date: 2021-10-09T21:19:38Z
+
+[Term]
+id: BTO:0006555
+name: SVG-A cell
+def: "Human fetal astrocyte cell line." [Ximbio.com:https\://ximbio.com/search/cell-lines]
+is_a: BTO:0002600 ! astrocyte cell line
+created_by: Marion
+creation_date: 2021-10-09T21:22:55Z
+
+[Term]
+id: BTO:0006556
+name: U-5A cell
+def: "The human sarcoma cell line HT 1080 was transfected with a vector encoding a selectable marker (guanine phosphoribosyltransferase) regulated by alpha interferon to create the 2fTGH cell line, enabling the selection of mutations in genes encoding components of the interferon signalling pathway. Chemical mutagenesis of the parent 2fTGH cell line enabled the isolation of a number of IFNg signalling mutants available from ECACC: U2A , U3A , U4A, U4C, U5A, U6A. Each contains a different mutation in the IFN signalling pathway. The 2fTGH panel provides a tool for the in vitro study and comparison of disrupted interferon signalling at multiple points across the IFN pathway. The U5A mutant cell line lacks the ifnar2-2 component of the interferon-alpha and interferon-beta receptor and the beta-R1 gene product. U5A is completely defective in interferon alphabeta binding and response." [European_collection_of_cell_cultures:ECACC]
+synonym: "U5A cell" RELATED []
+relationship: develops_from BTO:0005765 ! 2fTGH cell
+created_by: Marion
+creation_date: 2021-10-09T21:27:13Z
+
+[Term]
+id: BTO:0006557
+name: SKOV3IP cell
+def: "Human epithelial ovarian cancer cell line." [PMID:17645504]
+synonym: "SKOv3.ip1 cell" RELATED []
+synonym: "SKOV3ip cell" RELATED []
+synonym: "SKOV3ip1 cell" RELATED []
+relationship: develops_from BTO:0000948 ! SKOV-3 cell
+created_by: Marion
+creation_date: 2021-10-10T20:47:54Z
+
+[Term]
+id: BTO:0006558
+name: small cell neuroendocrine carcinoma cell
+def: "Neuroendocrine tumours made up of small cells are called small cell neuroendocrine carcinoma while those made up of large cells are called large cell neuroendocrine carcinoma." [MyPathologyReport.ca:https\://www.mypathologyreport.ca/neuroendocrine-cells/]
+synonym: "SCNC cell" RELATED []
+synonym: "small-cell neuroendocrine carcinoma cell" RELATED []
+is_a: BTO:0001407 ! neuroendocrine tumor cell
+is_a: BTO:0002058 ! non-small cell lung cancer cell
+created_by: Marion
+creation_date: 2021-10-10T20:55:00Z
+
+[Term]
+id: BTO:0006559
+name: uterine endometrial stromal cell
+synonym: "endometrial stromal cell" RELATED []
+synonym: "uterine stromal cell" RELATED []
+is_a: BTO:0002064 ! stromal cell
+relationship: part_of BTO:0001422 ! uterine endometrium
+created_by: Marion
+creation_date: 2021-10-10T21:10:43Z
+
+[Term]
+id: BTO:0006560
+name: Cor-1 cell
+def: "Neural stem cell line from mouse foetal cortex." [PMID:19798744]
+is_a: BTO:0001242 ! fetal cell line
+is_a: BTO:0002891 ! neural stem cell line
+created_by: Marion
+creation_date: 2021-10-19T12:57:05Z
+
+[Term]
+id: BTO:0006561
+name: hepatic oval cell
+def: "Hepatic oval cells are a small subpopulation of cells found in the liver when hepatocyte proliferation is inhibited and followed by some type of hepatic injury. These cells are believed to be bipotential, i.e., able to differentiate into hepatocytes or bile ductular cells." [PMID:9462642]
+synonym: "HOC cell" RELATED []
+is_a: BTO:0004270 ! adult liver stem cell
+created_by: Marion
+creation_date: 2021-10-19T13:36:20Z
+
+[Term]
+id: BTO:0006562
+name: RMA cell
+def: "Mouse T-lymphoma cell line." [PMID:8107849]
+is_a: BTO:0003212 ! T-lymphoma cell line
+created_by: Marion
+creation_date: 2021-10-19T14:04:43Z
+
+[Term]
+id: BTO:0006563
+name: RMA-S cell
+def: "TAP2 (Antigen peptide transporter 2)-deficient derivative of RMA mouse T-lymphoma cell line." [PMID:8107849]
+relationship: develops_from BTO:0006562 ! RMA cell
+created_by: Marion
+creation_date: 2021-10-19T14:06:05Z
+
+[Term]
+id: BTO:0006564
+name: NCI-H1628 cell
+def: "Human lung small cell lung cancer cell line." [PMID:11030152]
+synonym: "H-1628 cell" RELATED []
+synonym: "H1628 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-10-19T18:16:10Z
+
+[Term]
+id: BTO:0006565
+name: NCI-H3282 cell
+def: "Human lung small cell lung cancer cell line." [PMID:11030152]
+synonym: "H-3282 cell" RELATED []
+synonym: "H3282 cell" RELATED []
+is_a: BTO:0002206 ! small cell lung cancer cell line
+created_by: Marion
+creation_date: 2021-10-19T18:19:20Z
+
+[Term]
+id: BTO:0006566
+name: T1 cell
+def: "This line is a cloned hybrid between the 721.174 (variant of the LCL 721 B lymphoblastic cell line) and CEMR.3 (8-azaguanine and ouabain resistant clone of the CEM T lymphoblastic cell line)." [ATCC_American_Cell_Type_Culture_Collection:http\\\://www.lgcstandards-atcc.org/]
+synonym: "174xCEM.T1 cell" RELATED []
+is_a: BTO:0001926 ! hybridoma cell line
+created_by: Marion
+creation_date: 2021-10-19T18:32:00Z
+
+[Term]
+id: BTO:0006567
+name: neuromuscular system
+def: "The muscles of the body together with the nerves supplying them." [Dictionary.com:https\\\://www.dictionary.com/]
+synonym: "neuro-muscular system" RELATED []
+is_a: BTO:0001485 ! muscular system
+created_by: Marion
+creation_date: 2021-10-19T19:56:51Z
+
+[Term]
+id: BTO:0006568
+name: Ishikawa-3H12 cell
+def: "Human endometrial adenocarcinoma cell line, expressing estrogen receptor and progesterone receptor." [Cellbank:http\\\://cellbank.nibiohn.go.jp//legacy/celldata/]
+synonym: " Ishikawa 3 H 12 cell" RELATED []
+synonym: "Ishikawa 3H12 cell" RELATED []
+synonym: "Ishikawa clone 3-H-12 cell" RELATED []
+synonym: "Ishikawa-3H-12 cell" RELATED []
+synonym: "Ishikawa-H-12 cell" RELATED []
+synonym: "Ishikawa3-H-12 cell" RELATED []
+relationship: develops_from BTO:0003041 ! Ishikawa cell
+created_by: Marion
+creation_date: 2021-10-22T15:19:37Z
 
 [Typedef]
 id: bearer_of

@@ -214,6 +214,7 @@ ERROR	duplicate_definition	BTO:0003064	IAO:0000115	Mueller cells are astrocyte-l
 ERROR	duplicate_definition	BTO:0000796	IAO:0000115	Mouse T-lymphoma cell line.	
 ERROR	duplicate_definition	BTO:0002223	IAO:0000115	Mouse T-lymphoma cell line.	
 ERROR	duplicate_definition	BTO:0002293	IAO:0000115	Mouse T-lymphoma cell line.	
+ERROR	duplicate_definition	BTO:0006562	IAO:0000115	Mouse T-lymphoma cell line.	
 ERROR	duplicate_definition	BTO:0004580	IAO:0000115	Mouse pheochromocytoma cell line.	
 ERROR	duplicate_definition	BTO:0004581	IAO:0000115	Mouse pheochromocytoma cell line.	
 ERROR	duplicate_definition	BTO:0006224	IAO:0000115	Mouse olfactory placode cell line.	
@@ -428,12 +429,15 @@ ERROR	duplicate_definition	BTO:0002025	IAO:0000115	Human oral squamous cell carc
 ERROR	duplicate_definition	BTO:0004003	IAO:0000115	Human oral squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0004006	IAO:0000115	Human oral squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006030	IAO:0000115	Human oral squamous cell carcinoma cell line.	
+ERROR	duplicate_definition	BTO:0006553	IAO:0000115	Human oral squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0005968	IAO:0000115	Human oral cancer cell line.	
 ERROR	duplicate_definition	BTO:0005969	IAO:0000115	Human oral cancer cell line.	
 ERROR	duplicate_definition	BTO:0004434	IAO:0000115	Human normal mammary epithelial cell line.	
 ERROR	duplicate_definition	BTO:0006202	IAO:0000115	Human normal mammary epithelial cell line.	
 ERROR	duplicate_definition	BTO:0006448	IAO:0000115	Human normal fibroblast cell line.	
 ERROR	duplicate_definition	BTO:0006449	IAO:0000115	Human normal fibroblast cell line.	
+ERROR	duplicate_definition	BTO:0002558	IAO:0000115	Human non-small-cell lung cancer cell line.	
+ERROR	duplicate_definition	BTO:0006539	IAO:0000115	Human non-small-cell lung cancer cell line.	
 ERROR	duplicate_definition	BTO:0004182	IAO:0000115	Human non-small cell lung cancer cell line.	
 ERROR	duplicate_definition	BTO:0004426	IAO:0000115	Human non-small cell lung cancer cell line.	
 ERROR	duplicate_definition	BTO:0004824	IAO:0000115	Human non-small cell lung cancer cell line.	
@@ -577,6 +581,8 @@ ERROR	duplicate_definition	BTO:0003706	IAO:0000115	Human lymphoblastoid cell lin
 ERROR	duplicate_definition	BTO:0003707	IAO:0000115	Human lymphoblastoid cell line.	
 ERROR	duplicate_definition	BTO:0005425	IAO:0000115	Human lung squamous cell carcinoma cell line.	
 ERROR	duplicate_definition	BTO:0006027	IAO:0000115	Human lung squamous cell carcinoma cell line.	
+ERROR	duplicate_definition	BTO:0006564	IAO:0000115	Human lung small cell lung cancer cell line.	
+ERROR	duplicate_definition	BTO:0006565	IAO:0000115	Human lung small cell lung cancer cell line.	
 ERROR	duplicate_definition	BTO:0002876	IAO:0000115	Human lung adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0002877	IAO:0000115	Human lung adenocarcinoma cell line.	
 ERROR	duplicate_definition	BTO:0003340	IAO:0000115	Human lung adenocarcinoma cell line.	
@@ -640,6 +646,8 @@ ERROR	duplicate_definition	BTO:0003232	IAO:0000115	Human glioma cell line.
 ERROR	duplicate_definition	BTO:0005364	IAO:0000115	Human glioma cell line.	
 ERROR	duplicate_definition	BTO:0005396	IAO:0000115	Human glioma cell line.	
 ERROR	duplicate_definition	BTO:0005865	IAO:0000115	Human glioma cell line.	
+ERROR	duplicate_definition	BTO:0006537	IAO:0000115	Human glioblastoma stem cell line, derived from human primary glioblastoma tissues.	
+ERROR	duplicate_definition	BTO:0006538	IAO:0000115	Human glioblastoma stem cell line, derived from human primary glioblastoma tissues.	
 ERROR	duplicate_definition	BTO:0006002	IAO:0000115	Human glioblastoma multiforme stem cell line, GSC.	
 ERROR	duplicate_definition	BTO:0006003	IAO:0000115	Human glioblastoma multiforme stem cell line, GSC.	
 ERROR	duplicate_definition	BTO:0006004	IAO:0000115	Human glioblastoma multiforme stem cell line, GSC.	
@@ -664,6 +672,10 @@ ERROR	duplicate_definition	BTO:0004860	IAO:0000115	Human glioblastoma cell line.
 ERROR	duplicate_definition	BTO:0005311	IAO:0000115	Human glioblastoma cell line.	
 ERROR	duplicate_definition	BTO:0005458	IAO:0000115	Human glioblastoma cell line.	
 ERROR	duplicate_definition	BTO:0006221	IAO:0000115	Human glioblastoma cell line.	
+ERROR	duplicate_definition	BTO:0006543	IAO:0000115	Human glioblastoma cell line.	
+ERROR	duplicate_definition	BTO:0006544	IAO:0000115	Human glioblastoma cell line.	
+ERROR	duplicate_definition	BTO:0006545	IAO:0000115	Human glioblastoma cell line.	
+ERROR	duplicate_definition	BTO:0006546	IAO:0000115	Human glioblastoma cell line.	
 ERROR	duplicate_definition	BTO:0004214	IAO:0000115	Human glial tumor cell line; originated from grade IV human glioblastoma biopsy specimens.	
 ERROR	duplicate_definition	BTO:0004215	IAO:0000115	Human glial tumor cell line; originated from grade IV human glioblastoma biopsy specimens.	
 ERROR	duplicate_definition	BTO:0005430	IAO:0000115	Human gastric carcinoma cell line.	
@@ -697,8 +709,11 @@ ERROR	duplicate_definition	BTO:0002564	IAO:0000115	Human epithelial ovarian canc
 ERROR	duplicate_definition	BTO:0002565	IAO:0000115	Human epithelial ovarian cancer cell line.	
 ERROR	duplicate_definition	BTO:0002566	IAO:0000115	Human epithelial ovarian cancer cell line.	
 ERROR	duplicate_definition	BTO:0005438	IAO:0000115	Human epithelial ovarian cancer cell line.	
+ERROR	duplicate_definition	BTO:0006557	IAO:0000115	Human epithelial ovarian cancer cell line.	
 ERROR	duplicate_definition	BTO:0006061	IAO:0000115	Human embryonic stem cell line from a male; established from human blastocysts.	
 ERROR	duplicate_definition	BTO:0006062	IAO:0000115	Human embryonic stem cell line from a male; established from human blastocysts.	
+ERROR	duplicate_definition	BTO:0003034	IAO:0000115	Human embryonic lung fibroblast cell line.	
+ERROR	duplicate_definition	BTO:0006282	IAO:0000115	Human embryonic lung fibroblast cell line.	
 ERROR	duplicate_definition	BTO:0000891	IAO:0000115	Human embryonal carcinoma (teratocarcinoma). NTERA-2 was cloned from cell line TERA-2 which was derived from a metastatic teratocarcinoma of a 22-year-old Caucasian male.	
 ERROR	duplicate_definition	BTO:0002573	IAO:0000115	Human embryonal carcinoma (teratocarcinoma). NTERA-2 was cloned from cell line TERA-2 which was derived from a metastatic teratocarcinoma of a 22-year-old Caucasian male.	
 ERROR	duplicate_definition	BTO:0006490	IAO:0000115	Human EBV-associated gastric cancer cell line.	
@@ -707,7 +722,6 @@ ERROR	duplicate_definition	BTO:0002825	IAO:0000115	Human colorectal tumor cell l
 ERROR	duplicate_definition	BTO:0002838	IAO:0000115	Human colorectal tumor cell line.	
 ERROR	duplicate_definition	BTO:0005674	IAO:0000115	Human colorectal tumor cell line.	
 ERROR	duplicate_definition	BTO:0002047	IAO:0000115	Human colorectal cancer cell line.	
-ERROR	duplicate_definition	BTO:0003316	IAO:0000115	Human colorectal cancer cell line.	
 ERROR	duplicate_definition	BTO:0003746	IAO:0000115	Human colorectal cancer cell line.	
 ERROR	duplicate_definition	BTO:0006511	IAO:0000115	Human colorectal cancer cell line.	
 ERROR	duplicate_definition	BTO:0002568	IAO:0000115	Human colonic adenocarcinoma cell line.	
@@ -975,11 +989,18 @@ ERROR	duplicate_label	BTO:0006373	rdfs:label	NPC-TW01 cell
 WARN	annotation_whitespace	BTO:0000155	oboInOwl:hasRelatedSynonym	bronchioalveolar lavage 	
 WARN	annotation_whitespace	BTO:0000203	oboInOwl:hasRelatedSynonym	apparatus respiratorius 	
 WARN	annotation_whitespace	BTO:0000538	oboInOwl:hasRelatedSynonym	alveolar type 2 cell 	
+WARN	annotation_whitespace	BTO:0000934	oboInOwl:hasRelatedSynonym	 AG03320 cell	
+WARN	annotation_whitespace	BTO:0000934	oboInOwl:hasRelatedSynonym	 AG3320 cell	
+WARN	annotation_whitespace	BTO:0001118	oboInOwl:hasRelatedSynonym	 P3-X63Ag8 cell	
+WARN	annotation_whitespace	BTO:0001907	oboInOwl:hasRelatedSynonym	 NS-1-Ag4-1 cell	
+WARN	annotation_whitespace	BTO:0001939	oboInOwl:hasRelatedSynonym	 MCF.10A cell	
 WARN	annotation_whitespace	BTO:0002114	IAO:0000115	 The submucous layer of the wall of the rectum.	
 WARN	annotation_whitespace	BTO:0002506	oboInOwl:hasRelatedSynonym	 intrinsic nervous system	
 WARN	annotation_whitespace	BTO:0002537	oboInOwl:hasBroadSynonym	TIB-73 cell 	
 WARN	annotation_whitespace	BTO:0002993	oboInOwl:hasRelatedSynonym	 BETA-TC-3 cell	
 WARN	annotation_whitespace	BTO:0003434	oboInOwl:hasRelatedSynonym	collared flagellate 	
+WARN	annotation_whitespace	BTO:0003859	oboInOwl:hasRelatedSynonym	 C-28I2 cell	
+WARN	annotation_whitespace	BTO:0004309	oboInOwl:hasRelatedSynonym	Clone 66 cell 	
 WARN	annotation_whitespace	BTO:0004859	oboInOwl:hasRelatedSynonym	Nthy ori 3.1 cell 	
 WARN	annotation_whitespace	BTO:0005010	oboInOwl:hasRelatedSynonym	meningotheliomatous meningioma 	
 WARN	annotation_whitespace	BTO:0005170	oboInOwl:hasRelatedSynonym	corneal fibroblast 	
@@ -988,6 +1009,7 @@ WARN	annotation_whitespace	BTO:0005325	oboInOwl:hasRelatedSynonym	culture condit
 WARN	annotation_whitespace	BTO:0005990	oboInOwl:hasRelatedSynonym	 Leydig's duct	
 WARN	annotation_whitespace	BTO:0006064	oboInOwl:hasRelatedSynonym	 X organ sinus gland complex	
 WARN	annotation_whitespace	BTO:0006064	oboInOwl:hasRelatedSynonym	 X-organ sinus gland complex	
+WARN	annotation_whitespace	BTO:0006568	oboInOwl:hasRelatedSynonym	 Ishikawa 3 H 12 cell	
 WARN	missing_definition	BFO:0000050	IAO:0000115		
 WARN	missing_definition	BFO:0000054	IAO:0000115		
 WARN	missing_definition	BTO:0000001	IAO:0000115		
@@ -2039,6 +2061,8 @@ WARN	missing_definition	BTO:0006412	IAO:0000115
 WARN	missing_definition	BTO:0006416	IAO:0000115		
 WARN	missing_definition	BTO:0006468	IAO:0000115		
 WARN	missing_definition	BTO:0006499	IAO:0000115		
+WARN	missing_definition	BTO:0006535	IAO:0000115		
+WARN	missing_definition	BTO:0006559	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	RO:0000053	IAO:0000115		
 WARN	missing_definition	RO:0001018	IAO:0000115		
@@ -2099,6 +2123,7 @@ WARN	missing_obsolete_label	BTO:0004475	rdfs:label	MEL cell
 WARN	missing_obsolete_label	BTO:0004479	rdfs:label	MV4-11 cell	
 WARN	missing_obsolete_label	BTO:0004742	rdfs:label	HCT-115 cell	
 WARN	missing_obsolete_label	BTO:0004743	rdfs:label	HCT-166 cell	
+WARN	missing_obsolete_label	BTO:0004827	rdfs:label	hFOB cell	
 WARN	missing_obsolete_label	BTO:0004882	rdfs:label	ventral midbrain	
 WARN	missing_obsolete_label	BTO:0004895	rdfs:label	NPC-TW01 cell	
 WARN	missing_obsolete_label	BTO:0005006	rdfs:label	253J-P cell	
@@ -2109,6 +2134,7 @@ WARN	missing_obsolete_label	BTO:0005391	rdfs:label	SUM-225 cell
 WARN	missing_obsolete_label	BTO:0005392	rdfs:label	SUM-229 cell	
 WARN	missing_obsolete_label	BTO:0005393	rdfs:label	SUM-190 cell	
 WARN	missing_obsolete_label	BTO:0005394	rdfs:label	SUM-185 cell	
+WARN	missing_obsolete_label	BTO:0005432	rdfs:label	Bm3-c2 cell	
 WARN	missing_obsolete_label	BTO:0005612	rdfs:label	BL-6 cell	
 WARN	missing_obsolete_label	BTO:0005749	rdfs:label	16-HBE cell	
 WARN	missing_obsolete_label	BTO:0005766	rdfs:label	A2780/CP cell	
@@ -2193,4 +2219,5 @@ INFO	lowercase_definition	BTO:0005825	IAO:0000115	1: The gill of a mollusk consi
 INFO	lowercase_definition	BTO:0005891	IAO:0000115	1. A larval form of digenetic trematode (fluke) that develops in the body of its molluscan intermediate host, usually a snail; the sporocyst forms a simple saclike structure with germinal cells that bud off internally and develop into other larval types that continue this process of larval multiplication (considered to be a form of polyembryony). 2. A secondary cyst that develops within the oocyst of Coccidia, a group of sporozoans that includes many of the most important disease agents of domestic animals and fowl; the sporocyst develops from a sporoblast and produces within itself one or several sporozoites, the infective agents for infection and multiplication in the next host.	
 INFO	lowercase_definition	BTO:0006320	IAO:0000115	cN-II hyper-expressing cell line derived from human embryonic kidney HEK 293 cells.	
 INFO	lowercase_definition	BTO:0006393	IAO:0000115	cultures derived from parental 293-F cells that were re-cloned by limiting dilution.	
+INFO	lowercase_definition	BTO:0006530	IAO:0000115	6DT1 mouse    mammary carcinoma cell line, derived from an MMTV-c-Myc    transgenic mouse model.	
 INFO	missing_superclass	BTO:0000000	rdfs:subClassOf		

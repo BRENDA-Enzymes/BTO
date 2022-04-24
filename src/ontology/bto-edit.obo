@@ -8597,7 +8597,7 @@ is_a: BTO:0000400 ! sarcoma cell line
 [Term]
 id: BTO:0001198
 name: atrial gland
-def: "The atrial gland is an exocrine organ that secretes into the oviduct of Aplysia californica and expresses three homologous genes belonging to the egg-laying hormone gene family." [ISSN:0302-766X_(printed_version)_ISSN_1432-0878_(electronic_version)]
+def: "The atrial gland is an exocrine organ that secretes into the oviduct of Aplysia californica and expresses three homologous genes belonging to the egg-laying hormone gene family." [ISSN:0302-766X, ISSN:1432-0878]
 is_a: BTO:0000254 ! female reproductive gland
 is_a: BTO:0000765 ! exocrine gland
 
@@ -35085,7 +35085,7 @@ creation_date: 2011-02-25T08:56:18Z
 [Term]
 id: BTO:0004841
 name: UCP-3 cell
-def: "The UCP-3 cell line is a low metastatic human lung carcinoma cell line." [Patent:CA_Patent_2469027]
+def: "The UCP-3 cell line is a low metastatic human lung carcinoma cell line." [patent:CA2469027]
 is_a: BTO:0001911 ! lung adenocarcinoma cell line
 created_by: mgr
 creation_date: 2010-10-08T10:29:31Z
@@ -36061,7 +36061,7 @@ creation_date: 2010-10-28T10:12:56Z
 [Term]
 id: BTO:0004952
 name: MV-522 cell
-def: "Human non-small cell lung adenocarcinoma cell line. This cell line is of high metastatic potential. It is a high metastatic variant of UCP-3." [Patent:CA_Patent_2469027, PMID:11297269]
+def: "Human non-small cell lung adenocarcinoma cell line. This cell line is of high metastatic potential. It is a high metastatic variant of UCP-3." [patent:CA2469027, PMID:11297269]
 comment: Contaminated. Shown to be a HT-29 derivative.
 synonym: "Line 522 cell" RELATED []
 synonym: "Metastatic Variant 522 cell" RELATED []

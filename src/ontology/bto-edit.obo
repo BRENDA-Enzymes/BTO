@@ -34565,7 +34565,7 @@ creation_date: 2010-10-04T09:13:35Z
 [Term]
 id: BTO:0004783
 name: SeAx cell
-def: "The SeAx cell line is derived from peripheral blood of a patient with Sezary syndrome, a common type of cutaneous T-cell lymphoma." [PMID:_17179233]
+def: "The SeAx cell line is derived from peripheral blood of a patient with Sezary syndrome, a common type of cutaneous T-cell lymphoma." [PMID:17179233]
 is_a: BTO:0003212 ! T-lymphoma cell line
 created_by: mgr
 creation_date: 2010-10-04T09:32:15Z
@@ -39332,7 +39332,7 @@ creation_date: 2012-03-21T10:38:02Z
 [Term]
 id: BTO:0005332
 name: RWLeu-4 cell
-def: "RWLeu4 is a chronic myelogenous leukemia cell line." [PMID:_8635507]
+def: "RWLeu4 is a chronic myelogenous leukemia cell line." [PMID:8635507]
 synonym: "RWLeu4 cell" RELATED []
 is_a: BTO:0002580 ! chronic myeloid leukemia cell line
 created_by: XPMUser
@@ -39511,7 +39511,7 @@ creation_date: 2012-08-30T12:11:52Z
 [Term]
 id: BTO:0005353
 name: Abrams cell
-def: "Canine osteosarcoma cell line." [PMID:_21552385]
+def: "Canine osteosarcoma cell line." [PMID:21552385]
 is_a: BTO:0000407 ! osteosarcoma cell line
 created_by: XPMUser
 creation_date: 2012-08-30T12:18:45Z
@@ -39805,7 +39805,7 @@ creation_date: 2012-09-01T08:34:28Z
 [Term]
 id: BTO:0005386
 name: U-1752 cell
-def: "Continuous lung squamous cell carcinoma cell line." [PMID:_6178358]
+def: "Continuous lung squamous cell carcinoma cell line." [PMID:6178358]
 is_a: BTO:0002202 ! lung squamous cell carcinoma cell line
 created_by: XPMUser
 creation_date: 2012-09-01T08:59:57Z
@@ -48760,7 +48760,7 @@ creation_date: 2020-03-26T11:48:54Z
 [Term]
 id: BTO:0006394
 name: GES-1 cell
-def: "Normal human gastric epithelial cell line." [PMID:  29991048]
+def: "Normal human gastric epithelial cell line." [PMID:29991048]
 synonym: "GES1 cell" RELATED []
 is_a: BTO:0004493 ! gastric epithelium cell line
 created_by: Marion
@@ -49530,7 +49530,7 @@ creation_date: 2020-10-09T16:19:33Z
 [Term]
 id: BTO:0006473
 name: brain-corpora cardiaca-corpora allata complex
-def: "The brain-corpora cardiaca-corpora allata complex of insects is the physiological equivalent of the brain-hypophysis axis of vertebrates." [PMID: 9522462]
+def: "The brain-corpora cardiaca-corpora allata complex of insects is the physiological equivalent of the brain-hypophysis axis of vertebrates." [PMID:9522462]
 synonym: "corpora cardiaca-corpora allata complex" RELATED []
 relationship: part_of BTO:0000142 ! brain
 created_by: Marion

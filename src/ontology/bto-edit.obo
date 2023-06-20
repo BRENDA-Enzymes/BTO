@@ -11,6 +11,7 @@ ontology: bto
 property_value: http://purl.org/dc/elements/1.1/description "A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "The BRENDA Tissue Ontology (BTO)" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/ xsd:string
+property_value: IAO:0000700 BTO:0000000
 
 [Term]
 id: BTO:0000000
